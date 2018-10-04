@@ -24,6 +24,6 @@ SDK "device" is required for all commander plug-in a measurement tool, it suppor
 
 ## External dependency
 
-This project depent on qt5 (https://www.qt.io/download) and the driver for GPIB and VISA for some pluging
+This project depent on qt5 (https://www.qt.io/download) and the driver for GPIB and VISA for some plugings.
 
 
