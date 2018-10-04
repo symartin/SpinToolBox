@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/image">
+        <file alias="AgilentE8257D.png">Resources/AgilentE8257D.png</file>
+    </qresource>
+</RCC>

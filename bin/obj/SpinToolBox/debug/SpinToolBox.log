@@ -1,0 +1,44 @@
+﻿La génération a démarré 30/07/2013 15:48:32.
+     1>Projet "D:\Sylvain\Instru\SpinToolBox V2.6\src\SpinToolBox\SpinToolBox.vcxproj" sur le nœud 2 (build cible(s)).
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Le répertoire Output ne se termine pas par une barre oblique finale.  Cette instance de build ajoutera une barre oblique, comme requis, pour permettre l'évaluation correcte du répertoire Output.
+     1>InitializeBuildStatus:
+         Création de "D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\obj\SpinToolBox\debug\SpinToolBox.unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
+       CustomBuild:
+         Toutes les sorties sont à jour.
+       ClCompile:
+         Toutes les sorties sont à jour.
+         Toutes les sorties sont à jour.
+       ResourceCompile:
+         Toutes les sorties sont à jour.
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\SpinToolBox.exe) ne correspond pas à la valeur de la propriété OutputFile (D:\Sylvain\Instru\SpinToolBox V2.6\bin\debug\SpinToolBox.exe) de Linker. Cela peut entraîner une génération incorrecte de votre projet. Pour corriger ce problème, vérifiez que les valeurs des propriétés $(OutDir), $(TargetName) et $(TargetExt) correspondent à la valeur spécifiée dans %(Link.OutputFile).
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\debug\SpinToolBox.exe" /NOLOGO /LIBPATH:C:\Qt\4.7.2\lib /LIBPATH:"D:\Sylvain\Instru\Source\QScintilla-gpl-2.4.6\Qt4\debug" /LIBPATH:"D:\Sylvain\Instru\SpinToolBox V2.6\bin\lib\debug" qtmaind.lib QtCored4.lib QtGuid4.lib QtScriptd4.lib QtScriptToolsd4.lib qscintilla2.lib SpinToolBoxSDK.lib SpinToolBoxSDKDevice.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\obj\SpinToolBox\debug\SpinToolBox.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Sylvain\Instru\SpinToolBox V2.6\bin\SpinToolBox.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\SpinToolBox.lib" /MACHINE:X86 "D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\obj\SpinToolBox\debug\SpinToolBox.res"
+         "D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\obj\SpinToolBox\debug\moc_SScriptEngine.obj"
+         "D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\obj\SpinToolBox\debug\moc_SUiCtrlPan.obj"
+         "D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\obj\SpinToolBox\debug\moc_SUiMainWindow.obj"
+         "D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\obj\SpinToolBox\debug\moc_SUiMetaDataReader.obj"
+         "D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\obj\SpinToolBox\debug\moc_SUiPluginManager.obj"
+         "D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\obj\SpinToolBox\debug\moc_SUiScriptEditor.obj"
+         "D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\obj\SpinToolBox\debug\qrc_resource.obj"
+         "D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\obj\SpinToolBox\debug\main.obj"
+         "D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\obj\SpinToolBox\debug\SScriptConsoleWidget.obj"
+         "D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\obj\SpinToolBox\debug\SScriptEngine.obj"
+         "D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\obj\SpinToolBox\debug\SUiCtrlPan.obj"
+         "D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\obj\SpinToolBox\debug\SUiMainWindow.obj"
+         "D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\obj\SpinToolBox\debug\SUiMetaDataReader.obj"
+         "D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\obj\SpinToolBox\debug\SUiPluginManager.obj"
+         "D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\obj\SpinToolBox\debug\SUiScriptEditor.obj"
+         LINK : D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\debug\SpinToolBox.exe introuvable ou non généré par la dernière édition de liens incrémentielle ; édition de liens complète en cours
+         SpinToolBox.vcxproj -> D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\SpinToolBox.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\debug\SpinToolBox.exe;#1" /manifest "D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\obj\SpinToolBox\debug\SpinToolBox.exe.intermediate.manifest"
+       XdcMake:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\xdcmake.exe /old "SpinToolBox" /nologo /Fo"D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\SpinToolBox.xml" /Fs"D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\obj\SpinToolBox\debug\moc_SScriptEngine.xdc" /Fs"D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\obj\SpinToolBox\debug\moc_SUiCtrlPan.xdc" /Fs"D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\obj\SpinToolBox\debug\moc_SUiMainWindow.xdc" /Fs"D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\obj\SpinToolBox\debug\moc_SUiMetaDataReader.xdc" /Fs"D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\obj\SpinToolBox\debug\moc_SUiPluginManager.xdc" /Fs"D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\obj\SpinToolBox\debug\moc_SUiScriptEditor.xdc" /Fs"D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\obj\SpinToolBox\debug\qrc_resource.xdc" /Fs"D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\obj\SpinToolBox\debug\main.xdc" /Fs"D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\obj\SpinToolBox\debug\SScriptConsoleWidget.xdc" /Fs"D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\obj\SpinToolBox\debug\SScriptEngine.xdc" /Fs"D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\obj\SpinToolBox\debug\SUiCtrlPan.xdc" /Fs"D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\obj\SpinToolBox\debug\SUiMainWindow.xdc" /Fs"D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\obj\SpinToolBox\debug\SUiMetaDataReader.xdc" /Fs"D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\obj\SpinToolBox\debug\SUiPluginManager.xdc" /Fs"D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\obj\SpinToolBox\debug\SUiScriptEditor.xdc"
+       FinalizeBuildStatus:
+         Suppression du fichier "D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\obj\SpinToolBox\debug\SpinToolBox.unsuccessfulbuild".
+         Mise à jour de l'horodatage "D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\obj\SpinToolBox\debug\SpinToolBox.lastbuildstate".
+     1>Génération du projet "D:\Sylvain\Instru\SpinToolBox V2.6\src\SpinToolBox\SpinToolBox.vcxproj" terminée (build cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:08.59

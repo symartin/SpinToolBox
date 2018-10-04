@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{15df2ec6-2540-48fe-9312-94214d5bdab4}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{3cd85651-2204-46ba-875c-556f8a3fe7d1}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{724e7eee-24e1-41c0-a06b-e1b848be20a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{bb225f70-b9bb-4441-b6a2-115a3dd13cb0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="SDeviceDaqFieldOneAxis.h">
+      <Filter>Main</Filter>
+    </CustomBuild>
+    <CustomBuild Include="SUiCpDaqFieldOneAxis.ui">
+      <Filter>GUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="SUiCpDaqFieldOneAxis.h">
+      <Filter>GUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="SUiCpDaqFieldOneAxisOptions.ui">
+      <Filter>GUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="SUiCpDaqFieldOneAxisOptions.h">
+      <Filter>GUI</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SDeviceDaqFieldOneAxis_global.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_SUiCpDaqFieldOneAxisOptions.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SDeviceDaqFieldOneAxis.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SDeviceDaqFieldOneAxis.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SDeviceDaqFieldOneAxis.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="SUiCpDaqFieldOneAxis.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SUiCpDaqFieldOneAxis.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SUiCpDaqFieldOneAxis.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="SUiCpDaqFieldOneAxisOptions.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SUiCpDaqFieldOneAxisOptions.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SUiCpDaqFieldOneAxisOptions.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

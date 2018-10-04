@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LocalDebuggerEnvironment>PATH=$(QTDIR)\bin%3b$(PATH); PYTHON_QT_PATH=D:\Sylvain\Instru\SpinToolBox\SpinToolBox\PythonQt; PYTHON_PATH=D:\Python-2.6;</LocalDebuggerEnvironment>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommand>$(OutDir)debug\$(ProjectName).exe</LocalDebuggerCommand>
+    <LocalDebuggerWorkingDirectory>$(OutDir)..\bin\debug\</LocalDebuggerWorkingDirectory>
+    <QTDIR>C:\Qt\4.7.2</QTDIR>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LocalDebuggerEnvironment>PATH=$(QTDIR)\bin%3b$(PATH)</LocalDebuggerEnvironment>
+    <LocalDebuggerCommand>$(OutDir)\bin\release\$(ProjectName).exe</LocalDebuggerCommand>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerWorkingDirectory>$(OutDir)\bin\release\</LocalDebuggerWorkingDirectory>
+    <QTDIR>C:\Qt\4.7.2</QTDIR>
+  </PropertyGroup>
+  <PropertyGroup />
+</Project>

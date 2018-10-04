@@ -1,0 +1,1027 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        "SpinToolBox"
+    </assembly>
+    <members>
+        <member name="M:QScienceSpinBox.setupMenu">
+\fn	void QScienceSpinBox::setupMenu()
+
+\brief	(SLOT) Set up the context menu.
+
+</member>
+        <member name="M:QScienceSpinBox.setModeEngineer">
+\fn	void QScienceSpinBox::setModeEngineer()
+
+\brief	(SLOT) When the user click on the Engineer mode menu.
+
+Change the step of this spinbox and hide the menu.
+</member>
+        <member name="M:QScienceSpinBox.setModeClassic">
+\fn	void QScienceSpinBox::setModeClassic()
+
+\brief	(SLOT) When the user click on the Classic mode menu.
+
+</member>
+        <member name="M:QScienceSpinBox.setModeScientific">
+\fn	void QScienceSpinBox::setModeScientific()
+
+\brief	(SLOT) When the user click on the Scientific mode menu.
+
+</member>
+        <member name="M:QScienceSpinBox.stepCahnged">
+\fn	void QScienceSpinBox::stepCahnged()
+
+\brief	(SLOT) When the step was changed by the user.
+
+Change the step of this spinbox and hide the menu.
+</member>
+        <member name="M:QScienceSpinBox.contextMenuEvent(QContextMenuEvent*)">
+\fn	void QScienceSpinBox::contextMenuEvent(QContextMenuEvent *event)
+
+\brief	(SLOT) Show a context menu. 
+
+this context menu allows to change the step and the precision of this spin box.
+</member>
+        <member name="M:QScienceSpinBox.setMinimum(System.Double)">
+\fn	void QScienceSpinBox::setMinimum( double d )
+
+\brief	(SLOT)  Set the minimum
+
+</member>
+        <member name="M:QScienceSpinBox.setMaximum(System.Double)">
+\fn	void QScienceSpinBox::setMaximum( double d )
+
+\brief	(SLOT) Set the maximum
+
+</member>
+        <member name="M:QScienceSpinBox.setStep(System.Double)">
+\fn	void QScienceSpinBox::setStep(  double s )
+
+\brief	(Slot) Set the step of this spin box.
+
+</member>
+        <member name="M:QScienceSpinBox.round(System.Double)">
+\fn  double QScienceSpinBox::round(double value) const      
+
+\brief  I don't now ???
+
+\param value 
+
+this function is never used...?
+</member>
+        <member name="M:QScienceSpinBox.valueFromText(QString!System.Runtime.CompilerServices.IsConst*!System.Runtime.CompilerServices.IsImplicitlyDereferenced)">
+\fn void QScienceSpinBox::stepDown()
+
+\brief I don't now ???
+
+</member>
+        <member name="M:QScienceSpinBox.textFromValue(System.Double)">
+\fn void QScienceSpinBox::stepDown()
+
+\brief return the text to be displayed in spinbox
+
+</member>
+        <member name="M:QScienceSpinBox.stepUp">
+\fn void QScienceSpinBox::stepUp()
+
+\brief (SLOT) When the user click on the up spin.
+
+</member>
+        <member name="M:QScienceSpinBox.stepDown">
+\fn void QScienceSpinBox::stepDown()
+
+\brief (SLOT) When the user click on the down spin.
+
+</member>
+        <member name="M:QScienceSpinBox.stepBy(System.Int32)">
+\fn void QScienceSpinBox::stepBy(int steps)
+
+\brief (SLOT) Does "steps" steps (up if steps&gt;0) down otherelse.
+
+overwritten virtual function of QAbstractSpinBox
+</member>
+        <member name="M:QScienceSpinBox.setDecimals(System.Int32)">
+\fn void QScienceSpinBox::setDecimals(int value)
+
+\brief 
+
+</member>
+        <member name="M:QScienceSpinBox.decimals">
+\fn int QScienceSpinBox::decimals() const       
+
+\brief 
+
+</member>
+        <member name="M:QScienceSpinBox.initLocalValues(QWidget*)">
+\fn void QScienceSpinBox::initLocalValues(QWidget *parent)       
+
+\brief 
+
+
+</member>
+        <member name="M:QScienceSpinBox.#ctor(QWidget*)">
+\fn QScienceSpinBox::QScienceSpinBox(QWidget * parent)       
+
+\brief constructor
+
+\param parent if not null, the Qt object parent
+
+</member>
+        <member name="M:qsBip(QScriptContext*,QScriptEngine*)">
+\fn	   QScriptValue qsClear( QScriptContext *context, QScriptEngine *engine )
+
+\brief	(SCRIPTABLE) (with bip()) does a bip-sound 
+
+\example bip(); 
+
+\TODO the default sound is played instead of the wav file, I do not know why...
+\ingroup SScriptMod	
+</member>
+        <member name="M:qsClear(QScriptContext*,QScriptEngine*)">
+\fn	   QScriptValue qsClear( QScriptContext *context, QScriptEngine *engine )
+
+\brief	(SCRIPTABLE) (with clear()) clear the Debug Output text, the Console and the Error Log
+
+\example clear(); 
+\ingroup SScriptMod	
+
+</member>
+        <member name="M:qsNowTime(QScriptContext*,QScriptEngine*)">
+\fn	    QScriptValue qsNowTime( QScriptContext *context, QScriptEngine *engine )
+
+\brief	(SCRIPTABLE) (with nowTime()) return the time, see the documentation of qt for the argument
+
+\example nowTime(""hh-mm-ss""); return 16-03-22
+
+\deprecated Use the Qt binding.
+
+\ingroup SScriptMod	
+</member>
+        <member name="M:qsNowDate(QScriptContext*,QScriptEngine*)">
+\fn	    QScriptValue qsNowDate( QScriptContext *context, QScriptEngine *engine )
+
+\brief	(SCRIPTABLE) (with nowDate()) return the date of today, see the documentation of qt for the argument
+
+\example nowDate("yyyymmdd"); return 20110309
+
+\deprecated Use the Qt binding.
+
+\ingroup SScriptMod	
+</member>
+        <member name="M:qsWarningMsgBox(QScriptContext*,QScriptEngine*)">
+\fn  QScriptValue qsWarningMsgBox( QScriptContext *context, QScriptEngine *engine )
+
+\brief	(SCRIPTABLE) (with warningMsgBox()) show a warning message box with. 
+
+\example warningMsgBox("be careful!", "My title");
+
+\deprecated Use the Qt binding.
+
+The first argument is text and the second the title.
+
+\ingroup SScriptMod	
+</member>
+        <member name="M:qsStop(QScriptContext*,QScriptEngine*)">
+\fn QScriptValue qsStop( QScriptContext *context, QScriptEngine *engine )
+
+\brief	(SCRIPTABLE) (with stop()) stop the script.
+
+\example stop();
+
+\ingroup SScriptMod	
+</member>
+        <member name="M:qsDebug(QScriptContext*,QScriptEngine*)">
+\fn	 QScriptValue qsDebug(QScriptContext *context, QScriptEngine *engine)
+
+\brief	(SCRIPTABLE) (with debug()) Write something to the debug console.
+
+</member>
+        <member name="M:SScriptEngine.intToolFunction">
+\fn	void SScriptEngine::initPSAE4440A()
+
+\brief	initializes an object accessible from the script for the microwave source PSGE8257D
+
+\so SDevicePSAE4440A
+\fn  void SScriptEngine::intToolFunction()
+
+\brief	load the tool functions like delay(), debug(), ... in the script engin
+
+
+</member>
+        <member name="M:SScriptEngine.abort">
+\fn	void SScriptEngine::abort()
+
+\brief	(SLOT) Aborts any script evaluation currently taking place in this engine.
+
+If the engine isn't evaluating a script (i.e. isEvaluating() returns false), 
+this function does nothing.
+
+\remark This function are the same that QScriptEngine::abortEvaluation() but it is a slot.
+</member>
+        <member name="M:SScriptEngine.debugger">
+\fn	void SScriptEngine::initPSAE4440A()
+
+\brief	initializes an object accessible from the script for the spectrum analyzer PSAE4440A
+
+\so SDevicePSAE4440A
+\fn	void SScriptEngine::setDebugger(QScriptEngineDebugger * debugger)
+
+\brief	get the debugger object, the SScriptEngine object instantiates one in the constructor
+
+</member>
+        <member name="M:SScriptEngine.initSPlot2D">
+\fn	void SScriptEngine::initSPlot2D()
+
+\brief	add to the engine the possibility to instantiate a new \c SPlot2D
+
+\so SPlot2D
+</member>
+        <member name="M:SScriptEngine.initSData2D">
+\fn	void SScriptEngine::initGpib()
+
+\brief	initializes an object accessible from the script for the GPIB board
+
+\so SInterfaceGpib
+\fn	void SScriptEngine::initDaq()
+
+\brief	initializes an object accessible from the script for the DAQ board
+
+\so SInterfaceDaq
+\fn	void SScriptEngine::initK2400()
+
+\brief	initializes an object accessible from the script for Keithley 2400 SourceMeter
+
+\so SDeviceK2400
+\fn	void SScriptEngine::initData2D()
+
+\brief	add to the engine the possibility to instantiate a new \c SData2D
+
+\so SData2D
+</member>
+        <member name="M:SScriptEngine.#ctor(QList&lt;SDevicePluginInterface**&gt;,SGlobalMetaDataMap*,QWidget*)">
+\fn	void SInterfaceGpib::SScriptEngine()
+
+\brief	constructor
+
+</member>
+        <member name="T:SData2DScript">
+\class	SData2DScript
+
+\brief	this class provides a Qt Script warper for the \SData2D class 
+
+\author	Sylvain Martin
+\date	1/28/2011
+		
+\ingroup SDataMod	
+		 
+this class takes up the useful functions of the class SData2D in order to use it in the Qt script.
+
+\sa SData2D	 
+</member>
+        <member name="T:SError">
+\class	SError
+
+\brief	class of object throw when an exception has been came. 
+
+\author	Sylvain Martin
+\date	1/20/2011
+</member>
+        <member name="T:SDeviceVirtual">
+\class	SDeviceVirtual
+
+\brief	Virtual class for all the devices. It is virtual pur so it cannot be instancied.
+
+\author	Sylvain Martin
+\date	1/20/2011
+		
+\ingroup SDeviceMod
+</member>
+        <member name="D:QtCoreModule">
+\file		SDevice\SDeviceVirtual.h
+		
+\author		Sylvain Martin
+\version	1.0
+\date		20/01/2011
+
+\brief	declare a virtual class for all the devices
+		
+\section LICENSE
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License as
+published by the Free Software Foundation; either version 2 of
+the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+General Public License for more details at
+http://www.gnu.org/copyleft/gpl.html
+</member>
+        <member name="M:SUiPluginManager.on_chkCtlPanel_clicked(System.Boolean)">
+\fn	void SUiPluginManager::on_chkCtlPanel_clicked( bool checked )
+
+\brief	when the chkCtlPanel widget is checked or unchecked
+
+\author	Sylvain Martin
+\date	20/01/2012
+
+</member>
+        <member name="M:SUiPluginManager.on_chkScriptable_clicked(System.Boolean)">
+\fn	void SUiPluginManager::on_chkScriptable_toggled( bool checked )
+
+\brief	when the chkScriptable widget is checked or unchecked
+
+\author	Sylvain Martin
+\date	20/01/2012
+
+</member>
+        <member name="M:SUiPluginManager.on_lstPlugin_currentItemChanged(QListWidgetItem*,QListWidgetItem*)">
+\fn	void SUiPluginManager::on_lstPlugin_currentItemChanged( QListWidgetItem * current, QListWidgetItem * previous )
+
+\brief	put all the information on the right side of the windows
+
+\author	Sylvain Martin
+\date	20/01/2012
+
+</member>
+        <member name="M:SUiPluginManager.on_cmdOK_clicked">
+\fn	void SUiPluginManager::on_cmdOK_clicked()
+
+\brief	when the user click sur OK
+
+\author	Sylvain Martin
+\date	20/01/2012
+
+</member>
+        <member name="M:SUiScriptEditor.executeSelectedText">
+\fn	void SUiScriptEditor::executeSelectedText()
+
+\brief	(SLOT) Execute the selected text.
+
+</member>
+        <member name="M:SUiScriptEditor.tabDbgCurrentChanged(System.Int32)">
+\fn	void SUiScriptEditor::tabDbgCurrentChanged( int index )
+
+\brief	(SLOT) when the user change of tab, it is useful went we reconstruct the tab when the focus changes
+
+</member>
+        <member name="M:SUiScriptEditor.Kill">
+\fn	void SUiScriptEditor::Kill()
+
+\brief	(SLOT) when the user clicks on the kill action, ask if he really want it, and if yes, do it
+
+</member>
+        <member name="M:SUiScriptEditor.onFocus(QWidget*,QWidget*)">
+\fn	void SUiScriptEditor::setupUI()
+
+\brief	set up the UI (Scintilla, debug console, ...)
+
+</member>
+        <member name="M:SUiScriptEditor.setupUI">
+\fn	void SUiScriptEditor::setupUI()
+
+\brief	set up the UI (Scintilla, debug console, ...)
+
+</member>
+        <member name="M:SUiScriptEditor.switchLexerDebugComp">
+\fn	void SUiScriptEditor::switchLexerDebugComp()
+
+\brief	switch the Lexer of Scintilla to the Debug compatibility mode
+
+</member>
+        <member name="M:SUiScriptEditor.switchLexerNormal">
+\fn	void SUiScriptEditor::switchLexerNormal()
+
+\brief	switch the Lexer of Scintilla to the Normal mode
+
+</member>
+        <member name="M:SUiScriptEditor.createScintilla">
+\fn	void SUiScriptEditor::createScintilla()
+
+\brief	set up of the highlight and other stuffs on the text editor
+
+</member>
+        <member name="M:SUiScriptEditor.swichToEditMode">
+\fn	void SUiScriptEditor::swichToEditMode()
+
+\brief	(SLOT) switch text display of the debugger with the Scintilla text editor
+
+</member>
+        <member name="M:SUiScriptEditor.swichToDebugMode">
+\fn	void SUiScriptEditor::swichToDebugMod()
+
+\brief	(SLOT) switch the text editor with the text display of the debugger
+
+</member>
+        <member name="M:SUiScriptEditor.alreadyRun">
+\fn	void SUiScriptEditor::alreadyRun()
+
+\brief	(SLOT) slot that puts a message in the statue bar because only on script can be execute  at once
+
+</member>
+        <member name="M:SUiScriptEditor.execute">
+\fn	void SUiScriptEditor::execute()
+
+\brief	slot that emits a signal for run the script
+
+normally the run signal is connected to run slot of the script engine
+</member>
+        <member name="M:SUiScriptEditor.setCurrentFile(QString!System.Runtime.CompilerServices.IsConst*!System.Runtime.CompilerServices.IsImplicitlyDereferenced)">
+\fn	void SUiScriptEditor::createScintilla()
+
+\brief	set up of the highlight and other stuffs on the text editor
+
+</member>
+        <member name="M:SUiScriptEditor.maybeSave">
+\fn	void SUiScriptEditor::maybeSave()
+
+\brief	ask if the user want save the current file
+
+</member>
+        <member name="M:SUiScriptEditor.createToolBars">
+\fn	void SUiScriptEditor::createToolBars()
+
+\brief	setup the tools bar
+
+</member>
+        <member name="M:SUiScriptEditor.createMenus">
+\TODO find a way to kill the script
+\fn	void SUiScriptEditor::createMenus()
+
+\brief	setup the menu bar
+
+</member>
+        <member name="M:SUiScriptEditor.createActions">
+\fn void SUiScriptEditor::createActions()
+
+\brief Create the action.
+
+</member>
+        <member name="T:QScienceSpinBox">
+\clase QScienceSpinBox
+
+\ingroup SUiMod
+\brief  this class provides a Qt widget that can handle numbers in a scientific notation.
+
+Since I started using Qt over a year ago I have been asking and looking for a Qt widget
+that can handle numbers in a scientific notation. Unfortunately Qt Software does not offer
+such a solution nor is it trivial to implement. With the hints I got in some public web
+forums I implement the solution provided here.
+
+widget is derived from QDoubleSpinBox. It uses a decimal value of 1000
+(that is more decimal points than a double can handle) and implements a new decimal
+value for the presentation in scientific notation. The Validator is realised by setting
+the LineEdit to a QDoubleValidator::ScientificNotation. However the most important part
+is the reimplementation of textFromValue and valueFromText. This unfortunately requires
+to copy the whole validation code of QDoubleSpinBox, which can not be borrowed and
+represents the major part of the code.
+
+If someone can show a shrinked but still functional equivalent version that would be great.
+In the end I think that it would be better if such a solution would be included into a Qt
+release, especially because in its current form I use so much of their code.
+</member>
+        <member name="M:SUiMainWindow.on_cmdPlgMng_clicked">
+\fn  void SUiMainWindow::on_cmdPlgMng_clicked()
+
+\brief	when the user click on Plugin Manager
+</member>
+        <member name="M:SUiMainWindow.dragEnterEvent(QDragEnterEvent*)">
+\fn  void SUiMainWindow::dragEnterEvent(QDragEnterEvent *event)
+
+\brief	Check if the element is "dropable".
+</member>
+        <member name="M:SUiMainWindow.dropEvent(QDropEvent*)">
+\fn  void SUiMainWindow::dropEvent ( QDropEvent * event )
+
+\brief	When the user drop some elements
+</member>
+        <member name="M:SUiMainWindow.askQuit">
+\fn  void SUiMainWindow::askQuit()
+
+\brief	make sure if the user really want quit, and emit a signal to do it
+</member>
+        <member name="M:SUiMainWindow.closeEvent(QCloseEvent*)">
+\fn  void SUiMainWindow::closeEvent(QCloseEvent *e)
+
+\brief	(SLOT) When the user click on the [X] (close) button
+</member>
+        <member name="M:SUiMainWindow.on_cmdQuit_clicked">
+\fn  void SUiMainWindow::on_cmdNewScript_clicked()
+
+\brief	(SLOT) When the user click on the [Quit] button
+</member>
+        <member name="M:SUiMainWindow.on_cmdCmdMan_clicked">
+\fn  void SUiMainWindow::on_cmdNewScript_clicked()
+
+\brief	(SLOT) When the user click on the [Control panel] button
+</member>
+        <member name="M:SUiMainWindow.newScriptWindow(QString)">
+\fn  SUiMainWindow::newScriptWindow(QString file)
+
+\brief
+</member>
+        <member name="M:SUiMainWindow.on_cmdNewScript_clicked">
+\fn  void SUiMainWindow::on_cmdNewScript_clicked()
+
+\brief	(SLOT) When the user click on the [New Script] button
+</member>
+        <member name="M:SUiMainWindow.openFile(QStringList)">
+\fn  void SUiMainWindow::openFile(QStringList paths)
+
+\brief	open a list of files
+
+\param paths a list of path
+</member>
+        <member name="M:SUiMainWindow.on_cmdOpen_clicked">
+\fn  void SUiMainWindow::on_cmdOpen_clicked()
+
+\brief	(SLOT) When the user click on the [Open] button
+</member>
+        <member name="M:SUiMainWindow.Dispose">
+\fn  void SUiMainWindow::~SUiMainWindow()
+
+\brief	Destructor.
+</member>
+        <member name="M:SUiMainWindow.#ctor(QWidget*)">
+\fn  void SUiMainWindow::SUiMainWindow()
+
+\brief	Constructor.
+</member>
+        <member name="T:SPlot2D">
+\class	SPlot2D
+
+\brief	define a Main windows that contained a 2D Plot with all the basic tool (zoom, ...).
+
+\author	Sylvain Martin
+\date	2/4/2011
+
+\remark order to use Qwt as a dll and inherit a QWT object we must define the macro in the
+		preprocessor QWT_DLL. in , the project need a preprocessor define
+		[configuration properties]-&gt;[c/c++]-&gt;[preprocessor]-&gt;[preprocessor definitions]-&gt; QWT_DLL
+		(and leave the rest as it is)
+
+\sa SPlot2DWidget
+
+contained a sub-class of QwtPlot that has some new functions, like a \c zoom, an \c autoscale
+and a way to chose a scale (\c selectScale).
+</member>
+        <member name="T:SPlotCurveData">
+\class	SPlotCurveData
+
+\brief	(PRIVATE) define an object that contained the data for on curve.
+
+\author	Sylvain Martin
+\date	2/4/2011
+
+\remark order to use Qwt as a dll and inherit a QWT object we must define the macro in the
+		preprocessor QWT_DLL. in , the project need a preprocessor define
+		[configuration properties]-&gt;[c/c++]-&gt;[preprocessor]-&gt;[preprocessor definitions]-&gt; QWT_DLL
+		(and leave the rest as it is)
+
+inspired from the "real time" example of Qwt
+it is a private class, do not use it directly !
+</member>
+        <member name="M:SPlotSetScale.scaleChange(System.Double,System.Double,System.Double,System.Double)">
+\fn	void SPlotSetScale::scaleChange
+
+\brief	(SIGNAL) sends the scales selected by the user.
+
+\param Xmin the maximum of the x scale
+\param Xmax the minimum of the x scale
+\param Ymin the maximum of the y scale
+\param Ymax the minimum of the y scale
+
+this signal is send when the OK button is clicked
+</member>
+        <member name="M:SPlotSetScale.initialValue(System.Double,System.Double,System.Double,System.Double)">
+\fn	void SPlotSetScale::initialValue
+
+\brief	puts the initials value for the maximum of the minimum of the 2 scales (x and y)
+
+\param Xmin the maximum of the x scale
+\param Xmax the minimum of the x scale
+\param Ymin the maximum of the y scale
+\param Ymax the minimum of the y scale
+</member>
+        <member name="M:SPlotSetScale.#ctor(QWidget*)">
+\fn	void SPlotSetScale::SPlotSetScale(void)
+
+\brief	put the initials value for the maximum of the minimum of the 2 scales (x and y)
+
+\param [in,out]	parent	If non-null, the Qt parent.
+</member>
+        <member name="T:SPlotSetScale">
+\class	SPlotSetScale
+
+\brief	(PRIVATE) small QDialog to let the user set a scale.
+
+\author	Sylvain Martin
+\date	2/4/2011
+
+it is a private class, do not use it directly !
+</member>
+        <member name="M:SPlotZoomer.trackerText(QPointF!System.Runtime.CompilerServices.IsConst*!System.Runtime.CompilerServices.IsImplicitlyDereferenced)">
+\fn	SPlotZoomer::trackerText(QWidget *parent)
+
+I do not know the real utility of this function, I picked up that in a QWT example ...
+</member>
+        <member name="M:SPlotZoomer.#ctor(QwtPlotCanvas*)">
+\fn	SPlotZoomer::SPlot2DWidget(QWidget *parent)
+
+\brief	Constructor.
+
+\param [in,out]	the canvas of the 2D QwtPlot.
+</member>
+        <member name="T:SPlotZoomer">
+\class	SPlotZoomer
+
+\brief	(PRIVATE) sub-class of \c QwtPlotZoomer used to add a zoom to the plot widget
+
+\author	Sylvain Martin
+\date	2/4/2011
+
+it is a private_class
+</member>
+        <member name="T:SPlot2DWidget">
+\class	SPlot2DWidget
+
+\brief	define a custom object for plot the 2-dimensional curves.
+
+\author	Sylvain Martin
+\date	2/4/2011
+
+\remark order to use Qwt as a dll and inherit a QWT object we must define the macro in the
+		preprocessor QWT_DLL. in , the project need a preprocessor define
+		[configuration properties]-&gt;[c/c++]-&gt;[preprocessor]-&gt;[preprocessor definitions]-&gt; QWT_DLL
+		(and leave the rest as it is)
+
+It is a sub-class of QwtPlot that adds some functions, like a \c zoom, an \c autoscale
+and a way to chose a scale (\c selectScale).
+</member>
+        <member name="T:SData2D">
+\class	SData2D
+
+\brief	Class for the manipulation of the data in 2 dimensions (y and y).
+
+\author	Sylvain Martin
+\date	1/26/2011
+
+\ingroup SDataMod
+</member>
+        <member name="M:SUiMetaDataReader.closeEvent(QCloseEvent*)">
+\fn  void SUiMainWindow::closeEvent(QCloseEvent *e)
+
+\brief	(SLOT) When the user click on the [X] (close) button
+</member>
+        <member name="M:SUiCtrlPan.globalMetaDataWindowShow">
+\fn void SUiCtrlPan::GlobalMetaDataWindowShow()
+
+\brief (SLOT) open the visualization window of the global metadata tree.
+
+</member>
+        <member name="D:size_t">
+\file		SUiMetaDataReader.h
+		
+\author		Sylvain Martin
+\version	1.0
+\date		07/03/2012
+
+\brief	Declare the class of the Meta Data Reader Window
+		
+\section LICENSE
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License as
+published by the Free Software Foundation; either version 2 of
+the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+General Public License for more details at
+http://www.gnu.org/copyleft/gpl.html
+
+\file		SUi\SUiCtrlPan.h
+		
+\author		Sylvain Martin
+\version	1.0
+\date		20/01/2012
+
+\brief	Declares the SUiCmdMan and the SUiLblLed classes
+		
+\section LICENSE
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License as
+published by the Free Software Foundation; either version 2 of
+the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+General Public License for more details at
+http://www.gnu.org/copyleft/gpl.html
+
+\file		SUi\QScienceSpinBox.h
+		
+\author		Matthias Pospiech (http://www.matthiaspospiech.de/blog/)
+\version	1.0
+\date		2010
+
+\brief	Declares the SInterfaceDaq class
+		
+\section LICENSE
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License as
+published by the Free Software Foundation; either version 2 of
+the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+General Public License for more details at
+http://www.gnu.org/copyleft/gpl.html
+
+\file		SError.h
+		
+\author		Sylvain Martin
+\version	1.0
+\date		1/20/2011
+
+\brief	Declares the error class.
+		
+\section LICENSE
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License as
+published by the Free Software Foundation; either version 2 of
+the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+General Public License for more details at
+http://www.gnu.org/copyleft/gpl.html
+
+\file		SUi\QScienceSpinBox.cpp
+		
+\author		Matthias Pospiech (http://www.matthiaspospiech.de/blog/)
+\version	1.0
+\date		2010
+
+\brief	Declares the SInterfaceDaq class
+		
+\section LICENSE
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License as
+published by the Free Software Foundation; either version 2 of
+the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+General Public License for more details at
+http://www.gnu.org/copyleft/gpl.html
+\file		SUi\QScienceSpinBox.h
+		
+\author		Matthias Pospiech (http://www.matthiaspospiech.de/blog/)
+\version	1.0
+\date		2010
+
+\brief	Declares the SInterfaceDaq class
+		
+\section LICENSE
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License as
+published by the Free Software Foundation; either version 2 of
+the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+General Public License for more details at
+http://www.gnu.org/copyleft/gpl.html
+</member>
+        <member name="T:SScriptEngine">
+\class	SScriptEngine
+
+\brief	this is a derivate class from QScriptEngine which initialize the the script engine for SpinToolBox
+
+\author	Sylvain Martin
+\date	1/28/2011
+		
+\ingroup SScriptMod	
+		 
+</member>
+        <member name="M:SDevicePluginInterface.available">
+\fn	bool SDeviceK2400::available()
+
+\brief	is the plugin available ?
+
+\author	Sylvain Martin
+\date	01/12/2011
+</member>
+        <member name="M:SDevicePluginInterface.state">
+\fn	int SDeviceK2400::state()
+
+\brief	what is the state of the plugin
+
+\author	Sylvain Martin
+\date	01/12/2011
+
+0 : ready, 1 : busy, 2 unavailable
+</member>
+        <member name="M:SDevicePluginInterface.unload">
+\fn	bool unload()
+
+\brief	this function is call when the plugin is unload
+
+\author	Sylvain Martin
+\date	13/01/2011
+
+\return true if all is ok, false otherwise
+</member>
+        <member name="M:SDevicePluginInterface.shutdown">
+\fn	void shutdown()
+
+\brief	shutdown the plugin (by example before closing the application)
+
+\author	Sylvain Martin
+\date	01/12/2011
+
+</member>
+        <member name="M:SDevicePluginInterface.controlPanel(QWidget*)">
+\fn	QString controlPanel() const
+
+\brief	add (or not) a tab to the control panel 
+
+\author	Sylvain Martin
+\date	01/12/2011
+
+\param engine the script engine
+\sa isControlPanel
+
+\remark SDeviceK2400Plugin do not manage the destruction of the object, so you ave to define a parent
+		or destroy it your self 
+</member>
+        <member name="M:SDevicePluginInterface.isControlPanel">
+\fn	bool isControlPanel()
+
+\brief	does the plugin add a tab to the control panel to the script engine
+
+\author	Sylvain Martin
+\date	01/12/2011
+
+\return true, yes it does, false, no it does no
+
+\sa ControlPanel()
+</member>
+        <member name="M:SDevicePluginInterface.setting(QSettings*!System.Runtime.CompilerServices.IsImplicitlyDereferenced,QWidget*)">
+\fn	virtual QWidget * setting(QSettings set)=0;
+
+\brief	(virtual pure) give (or not) a setting window.
+
+\author	Sylvain Martin
+\date	25/01/2012
+
+\param set the QSettings object of the application
+\sa isSetting
+
+\remark it do not manage the destruction of the object, so you ave to define a parent
+		or destroy it your self
+</member>
+        <member name="M:SDevicePluginInterface.isSetting">
+\fn	virtual bool isSetting();
+
+\brief	(virtual pure) does the plugin have a setting window ?
+
+\author	Sylvain Martin
+\date	25/02/2012
+
+\return true, yes it does, false, no it does no
+
+\sa setting
+</member>
+        <member name="M:SDevicePluginInterface.scriptable(QScriptEngine*)">
+\fn	bool scriptable( QScriptEngine * engine )
+
+\brief	add (or not) some functions to the script engine
+
+\author	Sylvain Martin
+\date	01/12/2011
+
+\param engine the script engine
+\sa isScriptable
+</member>
+        <member name="M:SDevicePluginInterface.isScriptable">
+\fn	bool isScriptable()
+
+\brief	does the plugin add some function to the script engine
+
+\author	Sylvain Martin
+\date	01/12/2011
+
+\return true, yes it does, false, no it does no
+
+\sa isScriptable
+</member>
+        <member name="M:SDevicePluginInterface.SDKVersion">
+\fn	QString SDKVersion() const 
+
+\brief	return the version of the SDK which is required for this plugin
+
+\author	Sylvain Martin
+\date	13/01/2011
+</member>
+        <member name="M:SDevicePluginInterface.plgVersion">
+\fn	QString plgVersion() const
+
+\brief	return the version of the SDK that is needed for run the plugin
+
+\author	Sylvain Martin
+\date	13/01/2011
+</member>
+        <member name="M:SDevicePluginInterface.description">
+\fn	QString description() const
+
+\brief	return the description of the plugin
+
+\author	Sylvain Martin
+\date	01/12/2011
+
+\return return the description of the plugin
+</member>
+        <member name="M:SDevicePluginInterface.shortName">
+\fn	QString shortName() const
+
+\brief	return the short name of the plugin.
+
+\author	Sylvain Martin
+\date	01/12/2011
+
+\return return the short name of the plugin
+</member>
+        <member name="M:SDevicePluginInterface.name">
+\fn	QString name() const
+
+\brief	return the complete name of the plugin
+
+\author	Sylvain Martin
+\date	01/12/2011
+
+\return return the name of the plugin
+</member>
+        <member name="M:SDevicePluginInterface.load">
+\fn	bool load()
+
+\brief	initialize the plugin
+
+\author	Sylvain Martin
+\date	01/12/2011
+
+\param GlobalMetaDataMap pointer on the global object containing all the metadata
+
+\return true if all is ok, false otherwise
+</member>
+        <member name="T:SDevicePluginInterface">
+\class
+
+\brief	Virtual class for all the devices Plugin. It is virtual pure so it cannot be instanced.
+
+\author	Sylvain Martin
+\date	1/12/2011
+
+\ingroup SDeviceMod
+</member>
+        <member name="T:SGlobalMetaDataMap">
+\class	SGlobalMetaDataMap
+
+\brief	class for passing the metadata between all the device plugins. it is derived of QList
+
+\author	Sylvain Martin
+\date	02/03/2012
+
+\ingroup SDeviceMod
+
+See also the Qt documentation on the QList.
+</member>
+        <!-- Le commentaire de document XML incorrect pour le membre 'M:SUiCtrlPan.#ctor(QList<SDevicePluginInterface**>,SGlobalMetaDataMap*,QWidget*)' est ignoré. -->
+        <!-- Le commentaire de document XML incorrect pour le membre 'D:QwtPlotItemList' est ignoré. -->
+        <!-- Le commentaire de document XML incorrect pour le membre 'M:SUiScriptEditor.loadFile(QString!System.Runtime.CompilerServices.IsConst*!System.Runtime.CompilerServices.IsImplicitlyDereferenced)' est ignoré. -->
+        <!-- Le commentaire de document XML incorrect pour le membre 'M:SUiScriptEditor.saveFile(QString!System.Runtime.CompilerServices.IsConst*!System.Runtime.CompilerServices.IsImplicitlyDereferenced)' est ignoré. -->
+        <!-- Le commentaire de document XML incorrect pour le membre 'M:SUiScriptEditor.strippedName(QString!System.Runtime.CompilerServices.IsConst*!System.Runtime.CompilerServices.IsImplicitlyDereferenced)' est ignoré. -->
+        <!-- Le commentaire de document XML incorrect pour le membre 'D:QwtPlotItemList' est ignoré. -->
+        <!-- Le commentaire de document XML incorrect pour le membre 'M:SScriptEngine.run(QString!System.Runtime.CompilerServices.IsConst*!System.Runtime.CompilerServices.IsImplicitlyDereferenced,QString!System.Runtime.CompilerServices.IsConst*!System.Runtime.CompilerServices.IsImplicitlyDereferenced,System.Int32,System.Boolean)' est ignoré. -->
+        <!-- Le commentaire de document XML incorrect pour le membre 'M:qsDelay(QScriptContext*,QScriptEngine*)' est ignoré. -->
+        <!-- Le commentaire de document XML incorrect pour le membre 'M:QScienceSpinBox.validate(QString*!System.Runtime.CompilerServices.IsImplicitlyDereferenced,System.Int32*!System.Runtime.CompilerServices.IsImplicitlyDereferenced)' est ignoré. -->
+        <!-- Le commentaire de document XML incorrect pour le membre 'M:QScienceSpinBox.fixup(QString*!System.Runtime.CompilerServices.IsImplicitlyDereferenced)' est ignoré. -->
+        <!-- Le commentaire de document XML incorrect pour le membre 'M:QScienceSpinBox.isIntermediateValue(QString!System.Runtime.CompilerServices.IsConst*!System.Runtime.CompilerServices.IsImplicitlyDereferenced)' est ignoré. -->
+        <!-- Le commentaire de document XML incorrect pour le membre 'M:QScienceSpinBox.validateAndInterpret(QString*!System.Runtime.CompilerServices.IsImplicitlyDereferenced,System.Int32*!System.Runtime.CompilerServices.IsImplicitlyDereferenced,QValidator.State*!System.Runtime.CompilerServices.IsImplicitlyDereferenced)' est ignoré. -->
+        <!-- Le commentaire de document XML incorrect pour le membre 'M:QScienceSpinBox.stripped(QString!System.Runtime.CompilerServices.IsConst*!System.Runtime.CompilerServices.IsImplicitlyDereferenced,System.Int32*)' est ignoré. -->
+    </members>
+</doc>

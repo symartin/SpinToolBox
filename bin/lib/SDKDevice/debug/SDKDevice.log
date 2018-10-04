@@ -1,0 +1,29 @@
+﻿La génération a démarré 08/11/2012 11:12:12.
+     1>Projet "D:\Sylvain\Instru\SpinToolBox V2.6\src\SDK\SDKDevice\SDKDevice.vcxproj" sur le nœud 2 (build cible(s)).
+     1>InitializeBuildStatus:
+         Création de "D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\lib\SDKDevice\debug\SDKDevice.unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
+       CustomBuild:
+         Moc'ing SDevicePluginInterface.h...
+         Moc'ing SDevice\SDeviceVisa.h...
+         Moc'ing SDevice\SDeviceVirtual.h...
+         Moc'ing SDevice\SDeviceGpib.h...
+         Moc'ing SInterface\SInterfaceGpib.h...
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /IC:\Qt\4.7.2\include /I.\GeneratedFiles\Debug /IC:\Qt\4.7.2\include\qtmain /IC:\Qt\4.7.2\include\QtCore /IC:\Qt\4.7.2\include\QtGui /IC:\Qt\4.7.2\include\QtScript /I.\ /I"D:\Sylvain\Instru\SpinToolBox V2.6\src\SDK\\" /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D QT_LARGEFILE_SUPPORT /D QT_CORE_LIB /D QT_GUI_LIB /D QT_SCRIPT_LIB /D SDKDEVICE_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\lib\SDKDevice\debug\\" /Fd"D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\lib\SDKDevice\debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\Debug\moc_SDeviceGpib.cpp GeneratedFiles\Debug\moc_SDevicePluginInterface.cpp GeneratedFiles\Debug\moc_SDeviceVirtual.cpp GeneratedFiles\Debug\moc_SDeviceVisa.cpp GeneratedFiles\Debug\moc_SInterfaceGpib.cpp SDevicePluginInterface.cpp SDevice\SDeviceGpib.cpp SDevice\SDeviceVisa.cpp SInterface\SInterfaceGpib.cpp
+         moc_SDeviceGpib.cpp
+         moc_SDevicePluginInterface.cpp
+         moc_SDeviceVirtual.cpp
+         moc_SDeviceVisa.cpp
+     1>d:\sylvain\instru\spintoolbox v2.6\src\sdk\sdkdevice\generatedfiles\debug\../../SDevice/SDeviceVisa.h(31): fatal error C1083: Impossible d'ouvrir le fichier include : 'SDK\visa32\visa.h' : No such file or directory
+         moc_SInterfaceGpib.cpp
+         SDevicePluginInterface.cpp
+         SDeviceGpib.cpp
+         SDeviceVisa.cpp
+     1>d:\sylvain\instru\spintoolbox v2.6\src\sdk\sdkdevice\sdevice\SDeviceVisa.h(31): fatal error C1083: Impossible d'ouvrir le fichier include : 'SDK\visa32\visa.h' : No such file or directory
+         SInterfaceGpib.cpp
+         Génération de code en cours...
+     1>Génération du projet "D:\Sylvain\Instru\SpinToolBox V2.6\src\SDK\SDKDevice\SDKDevice.vcxproj" terminée (build cible(s)) -- ÉCHEC.
+
+ÉCHEC de la build.
+
+Temps écoulé 00:00:08.28

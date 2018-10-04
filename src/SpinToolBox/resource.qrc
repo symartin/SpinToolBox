@@ -1,0 +1,39 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="compass.ico">Resources/Images/compass.ico</file>
+    <file alias="compass32.png">Resources/Images/compass32.png</file>
+    <file alias="compass48.png">Resources/Images/compass48.png</file>
+    <file alias="compass128.png">Resources/Images/compass128.png</file>
+    <file alias="compass256.png">Resources/Images/compass256.png</file>
+  </qresource>
+  <qresource prefix="/icon">
+    <file alias="zoom.png">Resources/Images/icons/zoom.png</file>
+    <file alias="autoscale.png">Resources/Images/icons/autoscale.png</file>
+    <file alias="setsacle.png">Resources/Images/icons/setsacle.png</file>
+    <file alias="copy.png">Resources/Images/icons/copy.png</file>
+    <file alias="cut.png">Resources/Images/icons/cut.png</file>
+    <file alias="new.png">Resources/Images/icons/new.png</file>
+    <file alias="open.png">Resources/Images/icons/open.png</file>
+    <file alias="paste.png">Resources/Images/icons/paste.png</file>
+    <file alias="save.png">Resources/Images/icons/save.png</file>
+    <file alias="execute.png">Resources/Images/icons/execute.png</file>
+    <file alias="debug.png">Resources/Images/icons/debug.png</file>
+    <file alias="kill.png">Resources/Images/icons/kill.png</file>
+    <file alias="check.png">Resources/Images/icons/check.png</file>
+    <file alias="cross.png">Resources/Images/icons/cross.png</file>
+    <file alias="ask.png">Resources/Images/icons/ask.png</file>
+    <file alias="runningscale.png">Resources/Images/icons/runningscale.png</file>
+    <file alias="antialiasing.png">Resources/Images/icons/antialiasing.png</file>
+    <file alias="gears.png">Resources/Images/icons/gears.png</file>
+    <file alias="controlpanel.png">Resources/Images/icons/controlpanel.png</file>
+  </qresource>
+  <qresource prefix="/led">
+    <file alias="circle_green.png">Resources/Images/leds/circle_green.png</file>
+    <file alias="circle_grey.png">Resources/Images/leds/circle_grey.png</file>
+    <file alias="circle_red.png">Resources/Images/leds/circle_red.png</file>
+    <file alias="circle_yellow.png">Resources/Images/leds/circle_yellow.png</file>
+  </qresource>
+  <qresource prefix="/sounds">
+    <file alias="bip.wav">Resources/Sounds/bip.wav</file>
+  </qresource>
+</RCC>

@@ -1,0 +1,18 @@
+TODO : (25/01/2012)
+- metre une classe mère à tous les types de plugin
+- ajouter une gestion "de à propo de ..." pour les plugins
+- ajouter un "a propos de ..." pour l'aplication principale
+- ajouter un plugin pour le lockin
+- ajouter une gestion de plugin juste script (et pas SDevices)
+
+
+DONE :
+- ajout gestion des options pour les plugings. (18/10/2012)
+- Changer le systme de plot pour ne plus avoir à utiliser SWT qui est tres lourd (15/10/2012)
+- l'interface graphique (control panel) pour APSIN20G (30/04/2012)
+- utiliser le SDK.lib dans l'application principale, pour eviter d'avoir a géré plusieur instances de meme fichier (20/04/2012)
+- externaliser tous les devices en plugin (20/04/2012)
+- ajouter la gestion des setting internes pour les plugins (25/01/2012)
+- ajouter l'inntégration des control pannel des plugin (25/01/2012)
+- verifier l'interface graphique pour le plugin K2400 (25/01/2012)
+- implanter les interface graphique des plugin dans le soft père (25/01/2012)

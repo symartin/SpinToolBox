@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{15b057b3-f2cd-4a37-98ce-7863329f46e4}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{1f25b30a-3e2b-46f6-9626-c76ec720893c}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{67d4076f-b7cc-4296-95c5-990e46e2ccdb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SDevicePSAE4440A_global.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_SUiCpPSAE4440A.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SDevicePSAE4440A.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SDevicePSAE4440A.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SDevicePSAE4440A.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="SUiCpPSAE4440A.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SUiCpPSAE4440A.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SUiCpPSAE4440A.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="SDevicePSAE4440A.h">
+      <Filter>main</Filter>
+    </CustomBuild>
+    <CustomBuild Include="SUiCpPSAE4440A.ui">
+      <Filter>GUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="SUiCpPSAE4440A.h">
+      <Filter>GUI</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/image">
+        <file alias="RSSMA100A.png">Resources/microwave_generator_RSSMA100A.png</file>
+    </qresource>
+</RCC>

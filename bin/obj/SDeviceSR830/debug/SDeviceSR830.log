@@ -1,0 +1,24 @@
+﻿La génération a démarré 30/07/2013 15:48:26.
+     1>Projet "D:\Sylvain\Instru\SpinToolBox V2.6\src\plugins\SDevice\SDeviceSR830\SDeviceSR830.vcxproj" sur le nœud 3 (build cible(s)).
+     1>InitializeBuildStatus:
+         Création de "D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\obj\SDeviceSR830\debug\SDeviceSR830.unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
+       CustomBuild:
+         Toutes les sorties sont à jour.
+       ClCompile:
+         Toutes les sorties sont à jour.
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Sylvain\Instru\SpinToolBox V2.6\src\\..\bin\debug\plugins\SDevice\\SDeviceSR830.dll" /NOLOGO /LIBPATH:C:\Qt\4.7.2\lib /LIBPATH:"D:\Sylvain\Instru\SpinToolBox V2.6\bin\lib\debug" qtmaind.lib QtCored4.lib QtGuid4.lib QtScriptd4.lib SpinToolBoxSDK.lib SpinToolBoxSDKDevice.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\obj\SDeviceSR830\debug\SDeviceSR830.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Sylvain\Instru\SpinToolBox V2.6\bin\debug\plugins\SDevice\SDeviceSR830.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Sylvain\Instru\SpinToolBox V2.6\src\\..\bin\debug\plugins\SDevice\SDeviceSR830.lib" /MACHINE:X86 /DLL "D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\obj\SDeviceSR830\debug\moc_SDeviceSR830.obj"
+         "D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\obj\SDeviceSR830\debug\SDeviceSR830.obj"
+         LINK : D:\Sylvain\Instru\SpinToolBox V2.6\src\\..\bin\debug\plugins\SDevice\\SDeviceSR830.dll introuvable ou non généré par la dernière édition de liens incrémentielle ; édition de liens complète en cours
+            Création de la bibliothèque D:\Sylvain\Instru\SpinToolBox V2.6\src\\..\bin\debug\plugins\SDevice\SDeviceSR830.lib et de l'objet D:\Sylvain\Instru\SpinToolBox V2.6\src\\..\bin\debug\plugins\SDevice\SDeviceSR830.exp
+         SDeviceSR830.vcxproj -> D:\Sylvain\Instru\SpinToolBox V2.6\src\\..\bin\debug\plugins\SDevice\SDeviceSR830.dll
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\Sylvain\Instru\SpinToolBox V2.6\src\\..\bin\debug\plugins\SDevice\\SDeviceSR830.dll;#2" /manifest "D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\obj\SDeviceSR830\debug\SDeviceSR830.dll.intermediate.manifest"
+       FinalizeBuildStatus:
+         Suppression du fichier "D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\obj\SDeviceSR830\debug\SDeviceSR830.unsuccessfulbuild".
+         Mise à jour de l'horodatage "D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\obj\SDeviceSR830\debug\SDeviceSR830.lastbuildstate".
+     1>Génération du projet "D:\Sylvain\Instru\SpinToolBox V2.6\src\plugins\SDevice\SDeviceSR830\SDeviceSR830.vcxproj" terminée (build cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:03.03

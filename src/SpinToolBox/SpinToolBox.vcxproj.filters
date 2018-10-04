@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{82a966fe-2da7-498b-bd89-66a86adf67cb}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{a327e5bd-a038-474c-9f9a-02f7307fc854}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="SScript">
+      <UniqueIdentifier>{6103a8a2-0664-4d01-8b46-53eaa7f7c5b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="SUi">
+      <UniqueIdentifier>{88665ec0-65f2-4b48-b69a-7ee7b084e771}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="SScript\SScriptEngine.cpp">
+      <Filter>SScript</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SScriptEngine.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SUiScriptEditor.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="SUi\SUiScriptEditor.cpp">
+      <Filter>SUi</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_resource.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SUiMainWindow.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="SUi\SUiMainWindow.cpp">
+      <Filter>SUi</Filter>
+    </ClCompile>
+    <ClCompile Include="SUi\SUiPluginManager.cpp">
+      <Filter>SUi</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SUiPluginManager.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SUiCtrlPan.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="SUi\SUiCtrlPan.cpp">
+      <Filter>SUi</Filter>
+    </ClCompile>
+    <ClCompile Include="SUi\SUiMetaDataReader.cpp">
+      <Filter>SUi</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SUiMetaDataReader.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SScriptEngine.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SUiCtrlPan.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SUiMainWindow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SUiMetaDataReader.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SUiPluginManager.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SUiScriptEditor.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="SScript\SScriptConsoleWidget.cpp">
+      <Filter>SScript</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_SUiMainWindow.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_SuiQScienceSpinBoxMenu.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource1.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_SUiPluginManager.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_SUiMetaDataReader.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SScript\SScriptConsoleWidget.h">
+      <Filter>SScript</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="SScript\SScriptEngine.h">
+      <Filter>SScript</Filter>
+    </CustomBuild>
+    <CustomBuild Include="SUi\SUiScriptEditor.h">
+      <Filter>SUi</Filter>
+    </CustomBuild>
+    <CustomBuild Include="resource.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="SUi\SUiMainWindow.h">
+      <Filter>SUi</Filter>
+    </CustomBuild>
+    <CustomBuild Include="SUi\SUiMainWindow.ui">
+      <Filter>SUi</Filter>
+    </CustomBuild>
+    <CustomBuild Include="SUi\SuiQScienceSpinBoxMenu.ui">
+      <Filter>SUi</Filter>
+    </CustomBuild>
+    <CustomBuild Include="SUi\SUiPluginManager.ui">
+      <Filter>SUi</Filter>
+    </CustomBuild>
+    <CustomBuild Include="SUi\SUiPluginManager.h">
+      <Filter>SUi</Filter>
+    </CustomBuild>
+    <CustomBuild Include="SUi\SUiCtrlPan.h">
+      <Filter>SUi</Filter>
+    </CustomBuild>
+    <CustomBuild Include="SUi\SUiMetaDataReader.ui">
+      <Filter>SUi</Filter>
+    </CustomBuild>
+    <CustomBuild Include="SUi\SUiMetaDataReader.h">
+      <Filter>SUi</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images\icons\zoom.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\icons\autoscale.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\icons\setsacle.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\icons\copy.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\icons\cut.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\icons\new.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\icons\open.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\icons\paste.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\icons\save.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Images\icons\execute.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Images\icons\debug.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Images\icons\kill.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Images\leds\circle_green.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Images\leds\circle_grey.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Images\leds\circle_red.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Images\leds\circle_yellow.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\Changelist.txt">
+      <Filter>main</Filter>
+    </None>
+    <None Include="..\TODO.txt">
+      <Filter>main</Filter>
+    </None>
+    <None Include="Resources\Images\compass.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Images\compass32.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Images\compass48.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Images\compass128.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Images\compass256.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Images\icons\emergency.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Images\icons\check.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Images\icons\cross.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Images\icons\ask.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Sounds\bip.wav">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Images\icons\controlpanel.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Images\icons\antialiasing.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Images\icons\loggerlite_autoscale.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Images\icons\runningscale.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Images\icons\scriptedit.png">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SpinToolBox.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

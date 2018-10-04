@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/image">
+        <file alias="Apsin20g.png">Resources/Apsin20g.png</file>
+    </qresource>
+</RCC>

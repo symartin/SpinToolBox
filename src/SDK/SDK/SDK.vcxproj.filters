@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{9f1623e3-2b86-4e17-9244-b3e885619cd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{766f6bfe-c6af-444e-85f2-955171ad5b05}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{ca866a51-939d-487b-8961-cfde9ac0d69f}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="SUi">
+      <UniqueIdentifier>{3981edcf-9516-4890-9172-8c523739ad2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SData">
+      <UniqueIdentifier>{4b986801-894e-4a21-9b5d-a866b085d665}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SPlot">
+      <UniqueIdentifier>{e057e507-bb3a-46ca-99c4-48b9ad24fec5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{f30e0dbb-88b2-4fa0-b2b8-1f434192cdfb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="SUi\QScienceSpinBox.h">
+      <Filter>SUi</Filter>
+    </CustomBuild>
+    <CustomBuild Include="SUi\SUiLblLed.h">
+      <Filter>SUi</Filter>
+    </CustomBuild>
+    <CustomBuild Include="SData\SData2DScript.h">
+      <Filter>SData</Filter>
+    </CustomBuild>
+    <CustomBuild Include="SPlot\SPlot2D.h">
+      <Filter>SPlot</Filter>
+    </CustomBuild>
+    <CustomBuild Include="SPlot\SPlotSetScale.ui">
+      <Filter>SPlot</Filter>
+    </CustomBuild>
+    <CustomBuild Include="SPlot\qcustomplot.h">
+      <Filter>SPlot</Filter>
+    </CustomBuild>
+    <CustomBuild Include="SPlot\SPlotImageSize.ui">
+      <Filter>SPlot</Filter>
+    </CustomBuild>
+    <CustomBuild Include="SUi\QTechSpinBox.h">
+      <Filter>SUi</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SError.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="SUi\QScienceSpinBox.cpp">
+      <Filter>SUi</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_QScienceSpinBox.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="SUi\SUiLblLed.cpp">
+      <Filter>SUi</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SUiLblLed.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="SData\SData2D.cpp">
+      <Filter>SData</Filter>
+    </ClCompile>
+    <ClCompile Include="SData\SData2DScript.cpp">
+      <Filter>SData</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SData2DScript.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="SData\SData.cpp">
+      <Filter>SData</Filter>
+    </ClCompile>
+    <ClCompile Include="SData\SDataND.cpp">
+      <Filter>SData</Filter>
+    </ClCompile>
+    <ClCompile Include="SPlot\SPlot2D.cpp">
+      <Filter>SPlot</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SPlot2D.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_QScienceSpinBox.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SData2DScript.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SPlot2D.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SUiLblLed.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="SPlot\qcustomplot.cpp">
+      <Filter>SPlot</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qcustomplot.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qcustomplot.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_QTechSpinBox.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_QTechSpinBox.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="SUi\QTechSpinBox.cpp">
+      <Filter>SUi</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SError.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="SpinToolBoxSDK.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="SData\SData2D.h">
+      <Filter>SData</Filter>
+    </ClInclude>
+    <ClInclude Include="SData\SData.h">
+      <Filter>SData</Filter>
+    </ClInclude>
+    <ClInclude Include="SData\SDataError.h">
+      <Filter>SData</Filter>
+    </ClInclude>
+    <ClInclude Include="SData\SDataND.h">
+      <Filter>SData</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_SPlotSetScale.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_SPlotImageSize.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

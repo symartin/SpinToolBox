@@ -1,0 +1,103 @@
+K2400
+PSAE4440A
+K2400.readVI
+K2400.readIV
+K2400.putLocalMode
+K2400.setCurrent
+K2400.current
+K2400.setVoltage
+K2400.voltage
+K2400.setMode
+K2400.activate
+K2400.deactivate
+K2400.setCurrentRange
+K2400.setVoltageRange
+K2400.currentRange
+K2400.voltageRange
+K2400.setCurrentCompliance
+K2400.setVoltageCompliance
+K2400.voltageCompliance
+K2400.currentCompliance
+K2400.available
+K2400.description
+PSAE4440A.available
+PSAE4440A.setFreqStart
+PSAE4440A.freqStart
+PSAE4440A.setFreqStop
+PSAE4440A.freqStop
+PSAE4440A.setRbw
+PSAE4440A.rbw
+PSAE4440A.setAttenuation
+PSAE4440A.attenuation
+PSAE4440A.setNbPoints
+PSAE4440A.nbPoints
+PSAE4440A.setNbAverage
+PSAE4440A.nbAverage
+PSAE4440A.setRefLevel
+PSAE4440A.refLevel
+PSAE4440A.sweepTime
+PSAE4440A.setMarker
+PSAE4440A.marker
+PSAE4440A.readMarker
+PSAE4440A.restart
+PSAE4440A.readSpectrum
+PSAE4440A.init
+PSAE4440A.name
+PSAE4440A.description
+DAQ
+DAQ.prefactor
+DAQ.setPrefactor(double prefactor)
+DAQ.sweep(double Vz,double dVz, int channel);
+DAQ.available
+DAQ.running
+DAQ.vOld(int channel)
+data
+data.openFile(String file)
+data.saveFile(QString file)
+data.append (...)
+data.slideAverage(int windows, double  PeackProtectCoeff)
+data.double x(int i)
+data.double y(int i)
+data.count
+data.size
+data.metaData(QString  key)
+data.setMetaData(QString key, QVariant  value)
+data.setColName(String Xname, String Yname)
+data.setColXName(QString Xname)
+data.colXName
+data.setColYName(QString Yname)
+data.colYName
+data.setColUnit(QString XUnit, QString YUnit)
+data.setColXUnit(QString XUnit)
+data.colXUnit
+data.setColYUnit(QString YUnit)
+data.colYUnit
+data.addComent(String com)
+data.comment
+data.clearComment
+Math.abs
+Math.ceil
+Math.floor
+Math.round
+Math.max
+Math.min
+Math.pow
+Math.random
+Math.sqrt
+Math.E
+Math.exp
+Math.LN2
+Math.LN10
+Math.log
+Math.LOG2E	
+Math.SQRT1_2
+Math.SQRT2
+Math.PI
+Math.sin
+Math.cos
+Math.acos
+Math.tan
+Math.atan
+warningMsgBox(msg,title)
+appPath
+stop

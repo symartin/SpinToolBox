@@ -1,0 +1,28 @@
+﻿La génération a démarré 30/07/2013 15:48:26.
+     1>Projet "D:\Sylvain\Instru\SpinToolBox V2.6\src\plugins\SDevice\SDevicePSGE8257D\SDevicePSGE8257D.vcxproj" sur le nœud 2 (build cible(s)).
+     1>InitializeBuildStatus:
+         Création de "D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\obj\SDevicePSGE8257D\debug\SDevicePSGE8257D.unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
+       CustomBuild:
+         Toutes les sorties sont à jour.
+       ClCompile:
+         Toutes les sorties sont à jour.
+         Toutes les sorties sont à jour.
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Sylvain\Instru\SpinToolBox V2.6\src\\..\bin\debug\plugins\SDevice\\SDevicePSGE8257D.dll" /NOLOGO /LIBPATH:C:\Qt\4.7.2\lib /LIBPATH:"D:\Sylvain\Instru\SpinToolBox V2.6\bin\lib\debug" qtmaind.lib QtCored4.lib QtGuid4.lib QtScriptd4.lib SpinToolBoxSDK.lib SpinToolBoxSDKDevice.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\obj\SDevicePSGE8257D\debug\SDevicePSGE8257D.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Sylvain\Instru\SpinToolBox V2.6\bin\debug\plugins\SDevice\SDevicePSGE8257D.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Sylvain\Instru\SpinToolBox V2.6\src\\..\bin\debug\plugins\SDevice\SDevicePSGE8257D.lib" /MACHINE:X86 /DLL "D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\obj\SDevicePSGE8257D\debug\moc_SDevicePSGE8257D.obj"
+         "D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\obj\SDevicePSGE8257D\debug\moc_SUiCpPSGE8257D.obj"
+         "D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\obj\SDevicePSGE8257D\debug\qrc_image.obj"
+         "D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\obj\SDevicePSGE8257D\debug\SDevicePSGE8257D.obj"
+         "D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\obj\SDevicePSGE8257D\debug\SUiCpPSGE8257D.obj"
+         LINK : D:\Sylvain\Instru\SpinToolBox V2.6\src\\..\bin\debug\plugins\SDevice\\SDevicePSGE8257D.dll introuvable ou non généré par la dernière édition de liens incrémentielle ; édition de liens complète en cours
+            Création de la bibliothèque D:\Sylvain\Instru\SpinToolBox V2.6\src\\..\bin\debug\plugins\SDevice\SDevicePSGE8257D.lib et de l'objet D:\Sylvain\Instru\SpinToolBox V2.6\src\\..\bin\debug\plugins\SDevice\SDevicePSGE8257D.exp
+         SDevicePSGE8257D.vcxproj -> D:\Sylvain\Instru\SpinToolBox V2.6\src\\..\bin\debug\plugins\SDevice\SDevicePSGE8257D.dll
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\Sylvain\Instru\SpinToolBox V2.6\src\\..\bin\debug\plugins\SDevice\\SDevicePSGE8257D.dll;#2" /manifest "D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\obj\SDevicePSGE8257D\debug\SDevicePSGE8257D.dll.intermediate.manifest"
+       FinalizeBuildStatus:
+         Suppression du fichier "D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\obj\SDevicePSGE8257D\debug\SDevicePSGE8257D.unsuccessfulbuild".
+         Mise à jour de l'horodatage "D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\obj\SDevicePSGE8257D\debug\SDevicePSGE8257D.lastbuildstate".
+     1>Génération du projet "D:\Sylvain\Instru\SpinToolBox V2.6\src\plugins\SDevice\SDevicePSGE8257D\SDevicePSGE8257D.vcxproj" terminée (build cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:05.75

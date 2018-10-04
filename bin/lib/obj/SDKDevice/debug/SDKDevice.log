@@ -1,0 +1,29 @@
+﻿La génération a démarré 08/11/2012 11:41:41.
+     1>Projet "D:\Sylvain\Instru\SpinToolBox V2.6\src\SDK\SDKDevice\SDKDevice.vcxproj" sur le nœud 2 (build cible(s)).
+     1>InitializeBuildStatus:
+         Création de "D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\lib\obj\SDKDevice\debug\SDKDevice.unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
+       CustomBuild:
+         Toutes les sorties sont à jour.
+       ClCompile:
+         Toutes les sorties sont à jour.
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\lib\debug\\SpinToolBoxSDKDevice.lib" /LIBPATH:C:\Qt\4.7.2\lib /NOLOGO "D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\lib\obj\SDKDevice\debug\moc_SDeviceGpib.obj"
+         "D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\lib\obj\SDKDevice\debug\moc_SDevicePluginInterface.obj"
+         "D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\lib\obj\SDKDevice\debug\moc_SDeviceVirtual.obj"
+         "D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\lib\obj\SDKDevice\debug\moc_SDeviceVisa.obj"
+         "D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\lib\obj\SDKDevice\debug\moc_SInterfaceGpib.obj"
+         "D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\lib\obj\SDKDevice\debug\SDevicePluginInterface.obj"
+         "D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\lib\obj\SDKDevice\debug\SDeviceGpib.obj"
+         "D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\lib\obj\SDKDevice\debug\SDeviceVisa.obj"
+         "D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\lib\obj\SDKDevice\debug\SInterfaceGpib.obj"
+         "gpib-32\gpib-32.obj"
+         visa32\visa32.lib
+         SDKDevice.vcxproj -> D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\lib\debug\SpinToolBoxSDKDevice.lib
+       FinalizeBuildStatus:
+         Suppression du fichier "D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\lib\obj\SDKDevice\debug\SDKDevice.unsuccessfulbuild".
+         Mise à jour de l'horodatage "D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\lib\obj\SDKDevice\debug\SDKDevice.lastbuildstate".
+     1>Génération du projet "D:\Sylvain\Instru\SpinToolBox V2.6\src\SDK\SDKDevice\SDKDevice.vcxproj" terminée (build cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:00.18

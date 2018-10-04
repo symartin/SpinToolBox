@@ -1,0 +1,28 @@
+﻿La génération a démarré 30/07/2013 15:48:29.
+     1>Projet "D:\Sylvain\Instru\SpinToolBox V2.6\src\plugins\SDevice\SDeviceDaqFieldOneAxis\SDeviceDaqFieldOneAxis.vcxproj" sur le nœud 3 (build cible(s)).
+     1>InitializeBuildStatus:
+         Création de "D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\obj\SDeviceDaqFieldOneAxis\debug\SDeviceDaqFieldOneAxis.unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
+       CustomBuild:
+         Toutes les sorties sont à jour.
+       ClCompile:
+         Toutes les sorties sont à jour.
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Sylvain\Instru\SpinToolBox V2.6\src\\..\bin\debug\plugins\SDevice\\SDeviceDaqFieldOneAxis.dll" /NOLOGO /LIBPATH:C:\Qt\4.7.2\lib /LIBPATH:"D:\Sylvain\Instru\SpinToolBox V2.6\bin\lib\debug" /LIBPATH:"D:\Sylvain\Instru\SpinToolBox V2.6\src\plugins\SDevice\SDeviceDaqFieldOneAxis\NIDAQmx" qtmaind.lib QtCored4.lib QtGuid4.lib QtScriptd4.lib SpinToolBoxSDK.lib NIDAQmx.lib SpinToolBoxSDKDevice.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\obj\SDeviceDaqFieldOneAxis\debug\SDeviceDaqFieldOneAxis.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Sylvain\Instru\SpinToolBox V2.6\bin\debug\plugins\SDevice\SDeviceDaqFieldOneAxis.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Sylvain\Instru\SpinToolBox V2.6\src\\..\bin\debug\plugins\SDevice\SDeviceDaqFieldOneAxis.lib" /MACHINE:X86 /DLL "D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\obj\SDeviceDaqFieldOneAxis\debug\moc_SDeviceDaqFieldOneAxis.obj"
+         "D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\obj\SDeviceDaqFieldOneAxis\debug\moc_SUiCpDaqFieldOneAxis.obj"
+         "D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\obj\SDeviceDaqFieldOneAxis\debug\moc_SUiCpDaqFieldOneAxisOptions.obj"
+         "D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\obj\SDeviceDaqFieldOneAxis\debug\SDeviceDaqFieldOneAxis.obj"
+         "D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\obj\SDeviceDaqFieldOneAxis\debug\SUiCpDaqFieldOneAxis.obj"
+         "D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\obj\SDeviceDaqFieldOneAxis\debug\SUiCpDaqFieldOneAxisOptions.obj"
+         LINK : D:\Sylvain\Instru\SpinToolBox V2.6\src\\..\bin\debug\plugins\SDevice\\SDeviceDaqFieldOneAxis.dll introuvable ou non généré par la dernière édition de liens incrémentielle ; édition de liens complète en cours
+            Création de la bibliothèque D:\Sylvain\Instru\SpinToolBox V2.6\src\\..\bin\debug\plugins\SDevice\SDeviceDaqFieldOneAxis.lib et de l'objet D:\Sylvain\Instru\SpinToolBox V2.6\src\\..\bin\debug\plugins\SDevice\SDeviceDaqFieldOneAxis.exp
+         SDeviceDaqFieldOneAxis.vcxproj -> D:\Sylvain\Instru\SpinToolBox V2.6\src\\..\bin\debug\plugins\SDevice\SDeviceDaqFieldOneAxis.dll
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\Sylvain\Instru\SpinToolBox V2.6\src\\..\bin\debug\plugins\SDevice\\SDeviceDaqFieldOneAxis.dll;#2" /manifest "D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\obj\SDeviceDaqFieldOneAxis\debug\SDeviceDaqFieldOneAxis.dll.intermediate.manifest"
+       FinalizeBuildStatus:
+         Suppression du fichier "D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\obj\SDeviceDaqFieldOneAxis\debug\SDeviceDaqFieldOneAxis.unsuccessfulbuild".
+         Mise à jour de l'horodatage "D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\obj\SDeviceDaqFieldOneAxis\debug\SDeviceDaqFieldOneAxis.lastbuildstate".
+     1>Génération du projet "D:\Sylvain\Instru\SpinToolBox V2.6\src\plugins\SDevice\SDeviceDaqFieldOneAxis\SDeviceDaqFieldOneAxis.vcxproj" terminée (build cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:03.06

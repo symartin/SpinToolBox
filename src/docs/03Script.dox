@@ -1,0 +1,104 @@
+
+//---------------------------------------------------------------------------------------------------
+//                                      What is QtScript-ECMAScript?
+//---------------------------------------------------------------------------------------------------
+//------------------------------------- What is QtScript-ECMAScript? -------------------------------------
+/*!
+	\page scrtipWhatScript What is QtScript-ECMAScript?
+	<table width="100%" border="0" frame="void"><tr width="100%">
+	<td align="left">\ref firstPlotWin "[Previous:The plot window]"</td>
+	<td align="right">\ref scriptBasis "[Next:The basis]"</td>
+	</tr></table>
+	
+	ECMAScript is the scripting language standardized by Ecma International in the ECMA-262 specification and ISO/IEC 16262. The language is widely used for client-side scripting on the web, in the form of several well-known dialects such as JavaScript, JScript, J# and ActionScript.
+	
+	QtScript is a scripting engine that has been part of the Qt cross-platform application framework since version 4.3.0.
+
+	The scripting language is based on the ECMAScript standard with a few extensions, such as QObject-style signal and slot connections. The library contains the engine, and a C++ API for evaluating QtScript code and exposing custom QObject-derived C++ classes to QtScript.
+
+	The QtScript Binding Generator provides bindings for the Qt API to access directly from ECMAScript. QtScript and the binding generator are used for Amarok 2's scripting system.
+
+	QtScript is a prototype-based scripting language that is dynamic, weakly typed and has first-class functions. It uses syntax influenced by the language C. JavaScript copies many names and naming conventions from Java, but the two languages are otherwise unrelated and have very different semantics. The key design principles within JavaScript are taken from the Self and Scheme programming languages. It is a multi-paradigm language, supporting object-oriented, imperative, and functional programming styles.
+
+	This text is based of the wikipedia page of <a href="http://en.wikipedia.org/wiki/QtScript">QtScript</a>, <a href="http://en.wikipedia.org/wiki/JavaScript">JavaScript</a> and <a href="http://fr.wikipedia.org/wiki/ECMAScript">ECMAScript</a>
+
+
+	<table width="100%" border="0" frame="void"><tr width="100%">
+	<td align="left">\ref firstPlotWin "[Previous:The plot window]"</td>
+	<td align="center">Last update 8/11/2012 for V2.6</td>
+	<td align="right">\ref scriptBasis "[Next:The basis]"</td>
+	</tr></table>
+*/	
+//------------------------------------- The basis -------------------------------------
+/*!
+	\page scriptBasis The basis
+	<table width="100%" border="0" frame="void"><tr width="100%">
+	<td align="left">\ref scrtipWhatScript "[Previous:What is QtScript-ECMAScript?]"</td>
+	<td align="right">\ref scriptStrucObject "[Next:Structures and objects]"</td>
+	</tr></table>
+	
+	The syntax of QtScript is the same that the JavaScript. Only the objects are different, so to learn the basis of QtScript, any tutorial on javascript is enough. You just have to note take into acount all the parts on HTML and DOM integration/interaction. for most example find in internet you can remplace: <tt>document.write(...);</tt> by <tt>print(...);</tt> and <tt>alert(...);</tt> by <tt>warningMsgBox(...);</tt>.
+	
+	The things that you really need to know are :
+	<ol>
+		<li>Commenting:<a href="http://www.cs.brown.edu/courses/bridge/1998/res/javascript/javascript-tutorial.html#11">here</a></li>
+		<li>Variables:  <a href="http://www.cs.brown.edu/courses/bridge/1998/res/javascript/javascript-tutorial.html#3">here</a>.</li>
+		<li>Operators: <a href="http://www.cs.brown.edu/courses/bridge/1998/res/javascript/javascript-tutorial.html#6">here</a></li>
+		<li>If/Else Statements: <a href="http://www.cs.brown.edu/courses/bridge/1998/res/javascript/javascript-tutorial.html#9">here</a></li>
+		<li>Loops: <a href="http://www.cs.brown.edu/courses/bridge/1998/res/javascript/javascript-tutorial.html#10">here</a></li>
+		<li>Functions: <a href="http://www.cs.brown.edu/courses/bridge/1998/res/javascript/javascript-tutorial.html#8">here</a></li>
+	</ol>
+	
+
+	\subsection   ecmascript Tutorial on ECMAScript	
+	http://www.ecma-international.org/publications/files/ECMA-ST/Ecma-262.pdf
+	http://openweb.eu.org/articles/introduction_ecmascript
+	http://doc.qt.digia.com/stable/ecmascript.html 
+	http://bclary.com/2004/11/07/
+	
+	\subsection   JavaScript Tutorial on JavaScript	
+	http://www.cs.brown.edu/courses/bridge/1998/res/javascript/javascript-tutorial.html
+	http://www.w3schools.com/jsref/default.asp first part JavaScript Objects Reference	
+	http://www.tizag.com/javascriptT/index.php
+	
+	
+	
+	<table width="100%" border="0" frame="void"><tr width="100%">
+	<td align="left">\ref scrtipWhatScript "[Previous:What is QtScript-ECMAScript?]"</td>
+	<td align="center">Last update 8/11/2012 for V2.6</td>
+	<td align="right">\ref scriptStrucObject "[Next:Structures and objects]"</td>
+	</tr></table>
+*/
+
+//------------------------------------- Structures and objects -------------------------------------
+/*!
+	\page scriptStrucObject Structures and objects
+	<table width="100%" border="0" frame="void"><tr width="100%">
+	<td align="left">\ref scriptBasis "[Previous:The basis]"</td>
+	<td align="right">\ref scriptExample "[Next:Some examples]"</td>
+	</tr></table>
+	
+	
+	
+	<table width="100%" border="0" frame="void"><tr width="100%">
+	<td align="left">\ref scriptBasis "[Previous:The basis]"</td>
+	<td align="center">Last update 8/11/2012 for V2.6</td>
+	<td align="right">\ref scriptExample "[Next:Some examples]"</td>
+	</tr></table>
+*/
+//------------------------------------- Some examples -------------------------------------
+/*!
+	\page scriptExample Some examples
+	<table width="100%" border="0" frame="void"><tr width="100%">
+	<td align="left">\ref scriptStrucObject "[Previous:Structures and objects]"</td>
+	<td align="right">\ref cppIntro "[Next:Hard coding and C++ and plugins]"</td>
+	</tr></table>
+	
+	
+	
+	<table width="100%" border="0" frame="void"><tr width="100%">
+	<td align="left">\ref scriptStrucObject "[Previous:Structures and objects]"</td>
+	<td align="center">Last update 8/11/2012 for V2.6</td>
+	<td align="right">\ref cppIntro "[Next:Hard coding and C++ and plugins]"</td>
+	</tr></table>
+*/

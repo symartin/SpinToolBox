@@ -1,0 +1,981 @@
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevicePluginInterface.h:127: warning: missing argument after \class.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceDaqFieldOneAxis/SInterfaceDaq.cpp:2: warning: the name `SInterface\SInterfaceDaq.cpp' supplied as the second argument in the \file statement is not an input file
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceDaqFieldOneAxis/SInterfaceDaq.h:2: warning: the name `SDevice\SInterface\SInterfaceDaq.h' supplied as the second argument in the \file statement is not an input file
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceDaqFieldOneAxis/SUiCpDaqFieldOneAxisOptions.h:3: warning: the name `SUiCpDaqFieldOneAxisOption.h' supplied as the second argument in the \file statement is not an input file
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceGpib/SDeviceGpib.cpp:2: warning: the name `SDeviceGpib.cpp' supplied as the second argument in the \file statement matches the following input files:
+   D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceGpib/SDeviceGpib.cpp
+   D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SDevice/SDeviceGpib.cpp
+   D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevice/SDeviceGpib.cpp
+Please use a more specific name by including a (larger) part of the path!
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceGpib/SDeviceGpib.h:2: warning: the name `SDeviceGpib.h' supplied as the second argument in the \file statement matches the following input files:
+   D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceGpib/SDeviceGpib.h
+   D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SDevice/SDeviceGpib.h
+   D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevice/SDeviceGpib.h
+Please use a more specific name by including a (larger) part of the path!
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceK2400/SUiCpK2400.cpp:2: warning: the name `SUi\SUiCpK2400.cpp' supplied as the second argument in the \file statement is not an input file
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceK2400/SUiCpK2400.h:2: warning: the name `SUi\SUiCpK2400.h' supplied as the second argument in the \file statement is not an input file
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSGE8257D/SDevicePSGE8257D.cpp:2: warning: the name `SDevice\SDeviceE8557D.cpp' supplied as the second argument in the \file statement is not an input file
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSGE8257D/SDevicePSGE8257D.h:2: warning: the name `SDeviceE8257D.h' supplied as the second argument in the \file statement is not an input file
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SData/SData2DScript.cpp:2: warning: the name `SDevice\SData2DScript.cpp' supplied as the second argument in the \file statement is not an input file
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SDevice/SDeviceError.h:2: warning: the name `SDevice\SDeviceError.h' supplied as the second argument in the \file statement matches the following input files:
+Please use a more specific name by including a (larger) part of the path!
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SDevice/SDeviceGpib.cpp:2: warning: the name `SDevice\SDeviceGpib.cpp' supplied as the second argument in the \file statement matches the following input files:
+Please use a more specific name by including a (larger) part of the path!
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SDevice/SDeviceVirtual.h:2: warning: the name `SDevice\SDeviceVirtual.h' supplied as the second argument in the \file statement matches the following input files:
+Please use a more specific name by including a (larger) part of the path!
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SDevice/SDeviceVisa.h:2: warning: the name `SDevice\SDeviceVisa.h' supplied as the second argument in the \file statement matches the following input files:
+Please use a more specific name by including a (larger) part of the path!
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SInterface/SInterfaceGpib.cpp:2: warning: the name `SDevice\SGpibInterface.h' supplied as the second argument in the \file statement is not an input file
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SInterface/SInterfaceGpib.h:2: warning: the name `SDevice\SGpibInterface.h' supplied as the second argument in the \file statement is not an input file
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/SUiLblLed.cpp:2: warning: the name `SUi\SUiLblLed.c' supplied as the second argument in the \file statement is not an input file
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/SUiLblLed.h:2: warning: the name `SUi\SUiLblLed.h' supplied as the second argument in the \file statement matches the following input files:
+Please use a more specific name by including a (larger) part of the path!
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevice/SDeviceError.h:2: warning: the name `SDevice\SDeviceError.h' supplied as the second argument in the \file statement matches the following input files:
+Please use a more specific name by including a (larger) part of the path!
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevice/SDeviceGpib.cpp:2: warning: the name `SDevice\SDeviceGpib.cpp' supplied as the second argument in the \file statement matches the following input files:
+Please use a more specific name by including a (larger) part of the path!
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevice/SDeviceVirtual.h:2: warning: the name `SDevice\SDeviceVirtual.h' supplied as the second argument in the \file statement matches the following input files:
+Please use a more specific name by including a (larger) part of the path!
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevice/SDeviceVisa.h:2: warning: the name `SDevice\SDeviceVisa.h' supplied as the second argument in the \file statement matches the following input files:
+Please use a more specific name by including a (larger) part of the path!
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevicePluginInterface.cpp:2: warning: the name `SDevice\SDeviceGpib.cpp' supplied as the second argument in the \file statement matches the following input files:
+Please use a more specific name by including a (larger) part of the path!
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SInterface/SInterfaceGpib.cpp:2: warning: the name `SDevice\SGpibInterface.h' supplied as the second argument in the \file statement is not an input file
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SInterface/SInterfaceGpib.h:2: warning: the name `SDevice\SGpibInterface.h' supplied as the second argument in the \file statement is not an input file
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SpinToolBox/SUi/SUiLblLed.cpp:2: warning: the name `SUi\SUiLblLed.c' supplied as the second argument in the \file statement is not an input file
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SpinToolBox/SUi/SUiLblLed.h:2: warning: the name `SUi\SUiLblLed.h' supplied as the second argument in the \file statement matches the following input files:
+Please use a more specific name by including a (larger) part of the path!
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SData/SDataND.h:42: warning: Compound SDataND is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SpinToolBox/SUi/SUiPluginManager.h:32: warning: Compound SUiPluginManager is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SScript/SScriptZlib/SScriptZlib.h:35: warning: Compound SScriptZlib is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceK2400/SUiCpK2400.h:52: warning: Compound SUiCpK2400 is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevice/SDeviceVisa.h:47: warning: Compound SDeviceVisa is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SDevice/SDeviceVisa.h:47: warning: Compound SDeviceVisa is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSGE8257D/SUiCpPSGE8257D.h:10: warning: Compound SUiCpPSGE8257D is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevicePluginInterface.h:136: warning: Compound SDevicePluginInterface is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SpinToolBox/SUi/SUiPluginManager.h:18: warning: Compound SPlgInfo is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceGpib/SDeviceGpib.h:71: warning: Compound SDeviceGpibPlugin is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/STextFileSplitterPlugin/stextfilesplitterplugin.h:26: warning: Compound STextFileSplitterPlugin is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SpinToolBox/SUi/SUiMetaDataReader.h:35: warning: Compound SUiMetaDataReader is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSGE8257D/SDevicePSGE8257D.h:173: warning: Compound SDevicePSGE8257D is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SpinToolBox/SUi/SUiCtrlPan.h:34: warning: Compound SUiCtrlPan is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceDaqFieldOneAxis/SUiCpDaqFieldOneAxisOptions.h:36: warning: Compound SUiCpDaqFieldOneAxisOptions is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SpinToolBox/SUi/SUiScriptEditor.h:40: warning: Compound SUiScriptEditor is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SInterface/SInterfaceGpib.h:70: warning: Compound SInterfaceGpib is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SInterface/SInterfaceGpib.h:70: warning: Compound SInterfaceGpib is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SpinToolBox/SUi/SUiMainWindow.h:23: warning: Compound SUiMainWindow is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SData/SData2D.h:51: warning: Compound SData2D::DataPoint is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevicePluginInterface.h:23: warning: Compound SMetaData is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceDaqFieldOneAxis/SUiCpDaqFieldOneAxis.h:38: warning: Compound SUiCpDaqFieldOneAxis is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceApsin20g/SUiCpApsin20g.h:10: warning: Compound SUiCpApsin20g is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceApsin20g/SDeviceApsin20g.cpp:445: warning: no matching class member found for 
+  void SDeviceApsin20g::setFreqStart(double const freq)
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceApsin20g/SDeviceApsin20g.cpp:465: warning: no matching class member found for 
+  void SDeviceApsin20g::setFreqStart(double const freq)
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceApsin20g/SDeviceApsin20g.cpp:487: warning: no matching class member found for 
+  void SDeviceApsin20g::setFreqStart(double const freq)
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceApsin20g/SDeviceApsin20g.cpp:499: warning: no matching class member found for 
+  void SDeviceApsin20g::setFreqStart(double const freq)
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceApsin20g/SUiCpApsin20g.cpp:70: warning: no uniquely matching class member found for 
+  void SUiCmdMan::on_cmdMwOnOff_clicked()
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceApsin20g/SUiCpApsin20g.cpp:86: warning: no uniquely matching class member found for 
+  void SUiCmdMan::on_cmdMwOnOff_clicked()
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceApsin20g/SUiCpApsin20g.cpp:130: warning: no uniquely matching class member found for 
+  void SUiCmdMan::on_dsbMwPower_editingFinished()
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceApsin20g/SUiCpApsin20g.cpp:143: warning: documented function `void on_dsbMwPower_valueChanged' was not declared or defined.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceApsin20g/SUiCpApsin20g.cpp:152: warning: no uniquely matching class member found for 
+  void SUiCmdMan::on_dsbMwFreq_editingFinished()
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceApsin20g/SUiCpApsin20g.cpp:165: warning: documented function `void on_dsbMwFreq_valueChanged' was not declared or defined.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceApsin20g/SUiCpApsin20g.cpp:174: warning: no uniquely matching class member found for 
+  void SUiCmdMan::on_dsbMwPowerLimit_editingFinished()
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceDaqFieldOneAxis/SUiCpDaqFieldOneAxis.cpp:34: warning: member with no name found.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceDaqFieldOneAxis/SUiCpDaqFieldOneAxis.cpp:71: warning: documented function `void SUiCpDaqFieldOneAxis::on_dsbField_valueChanged' was not declared or defined.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceDaqFieldOneAxis/SUiCpDaqFieldOneAxis.cpp:86: warning: documented function `void SUiCpDaqFieldOneAxis::on_sldField_valueChanged' was not declared or defined.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceK2400/SDeviceK2400.cpp:65: warning: no uniquely matching class member found for 
+  bool SDeviceK2400::load()
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceK2400/SDeviceK2400.cpp:88: warning: no uniquely matching class member found for 
+  QString SDeviceK2400::name() const
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceK2400/SDeviceK2400.cpp:102: warning: no uniquely matching class member found for 
+  QString SDeviceK2400::shortName() const
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceK2400/SDeviceK2400.cpp:145: warning: no uniquely matching class member found for 
+  bool SDeviceK2400::scriptable(QScriptEngine *engine)
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceK2400/SDeviceK2400.cpp:200: warning: no uniquely matching class member found for 
+  bool SDeviceK2400::isScriptable()
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceK2400/SDeviceK2400.cpp:216: warning: no uniquely matching class member found for 
+  bool SDeviceK2400::isControlPanel()
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceK2400/SDeviceK2400.cpp:232: warning: no uniquely matching class member found for 
+  QString SDeviceK2400::controlPanel() const
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceK2400/SDeviceK2400.cpp:286: warning: no uniquely matching class member found for 
+  void SDeviceK2400::shutdown()
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceK2400/SDeviceK2400.cpp:300: warning: no uniquely matching class member found for 
+  int SDeviceK2400::state()
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceK2400/SDeviceK2400.cpp:884: warning: documented function `double SDeviceK2400::voltageLimit' was not declared or defined.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceK2400/SUiCpK2400.cpp:35: warning: member with no name found.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceK2400/SUiCpK2400.cpp:77: warning: documented function `void SUiCpK2400::on_dsbDcCurrentMax_valueChanged' was not declared or defined.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceK2400/SUiCpK2400.cpp:90: warning: documented function `void SUiCpK2400::on_dsbDcVoltageMax_valueChanged' was not declared or defined.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSAE4440A/SDevicePSAE4440A.cpp:66: warning: documented function `SDevicePSGE8257D::~SDevicePSGE8257D' was not declared or defined.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSAE4440A/SDevicePSAE4440A.cpp:79: warning: no uniquely matching class member found for 
+  bool SDeviceK2400::load()
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSAE4440A/SDevicePSAE4440A.cpp:98: warning: no uniquely matching class member found for 
+  QString SDeviceK2400::name() const
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSAE4440A/SDevicePSAE4440A.cpp:113: warning: no uniquely matching class member found for 
+  QString SDeviceK2400::shortName() const
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSAE4440A/SDevicePSAE4440A.cpp:147: warning: no uniquely matching class member found for 
+  bool SDeviceK2400::scriptable(QScriptEngine *engine)
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSAE4440A/SDevicePSAE4440A.cpp:185: warning: no uniquely matching class member found for 
+  bool SDeviceK2400::isScriptable()
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSAE4440A/SDevicePSAE4440A.cpp:200: warning: no uniquely matching class member found for 
+  bool SDeviceK2400::isControlPanel()
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSAE4440A/SDevicePSAE4440A.cpp:215: warning: no uniquely matching class member found for 
+  QString SDeviceK2400::controlPanel() const
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSAE4440A/SDevicePSAE4440A.cpp:236: warning: no uniquely matching class member found for 
+  bool SDevicePSGE8257D::isSetting()
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSAE4440A/SDevicePSAE4440A.cpp:272: warning: no uniquely matching class member found for 
+  void SDeviceK2400::shutdown()
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSAE4440A/SDevicePSAE4440A.cpp:289: warning: no uniquely matching class member found for 
+  int SDeviceK2400::state()
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSAE4440A/SDevicePSAE4440A.cpp:319: warning: no uniquely matching class member found for 
+  QString SDevicePSGE8257D::plgVersion() const
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSAE4440A/SDevicePSAE4440A.cpp:332: warning: no uniquely matching class member found for 
+  QString SDevicePSGE8257D::plgVersion() const
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSAE4440A/SDevicePSAE4440A.cpp:346: warning: no uniquely matching class member found for 
+  QString SDevicePSGE8257D::plgVersion() const
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSAE4440A/SDevicePSAE4440A.cpp:370: warning: no matching class member found for 
+  SDevicePSAE4440A::SDevicePSAE4440A()
+Possible candidates:
+  SDevicePSAE4440A::SDevicePSAE4440A(QObject *parent=NULL)
+  SDevicePSAE4440A::SDevicePSAE4440A(double const FreqStart, double const FreqStop, double const RBW, int const average=0, QObject *parent=NULL)
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSAE4440A/SUiCpPSAE4440A.cpp:119: warning: no matching class member found for 
+  void SUiCmdMan::on_cmdSaMeasure_clicked()
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSAE4440A/SUiCpPSAE4440A.cpp:284: warning: no uniquely matching class member found for 
+  void SUiCmdMan::on_dsbMwFreq_valueChanged()
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSAE4440A/SUiCpPSAE4440A.cpp:296: warning: no matching class member found for 
+  void SUiCmdMan::on_dsbSaStopFreq_valueChanged(double d)
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSAE4440A/SUiCpPSAE4440A.cpp:313: warning: no matching class member found for 
+  void SUiCmdMan::on_dsbSaStopFreq_valueChanged(double d)
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSAE4440A/SUiCpPSAE4440A.cpp:328: warning: no matching class member found for 
+  void SUiCmdMan::on_dsbSaRbw_valueChanged(double d)
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSAE4440A/SUiCpPSAE4440A.cpp:358: warning: no matching class member found for 
+  void SUiCmdMan::on_cmdSaCheckRbw_clicked()
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSAE4440A/SUiCpPSAE4440A.cpp:379: warning: no matching class member found for 
+  void SUiCmdMan::on_dsbSaAverage_valueChanged(int i)
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSAE4440A/SUiCpPSAE4440A.cpp:391: warning: no matching class member found for 
+  void SUiCmdMan::on_dsbSaNbPoints_valueChanged(int i)
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSAE4440A/SUiCpPSAE4440A.cpp:403: warning: no matching class member found for 
+  void SUiCmdMan::on_dsbSaLevel_valueChanged(double d)
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSAE4440A/SUiCpPSAE4440A.cpp:415: warning: no matching class member found for 
+  void SUiCmdMan::on_cmbxSaAttenuation_currentIndexChanged(const QString &text)
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSAE4440A/SUiCpPSAE4440A.cpp:427: warning: no matching class member found for 
+  void SUiCmdMan::on_chkbxSaMarkerOnOff_stateChanged(int state)
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSAE4440A/SUiCpPSAE4440A.cpp:444: warning: no matching class member found for 
+  void SUiCmdMan::on_dsbSaMarker_valueChanged(double d)
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSAE4440A/SUiCpPSAE4440A.cpp:459: warning: no matching class member found for 
+  void SUiCmdMan::on_sldSaMarker_sliderMoved(int d)
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSAE4440A/SUiCpPSAE4440A.cpp:469: warning: no matching class member found for 
+  void SUiCmdMan::on_cmdSaGo_clicked()
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSAE4440A/SUiCpPSAE4440A.cpp:523: warning: no matching class member found for 
+  void SUiCmdMan::on_cmdSaGo_clicked()
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSGE8257D/SDevicePSGE8257D.cpp:61: warning: no uniquely matching class member found for 
+  bool SDeviceK2400::load()
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSGE8257D/SDevicePSGE8257D.cpp:79: warning: no uniquely matching class member found for 
+  QString SDeviceK2400::name() const
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSGE8257D/SDevicePSGE8257D.cpp:93: warning: no uniquely matching class member found for 
+  QString SDeviceK2400::shortName() const
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSGE8257D/SDevicePSGE8257D.cpp:124: warning: no uniquely matching class member found for 
+  bool SDeviceK2400::scriptable(QScriptEngine *engine)
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSGE8257D/SDevicePSGE8257D.cpp:162: warning: no uniquely matching class member found for 
+  bool SDeviceK2400::isScriptable()
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSGE8257D/SDevicePSGE8257D.cpp:176: warning: no uniquely matching class member found for 
+  bool SDeviceK2400::isControlPanel()
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSGE8257D/SDevicePSGE8257D.cpp:190: warning: no uniquely matching class member found for 
+  QString SDeviceK2400::controlPanel() const
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSGE8257D/SDevicePSGE8257D.cpp:210: warning: no uniquely matching class member found for 
+  bool SDevicePSGE8257D::isSetting()
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSGE8257D/SDevicePSGE8257D.cpp:244: warning: no uniquely matching class member found for 
+  void SDeviceK2400::shutdown()
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSGE8257D/SDevicePSGE8257D.cpp:260: warning: no uniquely matching class member found for 
+  int SDeviceK2400::state()
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSGE8257D/SDevicePSGE8257D.cpp:288: warning: no uniquely matching class member found for 
+  QString SDevicePSGE8257D::plgVersion() const
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSGE8257D/SDevicePSGE8257D.cpp:300: warning: no uniquely matching class member found for 
+  QString SDevicePSGE8257D::plgVersion() const
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSGE8257D/SDevicePSGE8257D.cpp:313: warning: no uniquely matching class member found for 
+  QString SDevicePSGE8257D::plgVersion() const
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSGE8257D/SDevicePSGE8257D.cpp:514: warning: documented function `double SDevicePSGE8257D::frequence' was not declared or defined.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSGE8257D/SDevicePSGE8257D.cpp:524: warning: documented function `double SDevicePSGE8257D::frequence' was not declared or defined.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSGE8257D/SDevicePSGE8257D.cpp:533: warning: documented function `double SDevicePSGE8257D::frequence' was not declared or defined.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSGE8257D/SDevicePSGE8257D.cpp:542: warning: documented function `double SDevicePSGE8257D::frequence' was not declared or defined.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSGE8257D/SUiCpPSGE8257D.cpp:67: warning: no uniquely matching class member found for 
+  void SUiCmdMan::on_cmdMwOnOff_clicked()
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSGE8257D/SUiCpPSGE8257D.cpp:83: warning: no uniquely matching class member found for 
+  void SUiCmdMan::on_cmdMwOnOff_clicked()
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSGE8257D/SUiCpPSGE8257D.cpp:127: warning: no uniquely matching class member found for 
+  void SUiCmdMan::on_dsbMwPower_editingFinished()
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSGE8257D/SUiCpPSGE8257D.cpp:140: warning: documented function `void on_dsbMwPower_valueChanged' was not declared or defined.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSGE8257D/SUiCpPSGE8257D.cpp:149: warning: no uniquely matching class member found for 
+  void SUiCmdMan::on_dsbMwFreq_editingFinished()
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSGE8257D/SUiCpPSGE8257D.cpp:162: warning: documented function `void on_dsbMwFreq_valueChanged' was not declared or defined.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSGE8257D/SUiCpPSGE8257D.cpp:171: warning: no uniquely matching class member found for 
+  void SUiCmdMan::on_dsbMwPowerLimit_editingFinished()
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SData/SData2D.cpp:718: warning: no matching class member found for 
+  SData2D::SData2D(SData2D &data)
+Possible candidates:
+  SData2D::SData2D()
+  SData2D::SData2D(QFile *file)
+  SData2D::SData2D(QString const file)
+  SData2D::SData2D(QList< double > const xlist, QList< double > const ylist)
+  SData2D::SData2D(SData2D *data)
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SData/SData2DScript.cpp:122: warning: documented function `QScriptValue SData2DScript::toQScriptValue' was not declared or defined.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SData/SData2DScript.cpp:196: warning: no uniquely matching class member found for 
+  Q_INVOKABLE void SData2DScript::append(QScriptContext *context, QScriptEngine *engine)
+Possible candidates:
+  void SData2DScript::append(QVariantList x, QVariantList y) at line 50 of file D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SData/SData2DScript.h
+  void SData2DScript::append(double x, double y) at line 51 of file D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SData/SData2DScript.h
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SData/SData2DScript.cpp:227: warning: no uniquely matching class member found for 
+  Q_INVOKABLE void SData2DScript::append(QScriptContext *context, QScriptEngine *engine)
+Possible candidates:
+  void SData2DScript::append(QVariantList x, QVariantList y) at line 50 of file D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SData/SData2DScript.h
+  void SData2DScript::append(double x, double y) at line 51 of file D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SData/SData2DScript.h
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SData/SData2DScript.cpp:498: warning: documented function `void SData2DScript::addComent' was not declared or defined.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SDevice/SDeviceGpib.cpp:54: warning: no matching class member found for 
+  QVariant SDeviceGpib::gpibRead(const long longBuffer) const
+Possible candidates:
+  virtual QVariant SDeviceGpib::gpibRead(const long buffer=131072)
+  virtual QVariant SDeviceGpib::gpibRead(const long buffer=131072)
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SDevice/SDeviceVisa.cpp:380: warning: documented function `QString address' was not declared or defined.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SDevice/SDeviceVisa.cpp:392: warning: no uniquely matching class member found for 
+  QString SDeviceVisa::name(void) const
+Possible candidates:
+  virtual QString SDeviceVisa::name(void) at line 64 of file D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SDevice/SDeviceVisa.h
+  virtual QString SDeviceVisa::name(void) at line 64 of file D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevice/SDeviceVisa.h
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SDevice/SDeviceVisa.cpp:407: warning: documented function `QString address' was not declared or defined.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SDevice/SDeviceVisa.cpp:419: warning: documented function `QString address' was not declared or defined.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SInterface/SInterfaceGpib.cpp:155: warning: documented function `bool SInterfaceGpib::isInit' was not declared or defined.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SInterface/SInterfaceGpib.cpp:171: warning: no uniquely matching class member found for 
+  bool SInterfaceGpib::isActivated() const
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SPlot/SPlot2D.cpp:647: warning: documented function `void setVisible' was not declared or defined.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SPlot/SPlot2D.cpp:660: warning: documented function `void setVisible' was not declared or defined.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SPlot/SPlot2D.cpp:677: warning: documented function `void setPen' was not declared or defined.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SPlot/SPlot2D.cpp:768: warning: documented function `QString SPlot2D::Name' was not declared or defined.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SPlot/SPlot2D.cpp:973: warning: no matching class member found for 
+  QString SPlot2D::lineStyle(int nbCurve=0) const
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SPlot/SPlot2D.cpp:1067: warning: documented function `QString color' was not declared or defined.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SPlot/SPlot2D.cpp:1166: warning: no matching class member found for 
+  void SPlot2DWidget::doSelectScaleWin()
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SPlot/SPlot2D.cpp:1192: warning: documented function `void doScaleToAll' was not declared or defined.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SPlot/SPlot2D.cpp:1209: warning: member with no name found.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SPlot/SPlot2D.h:320: warning: no matching class member found for 
+  void SPlotImageSize::SPlotSetScale::SPlotSetScale(void)
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QTechSpinBox.cpp:103: warning: no uniquely matching class member found for 
+  void QSpinBox::valueChanged(double i)
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QTechSpinBox.cpp:110: warning: no uniquely matching class member found for 
+  void QSpinBox::valueChanged(const QString &text)
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QTechSpinBox.cpp:190: warning: documented function `QTechSpinBox::unitmodifiers' was not declared or defined.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QTechSpinBox.cpp:223: warning: documented function `QTechSpinBox::singlestep' was not declared or defined.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QTechSpinBox.cpp:234: warning: documented function `QTechSpinBox::baseunit' was not declared or defined.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QTechSpinBox.cpp:281: warning: documented function `QTechSpinBox::roundingrule' was not declared or defined.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QTechSpinBox.cpp:615: warning: no matching class member found for 
+  void QScienceSpinBox::stepCahnged()
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QTechSpinBox.cpp:659: warning: no matching class member found for 
+  void QScienceSpinBox::setModeClassical()
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevice/SDeviceGpib.cpp:54: warning: no matching class member found for 
+  QVariant SDeviceGpib::gpibRead(const long longBuffer) const
+Possible candidates:
+  virtual QVariant SDeviceGpib::gpibRead(const long buffer=131072)
+  virtual QVariant SDeviceGpib::gpibRead(const long buffer=131072)
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevice/SDeviceVisa.cpp:380: warning: documented function `QString address' was not declared or defined.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevice/SDeviceVisa.cpp:392: warning: no uniquely matching class member found for 
+  QString SDeviceVisa::name(void) const
+Possible candidates:
+  virtual QString SDeviceVisa::name(void) at line 64 of file D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SDevice/SDeviceVisa.h
+  virtual QString SDeviceVisa::name(void) at line 64 of file D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevice/SDeviceVisa.h
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevice/SDeviceVisa.cpp:407: warning: documented function `QString address' was not declared or defined.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevice/SDeviceVisa.cpp:419: warning: documented function `QString address' was not declared or defined.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevicePluginInterface.cpp:61: warning: no matching class member found for 
+  SMetaData::SMetaData(QString objn, QString metaDataName, QVariant val, SMetaData::enumType type=string, QString shc="")
+Possible candidates:
+  SMetaData::SMetaData(const QString objn, const QString metaDataName, const QVariant val, const QString unit="", const QString type="s")
+  SMetaData::SMetaData(const QString objn, const QString metaDataName, const QVariant val, const QString unit="", const enumType type=string)
+  SMetaData::SMetaData()
+  SMetaData::SMetaData(const SMetaData &p)
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevicePluginInterface.cpp:610: warning: documented function `void clear' was not declared or defined.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevicePluginInterface.h:322: warning: no uniquely matching class member found for 
+  int SDevicePluginInterface::SDeviceK2400::state()
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevicePluginInterface.h:334: warning: no uniquely matching class member found for 
+  bool SDevicePluginInterface::SDeviceK2400::available()
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevicePluginInterface.h:356: warning: no uniquely matching class member found for 
+  bool SDevicePluginInterface::SDeviceK2400::available()
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SInterface/SInterfaceGpib.cpp:155: warning: documented function `bool SInterfaceGpib::isInit' was not declared or defined.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SInterface/SInterfaceGpib.cpp:171: warning: no uniquely matching class member found for 
+  bool SInterfaceGpib::isActivated() const
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SpinToolBox/SScript/SScriptEngine.cpp:25: warning: no matching class member found for 
+  void SInterfaceGpib::SScriptEngine()
+
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SpinToolBox/SScript/SScriptEngine.cpp:84: warning: documented function `void SScriptEngine::initData2D' was not declared or defined.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SpinToolBox/SScript/SScriptEngine.cpp:129: warning: documented function `void SScriptEngine::setDebugger' was not declared or defined.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SpinToolBox/SUi/SUiPluginManager.cpp:88: warning: documented function `void SUiPluginManager::on_lstPlugin_currentItemChanged' was not declared or defined.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SpinToolBox/SUi/SUiPluginManager.cpp:116: warning: documented function `void SUiPluginManager::on_chkScriptable_toggled' was not declared or defined.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SpinToolBox/SUi/SUiScriptEditor.cpp:501: warning: documented function `void SUiScriptEditor::swichToDebugMod' was not declared or defined.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SPlot/qcustomplot.cpp:25: warning: found more than one \mainpage comment block! Skipping this block.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/docs/docMainPage.dox:57: warning: unable to resolve reference to `cppIntro' for \ref command
+D:/Sylvain/Instru/SpinToolBox V2.6/src/docs/docMainPage.dox:58: warning: unable to resolve reference to `cppTuto' for \ref command
+D:/Sylvain/Instru/SpinToolBox V2.6/src/docs/docMainPage.dox:59: warning: unable to resolve reference to `cppMainStruct' for \ref command
+D:/Sylvain/Instru/SpinToolBox V2.6/src/docs/docMainPage.dox:60: warning: unable to resolve reference to `cppAddDevice' for \ref command
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SpinToolBox/SScript/SScriptEngine.cpp:442: warning: Found unknown command `\TODO'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SpinToolBox/SScript/SScriptEngine.cpp:444: warning: included file bip is not found. Check your EXAMPLE_PATH
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SpinToolBox/SScript/SScriptEngine.cpp:403: warning: included file clear is not found. Check your EXAMPLE_PATH
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SpinToolBox/SScript/SScriptEngine.cpp:458: warning: included file include is not found. Check your EXAMPLE_PATH
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SpinToolBox/SScript/SScriptEngine.cpp:360: warning: included file nowDate is not found. Check your EXAMPLE_PATH
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SpinToolBox/SScript/SScriptEngine.cpp:382: warning: included file nowTime is not found. Check your EXAMPLE_PATH
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SpinToolBox/SScript/SScriptEngine.cpp:314: warning: included file stop is not found. Check your EXAMPLE_PATH
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SpinToolBox/SScript/SScriptEngine.cpp:333: warning: included file warningMsgBox is not found. Check your EXAMPLE_PATH
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SData/SData2DScript.h:16: warning: Found unknown command `\SData2D'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceApsin20g/SDeviceApsin20g.h:27: warning: Member ASPIN20G_USB_NAME (define) of file SDeviceApsin20g.h is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceApsin20g/SDeviceApsin20g.h:30: warning: Member ASPIN20G_MAJOR_VERSION_COMPATIBILITY (define) of file SDeviceApsin20g.h is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceApsin20g/SDeviceApsin20g.h:31: warning: Member ASPIN20G_MINOR_VERSION_COMPATIBILITY (define) of file SDeviceApsin20g.h is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceApsin20g/SDeviceApsin20g.h:32: warning: Member ASPIN20G_VERSION (define) of file SDeviceApsin20g.h is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceApsin20g/SDeviceApsin20g.h:33: warning: Member ASPIN20G_SHORT_NAME (define) of file SDeviceApsin20g.h is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceDaqFieldOneAxis/SDeviceDaqFieldOneAxis.h:38: warning: Member SDEVICEDAQFIELDONEAXIS_MAJOR_VERSION_COMPATIBILITY (define) of file SDeviceDaqFieldOneAxis.h is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceDaqFieldOneAxis/SDeviceDaqFieldOneAxis.h:39: warning: Member SDEVICEDAQFIELDONEAXIS_MINOR_VERSION_COMPATIBILITY (define) of file SDeviceDaqFieldOneAxis.h is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceDaqFieldOneAxis/SDeviceDaqFieldOneAxis.h:40: warning: Member SDEVICEDAQFIELDONEAXIS_VERSION (define) of file SDeviceDaqFieldOneAxis.h is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceDaqFieldOneAxis/SDeviceDaqFieldOneAxis.h:41: warning: Member SDEVICEDAQFIELDONEAXIS_SHORT_NAME (define) of file SDeviceDaqFieldOneAxis.h is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceDaqFieldOneAxis/SUiCpDaqFieldOneAxis.h:32: warning: Member FIELD_AP_VALUE (define) of file SUiCpDaqFieldOneAxis.h is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceDaqFieldOneAxis/SUiCpDaqFieldOneAxis.h:33: warning: Member FIELD_P_VALUE (define) of file SUiCpDaqFieldOneAxis.h is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceK2400/SDeviceK2400.h:41: warning: Member SDEVICEK2400_MAJOR_VERSION_COMPATIBILITY (define) of file SDeviceK2400.h is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceK2400/SDeviceK2400.h:42: warning: Member SDEVICEK2400_MINOR_VERSION_COMPATIBILITY (define) of file SDeviceK2400.h is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceK2400/SDeviceK2400.h:43: warning: Member SDEVICEK2400_VERSION (define) of file SDeviceK2400.h is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceK2400/SDeviceK2400.h:44: warning: Member SDEVICEK2400_SHORT_NAME (define) of file SDeviceK2400.h is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceK2400/SDeviceK2400.h:52: warning: Member MILI (define) of file SDeviceK2400.h is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSAE4440A/SDevicePSAE4440A.cpp:41: warning: Member GHZ (define) of file SDevicePSAE4440A.cpp is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSAE4440A/SDevicePSAE4440A.cpp:42: warning: Member MHZ (define) of file SDevicePSAE4440A.cpp is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSAE4440A/SDevicePSAE4440A.cpp:43: warning: Member KHZ (define) of file SDevicePSAE4440A.cpp is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSAE4440A/SDevicePSAE4440A.h:40: warning: Member SDEVICEPSAE4440A_MAJOR_VERSION_COMPATIBILITY (define) of file SDevicePSAE4440A.h is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSAE4440A/SDevicePSAE4440A.h:41: warning: Member SDEVICEPSAE4440A_MINOR_VERSION_COMPATIBILITY (define) of file SDevicePSAE4440A.h is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSAE4440A/SDevicePSAE4440A.h:42: warning: Member SDEVICEPSAE4440A_VERSION (define) of file SDevicePSAE4440A.h is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSAE4440A/SDevicePSAE4440A.h:43: warning: Member SDEVICEPSAE4440A_SHORT_NAME (define) of file SDevicePSAE4440A.h is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SPlot/qcustomplot.h:50: warning: Member FUNCNAME (define) of file qcustomplot.h is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SPlot/qcustomplot.h:54: warning: Member M_PI (define) of file qcustomplot.h is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SPlot/qcustomplot.h:64: warning: Member qHash(double key) (function) of file qcustomplot.h is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QScienceSpinBox.cpp:33: warning: Member QSBDEBUG (define) of file QScienceSpinBox.cpp is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QScienceSpinBox.cpp:837: warning: Member isIntermediateValueHelper(qint64 num, qint64 min, qint64 max, qint64 *match) (function) of file QScienceSpinBox.cpp is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QScienceSpinBox.h:32: warning: Member isIntermediateValueHelper(qint64 num, qint64 minimum, qint64 maximum, qint64 *match=0) (function) of file QScienceSpinBox.h is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/docs/02firstUse.dox:109: warning: Found unknown command `\tip'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/docs/03Script.dox:57: warning: unable to resolve reference to `cppIntro' for \ref command
+D:/Sylvain/Instru/SpinToolBox V2.6/src/docs/03Script.dox:63: warning: unable to resolve reference to `cppIntro' for \ref command
+D:/Sylvain/Instru/SpinToolBox V2.6/src/docs/docMainPage.dox:69: warning: unable to resolve reference to `main' for \ref command
+D:/Sylvain/Instru/SpinToolBox V2.6/src/docs/docMainPage.dox:74: warning: unable to resolve reference to `main' for \ref command
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SData/SData2DScript.h:16: warning: Found unknown command `\SData2D'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QScienceSpinBox.h:68: warning: Member decimals() const  (function) of class QScienceSpinBox is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QScienceSpinBox.h:69: warning: Member setDecimals(int value) (function) of class QScienceSpinBox is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QScienceSpinBox.h:71: warning: Member textFromValue(double value) const  (function) of class QScienceSpinBox is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QScienceSpinBox.h:72: warning: Member valueFromText(const QString &text) const  (function) of class QScienceSpinBox is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QScienceSpinBox.h:74: warning: Member setDelimiter(QChar del) (function) of class QScienceSpinBox is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QScienceSpinBox.h:75: warning: Member delimiter() (function) of class QScienceSpinBox is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QScienceSpinBox.h:76: warning: Member step() (function) of class QScienceSpinBox is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QScienceSpinBox.h:78: warning: Member byDecimals() (function) of class QScienceSpinBox is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QScienceSpinBox.h:79: warning: Member setByDecimals(bool bd) (function) of class QScienceSpinBox is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QScienceSpinBox.h:62: warning: Member delimiter (property) of class QScienceSpinBox is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QScienceSpinBox.h:63: warning: Member step (property) of class QScienceSpinBox is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QScienceSpinBox.h:64: warning: Member byDecimals (property) of class QScienceSpinBox is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QScienceSpinBox.h:33: warning: Found unknown command `\clase'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QTechSpinBox.h:33: warning: Member Roundingrule (enumeration) of class QTechSpinBox is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QTechSpinBox.h:67: warning: Member setValue(double val) (slot) of class QTechSpinBox is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QTechSpinBox.h:69: warning: Member setStep(double step) (slot) of class QTechSpinBox is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QTechSpinBox.h:81: warning: Member valueChanged(double) (signal) of class QTechSpinBox is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QTechSpinBox.h:82: warning: Member valueChanged(const QString &) (signal) of class QTechSpinBox is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QTechSpinBox.h:35: warning: Member value() const  (function) of class QTechSpinBox is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QTechSpinBox.h:37: warning: Member singleStep() const  (function) of class QTechSpinBox is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QTechSpinBox.h:38: warning: Member setSingleStep(const double &singlestep) (function) of class QTechSpinBox is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QTechSpinBox.h:41: warning: Member setPredigits(const unsigned short int &predigits) (function) of class QTechSpinBox is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QTechSpinBox.h:43: warning: Member setPostdigits(const unsigned short int &postdigits) (function) of class QTechSpinBox is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QTechSpinBox.h:44: warning: Member baseUnit() const  (function) of class QTechSpinBox is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QTechSpinBox.h:45: warning: Member setBaseUnit(const QString &baseunit) (function) of class QTechSpinBox is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QTechSpinBox.h:47: warning: Member minimum() const  (function) of class QTechSpinBox is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QTechSpinBox.h:48: warning: Member setMinimum(double min) (function) of class QTechSpinBox is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QTechSpinBox.h:49: warning: Member maximum() const  (function) of class QTechSpinBox is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QTechSpinBox.h:50: warning: Member setMaximum(double max) (function) of class QTechSpinBox is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QTechSpinBox.h:52: warning: Member roundingRule() const  (function) of class QTechSpinBox is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QTechSpinBox.h:53: warning: Member setRoundingRule(const Roundingrule &roundingrule) (function) of class QTechSpinBox is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QTechSpinBox.h:55: warning: Member unitModifiers() const  (function) of class QTechSpinBox is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QTechSpinBox.h:56: warning: Member setUnitModifiers(bool useModifiers) (function) of class QTechSpinBox is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QTechSpinBox.h:58: warning: Member stepInUnit() (function) of class QTechSpinBox is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QTechSpinBox.h:63: warning: Member fixup(QString &str) const  (function) of class QTechSpinBox is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QTechSpinBox.h:64: warning: Member validate(QString &input, int &pos) const  (function) of class QTechSpinBox is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QTechSpinBox.h:72: warning: Member setValueFromText() (slot) of class QTechSpinBox is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QTechSpinBox.h:86: warning: Member stepEnabled() const  (function) of class QTechSpinBox is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QTechSpinBox.h:87: warning: Member setRegExpValidator() (function) of class QTechSpinBox is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QTechSpinBox.h:88: warning: Member updateDisplay() (function) of class QTechSpinBox is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QTechSpinBox.h:89: warning: Member isNumeric(QChar oneChar) const  (function) of class QTechSpinBox is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QTechSpinBox.h:21: warning: Member int (property) of class QTechSpinBox is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QTechSpinBox.h:25: warning: Member singleStep (property) of class QTechSpinBox is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QTechSpinBox.h:26: warning: Member baseUnit (property) of class QTechSpinBox is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QTechSpinBox.h:27: warning: Member roundingRule (property) of class QTechSpinBox is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QTechSpinBox.h:29: warning: Member unitModifiers (property) of class QTechSpinBox is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QTechSpinBox.cpp:54: warning: Found unknown command `\mainclass'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QTechSpinBox.cpp:119: warning: Found unknown command `\table'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QTechSpinBox.cpp:120: warning: Found unknown command `\row'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QTechSpinBox.cpp:120: warning: Found unknown command `\o'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QTechSpinBox.cpp:121: warning: Found unknown command `\o'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QTechSpinBox.cpp:122: warning: Found unknown command `\o'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QTechSpinBox.cpp:123: warning: Found unknown command `\row'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QTechSpinBox.cpp:123: warning: Found unknown command `\o'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QTechSpinBox.cpp:124: warning: Found unknown command `\o'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QTechSpinBox.cpp:125: warning: Found unknown command `\o'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QTechSpinBox.cpp:126: warning: Found unknown command `\row'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QTechSpinBox.cpp:126: warning: Found unknown command `\o'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QTechSpinBox.cpp:127: warning: Found unknown command `\o'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QTechSpinBox.cpp:128: warning: Found unknown command `\o'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QTechSpinBox.cpp:129: warning: Found unknown command `\row'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QTechSpinBox.cpp:129: warning: Found unknown command `\o'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QTechSpinBox.cpp:130: warning: Found unknown command `\o'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QTechSpinBox.cpp:131: warning: Found unknown command `\o'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QTechSpinBox.cpp:132: warning: Found unknown command `\row'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QTechSpinBox.cpp:132: warning: Found unknown command `\o'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QTechSpinBox.cpp:133: warning: Found unknown command `\o'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QTechSpinBox.cpp:134: warning: Found unknown command `\o'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QTechSpinBox.cpp:135: warning: Found unknown command `\row'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QTechSpinBox.cpp:135: warning: Found unknown command `\o'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QTechSpinBox.cpp:136: warning: Found unknown command `\o'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QTechSpinBox.cpp:137: warning: Found unknown command `\o'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QTechSpinBox.cpp:138: warning: Found unknown command `\row'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QTechSpinBox.cpp:138: warning: Found unknown command `\o'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QTechSpinBox.cpp:139: warning: Found unknown command `\o'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QTechSpinBox.cpp:140: warning: Found unknown command `\o'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SUi/QTechSpinBox.cpp:141: warning: Found unknown command `\endtable'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SData/SData.h:51: warning: Member delItem(int i)=0 (function) of class SData is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SData/SData.h:54: warning: Member colName(int ColNum) (function) of class SData is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SData/SData.h:56: warning: Member setColUnit(int ColNum, QString Unit) (function) of class SData is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SData/SData.h:57: warning: Member colUnit(int ColNum) (function) of class SData is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SData/SData.h:60: warning: Member addComment(QStringList comList) (function) of class SData is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SData/SData.h:62: warning: Member setComment(QStringList comList) (function) of class SData is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SData/SData.h:67: warning: Member count() const =0 (function) of class SData is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SData/SData.h:68: warning: Member size() const =0 (function) of class SData is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SData/SData.h:70: warning: Member openFile(QFile *file)=0 (function) of class SData is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SData/SData.h:71: warning: Member openFile(QString file)=0 (function) of class SData is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SData/SData.h:73: warning: Member saveFile(QFile *file)=0 (function) of class SData is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SData/SData.h:74: warning: Member saveFile(QString file)=0 (function) of class SData is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SData/SData.h:76: warning: Member numCol() (function) of class SData is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SData/SData.h:81: warning: Member numCol_ (variable) of class SData is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SData/SData.h:83: warning: Member MetaData_ (variable) of class SData is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SData/SData.h:84: warning: Member NbMetatData_ (variable) of class SData is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SData/SData.h:85: warning: Member comment_ (variable) of class SData is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SData/SData.h:86: warning: Member colName_ (variable) of class SData is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SData/SData.h:87: warning: Member colUnit_ (variable) of class SData is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SData/SData.h:88: warning: Member MagToolBoxCompatibility_ (variable) of class SData is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SData/SData.cpp:127: warning: argument 'com' of command @param is not found in the argument list of SData::setColName(int ColNum, QString name)
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SData/SData.cpp:127: warning: The following parameters of SData::setColName(int ColNum, QString name) are not documented:
+  parameter 'ColNum'
+  parameter 'name'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SData/SData2D.h:45: warning: Member SData2D(QString const file) (function) of class SData2D is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SData/SData2D.h:47: warning: Member SData2D(SData2D *data) (function) of class SData2D is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SData/SData2D.h:56: warning: Member setData(SData2D data) (function) of class SData2D is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SData/SData2D.h:68: warning: Member colXName() (function) of class SData2D is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SData/SData2D.h:71: warning: Member colYName() (function) of class SData2D is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SData/SData2D.h:77: warning: Member colXUnit() (function) of class SData2D is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SData/SData2D.h:79: warning: Member setColYUnit(QString YUnit) (function) of class SData2D is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SData/SData2D.h:80: warning: Member colYUnit() (function) of class SData2D is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SData/SData2D.h:83: warning: Member addComment(QStringList comList) (function) of class SData2D is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SData/SData2D.h:85: warning: Member setComment(QStringList comList) (function) of class SData2D is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SData/SData2D.h:94: warning: Member overwrite(SData2D *data) (function) of class SData2D is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SData/SData2D.h:114: warning: Member MetaData_ (variable) of class SData2D is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SData/SData2D.h:116: warning: Member NbMetatData_ (variable) of class SData2D is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SData/SData2D.h:117: warning: Member comment_ (variable) of class SData2D is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SData/SData2D.h:118: warning: Member colName_ (variable) of class SData2D is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SData/SData2D.h:119: warning: Member colUnit_ (variable) of class SData2D is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SData/SData2D.h:120: warning: Member MagToolBoxCompatibility_ (variable) of class SData2D is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SData/SData2D.h:121: warning: Member x_ (variable) of class SData2D is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SData/SData2D.h:122: warning: Member y_ (variable) of class SData2D is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SData/SData2D.h:123: warning: Member vectX (variable) of class SData2D is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SData/SData2D.h:124: warning: Member vectY (variable) of class SData2D is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SData/SData2D.h:127: warning: Member ptFile (variable) of class SData2D is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SData/SData2D.h:52: warning: Member x_ (variable) of class SData2D::DataPoint is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SData/SData2D.h:53: warning: Member y_ (variable) of class SData2D::DataPoint is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SData/SData2DScript.h:16: warning: Found unknown command `\SData2D'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SData/SData2DScript.h:34: warning: Member SData2DScript(SData2D data, QObject *parent) (function) of class SData2DScript is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SData/SData2DScript.h:39: warning: Member toScriptValue(QScriptContext *context, QScriptEngine *engine) (function) of class SData2DScript is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SData/SData2DScript.h:45: warning: Member setData(SData2D data) (function) of class SData2DScript is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SData/SData2DScript.h:50: warning: Member append(QVariantList x, QVariantList y) (function) of class SData2DScript is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SData/SData2DScript.h:51: warning: Member append(double x, double y) (function) of class SData2DScript is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SData/SData2DScript.h:53: warning: Member delItem(int i) (function) of class SData2DScript is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SData/SData2DScript.h:61: warning: Member sety(int i, double val) (function) of class SData2DScript is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SData/SData2DScript.h:86: warning: Member max(int const start=0) const  (function) of class SData2DScript is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SData/SData2DScript.h:89: warning: Member comment() const  (function) of class SData2DScript is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SData/SData2DScript.h:93: warning: Member data2DObjectCopy() (function) of class SData2DScript is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SData/SData2DScript.h:43: warning: Member fromScriptValue(const QScriptValue &obj, SData2D &s) (function) of class SData2DScript is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SData/SData2DScript.h:96: warning: Member data2D_ (variable) of class SData2DScript is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SData/SData2DScript.h:16: warning: Found unknown command `\SData2D'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SData/SData2DScript.cpp:509: warning: argument 'return' of command @param is not found in the argument list of SData2DScript::addComment(QString com)
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SData/SData2DScript.cpp:509: warning: The following parameters of SData2DScript::addComment(QString com) are not documented:
+  parameter 'com'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SData/SDataND.h:68: warning: Member data_ (variable) of class SDataND is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SData/SDataND.h:70: warning: Member ptFile (variable) of class SDataND is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceApsin20g/SDeviceApsin20g.h:158: warning: Member SDeviceApsin20g(QObject *parent=0) (function) of class SDeviceApsin20g is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceApsin20g/SDeviceApsin20g.h:164: warning: Member setFrequency(double const) (function) of class SDeviceApsin20g is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceApsin20g/SDeviceApsin20g.h:167: warning: Member setPower(double const ) (function) of class SDeviceApsin20g is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceApsin20g/SDeviceApsin20g.h:168: warning: Member setPowerLimit(double const ) (function) of class SDeviceApsin20g is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceApsin20g/SDeviceApsin20g.h:169: warning: Member activate(bool OnOff=true) (function) of class SDeviceApsin20g is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceApsin20g/SDeviceApsin20g.h:189: warning: Member setMetaData(QString key, QVariant value) (function) of class SDeviceApsin20g is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceApsin20g/SDeviceApsin20g.h:182: warning: Member frequency_ (variable) of class SDeviceApsin20g is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceApsin20g/SDeviceApsin20g.h:183: warning: Member power_ (variable) of class SDeviceApsin20g is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceApsin20g/SDeviceApsin20g.h:184: warning: Member activated_ (variable) of class SDeviceApsin20g is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceApsin20g/SDeviceApsin20g.h:185: warning: Member powerLimit_ (variable) of class SDeviceApsin20g is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceApsin20g/SDeviceApsin20g.h:186: warning: Member available_ (variable) of class SDeviceApsin20g is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceApsin20g/SDeviceApsin20g.h:190: warning: Member gmdm_ (variable) of class SDeviceApsin20g is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceApsin20g/SDeviceApsin20g.h:203: warning: Member defaultRM (variable) of class SDeviceApsin20g is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceApsin20g/SDeviceApsin20g.h:204: warning: Member instr (variable) of class SDeviceApsin20g is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceApsin20g/SDeviceApsin20g.h:205: warning: Member retCount (variable) of class SDeviceApsin20g is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceApsin20g/SDeviceApsin20g.h:206: warning: Member writeCount (variable) of class SDeviceApsin20g is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceApsin20g/SDeviceApsin20g.h:207: warning: Member status (variable) of class SDeviceApsin20g is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceApsin20g/SDeviceApsin20g.h:208: warning: Member buffer[255] (variable) of class SDeviceApsin20g is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SDevice/SDeviceVisa.cpp:113: warning: argument 'data' of command @param is not found in the argument list of SDeviceApsin20g::visaRead()
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SDevice/SDeviceVisa.cpp:113: warning: argument 'data' of command @param is not found in the argument list of SDeviceApsin20g::visaRead()
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceApsin20g/SDeviceApsin20g.cpp:628: warning: argument 'data' of command @param is not found in the argument list of SDeviceApsin20g::visaSend(QString cmd)
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceApsin20g/SDeviceApsin20g.cpp:628: warning: The following parameters of SDeviceApsin20g::visaSend(QString cmd) are not documented:
+  parameter 'cmd'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceApsin20g/SDeviceApsin20g.h:102: warning: Member logEvent(QString log, QString name) (signal) of class SDeviceApsin20gPlugin is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceApsin20g/SDeviceApsin20g.h:92: warning: argument 'engine' of command @param is not found in the argument list of SDeviceApsin20gPlugin::controlPanel(QWidget *parrent=NULL) inherited from member controlPanel at line 282 in file D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevicePluginInterface.h
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceApsin20g/SDeviceApsin20g.h:92: warning: argument 'engine' of command @param is not found in the argument list of SDeviceApsin20gPlugin::controlPanel(QWidget *parrent=NULL) inherited from member controlPanel at line 282 in file D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevicePluginInterface.h
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceApsin20g/SDeviceApsin20g.h:92: warning: argument 'engine' of command @param is not found in the argument list of SDeviceApsin20gPlugin::controlPanel(QWidget *parrent=NULL) inherited from member controlPanel at line 282 in file D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevicePluginInterface.h
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceApsin20g/SDeviceApsin20g.h:92: warning: argument 'set' of command @param is not found in the argument list of SDeviceApsin20gPlugin::controlPanel(QWidget *parrent=NULL) inherited from member controlPanel at line 282 in file D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevicePluginInterface.h
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceApsin20g/SDeviceApsin20g.h:92: warning: argument 'engine' of command @param is not found in the argument list of SDeviceApsin20gPlugin::controlPanel(QWidget *parrent=NULL) inherited from member controlPanel at line 282 in file D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevicePluginInterface.h
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceApsin20g/SDeviceApsin20g.h:89: warning: argument 'set' of command @param is not found in the argument list of SDeviceApsin20gPlugin::setting(QWidget *parrent=NULL) inherited from member setting at line 252 in file D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevicePluginInterface.h
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceApsin20g/SDeviceApsin20g.h:89: warning: The following parameters of SDeviceApsin20gPlugin::setting(QWidget *parrent=NULL) are not documented:
+  parameter 'parrent'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceApsin20g/SDeviceApsin20g.cpp:228: warning: argument 'engine' of command @param is not found in the argument list of SDeviceApsin20gPlugin::shutdown()
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceDaqFieldOneAxis/SDeviceDaqFieldOneAxis.h:105: warning: Member logEvent(QString log, QString name) (signal) of class SDeviceDaqFieldOneAxisPlugin is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceDaqFieldOneAxis/SDeviceDaqFieldOneAxis.h:92: warning: argument 'engine' of command @param is not found in the argument list of SDeviceDaqFieldOneAxisPlugin::controlPanel(QWidget *parrent=NULL) inherited from member controlPanel at line 282 in file D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevicePluginInterface.h
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceDaqFieldOneAxis/SDeviceDaqFieldOneAxis.h:92: warning: argument 'engine' of command @param is not found in the argument list of SDeviceDaqFieldOneAxisPlugin::controlPanel(QWidget *parrent=NULL) inherited from member controlPanel at line 282 in file D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevicePluginInterface.h
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceDaqFieldOneAxis/SDeviceDaqFieldOneAxis.h:92: warning: argument 'engine' of command @param is not found in the argument list of SDeviceDaqFieldOneAxisPlugin::controlPanel(QWidget *parrent=NULL) inherited from member controlPanel at line 282 in file D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevicePluginInterface.h
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceDaqFieldOneAxis/SDeviceDaqFieldOneAxis.h:92: warning: argument 'set' of command @param is not found in the argument list of SDeviceDaqFieldOneAxisPlugin::controlPanel(QWidget *parrent=NULL) inherited from member controlPanel at line 282 in file D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevicePluginInterface.h
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceDaqFieldOneAxis/SDeviceDaqFieldOneAxis.h:92: warning: argument 'engine' of command @param is not found in the argument list of SDeviceDaqFieldOneAxisPlugin::controlPanel(QWidget *parrent=NULL) inherited from member controlPanel at line 282 in file D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevicePluginInterface.h
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceDaqFieldOneAxis/SDeviceDaqFieldOneAxis.cpp:54: warning: argument 'GlobalMetaDataMap' of command @param is not found in the argument list of SDeviceDaqFieldOneAxisPlugin::load()
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceDaqFieldOneAxis/SDeviceDaqFieldOneAxis.h:95: warning: argument 'set' of command @param is not found in the argument list of SDeviceDaqFieldOneAxisPlugin::setting(QWidget *parrent=NULL) inherited from member setting at line 252 in file D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevicePluginInterface.h
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceDaqFieldOneAxis/SDeviceDaqFieldOneAxis.h:95: warning: The following parameters of SDeviceDaqFieldOneAxisPlugin::setting(QWidget *parrent=NULL) are not documented:
+  parameter 'parrent'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceDaqFieldOneAxis/SDeviceDaqFieldOneAxis.cpp:255: warning: argument 'engine' of command @param is not found in the argument list of SDeviceDaqFieldOneAxisPlugin::shutdown()
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSGE8257D/SDevicePSGE8257D.h:144: warning: Found unknown command `\parModulation'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSGE8257D/SDevicePSGE8257D.h:150: warning: Found unknown command `\parSweep'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSGE8257D/SDevicePSGE8257D.h:156: warning: Found unknown command `\parAutomation'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SDevice/SDeviceGpib.h:58: warning: Member logError(QString log) (signal) of class SDeviceGpib is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SDevice/SDeviceGpib.h:59: warning: Member logEvent(QString log) (signal) of class SDeviceGpib is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevice/SDeviceGpib.h:58: warning: Member logError(QString log) (signal) of class SDeviceGpib is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevice/SDeviceGpib.h:59: warning: Member logEvent(QString log) (signal) of class SDeviceGpib is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SDevice/SDeviceGpib.h:34: warning: Member SDeviceGpib(QObject *parent=0) (function) of class SDeviceGpib is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SDevice/SDeviceGpib.h:48: warning: Member gpibRead(const long buffer=131072) (function) of class SDeviceGpib is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevice/SDeviceGpib.h:34: warning: Member SDeviceGpib(QObject *parent=0) (function) of class SDeviceGpib is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevice/SDeviceGpib.h:38: warning: Member GpibInterface() const  (function) of class SDeviceGpib is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevice/SDeviceGpib.h:41: warning: Member GpibElement() const  (function) of class SDeviceGpib is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevice/SDeviceGpib.h:42: warning: Member setGpibElement(const SInterfaceGpib::GpibElement elmt) (function) of class SDeviceGpib is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevice/SDeviceGpib.h:44: warning: Member PAD() const  (function) of class SDeviceGpib is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevice/SDeviceGpib.h:45: warning: Member setPAD(const Addr4882_t pad) (function) of class SDeviceGpib is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevice/SDeviceGpib.h:47: warning: Member gpibSend(QString commande) (function) of class SDeviceGpib is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevice/SDeviceGpib.h:48: warning: Member gpibRead(const long buffer=131072) (function) of class SDeviceGpib is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevice/SDeviceGpib.h:50: warning: Member enableLocal() (function) of class SDeviceGpib is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevice/SDeviceGpib.h:53: warning: Member name(void) const  (function) of class SDeviceGpib is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevice/SDeviceGpib.h:54: warning: Member setUnavailable(void) (function) of class SDeviceGpib is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevice/SDeviceGpib.h:55: warning: Member delay(double i) (function) of class SDeviceGpib is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SDevice/SDeviceGpib.h:64: warning: Member available_ (variable) of class SDeviceGpib is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceGpib/SDeviceGpib.h:104: warning: Member logEvent(QString log, QString name) (signal) of class SDeviceGpibPlugin is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceGpib/SDeviceGpib.h:91: warning: argument 'engine' of command @param is not found in the argument list of SDeviceGpibPlugin::controlPanel(QWidget *parrent=NULL) inherited from member controlPanel at line 282 in file D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevicePluginInterface.h
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceGpib/SDeviceGpib.h:91: warning: argument 'engine' of command @param is not found in the argument list of SDeviceGpibPlugin::controlPanel(QWidget *parrent=NULL) inherited from member controlPanel at line 282 in file D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevicePluginInterface.h
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceGpib/SDeviceGpib.h:91: warning: argument 'engine' of command @param is not found in the argument list of SDeviceGpibPlugin::controlPanel(QWidget *parrent=NULL) inherited from member controlPanel at line 282 in file D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevicePluginInterface.h
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceGpib/SDeviceGpib.h:91: warning: argument 'set' of command @param is not found in the argument list of SDeviceGpibPlugin::controlPanel(QWidget *parrent=NULL) inherited from member controlPanel at line 282 in file D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevicePluginInterface.h
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceGpib/SDeviceGpib.h:91: warning: argument 'engine' of command @param is not found in the argument list of SDeviceGpibPlugin::controlPanel(QWidget *parrent=NULL) inherited from member controlPanel at line 282 in file D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevicePluginInterface.h
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceGpib/SDeviceGpib.cpp:51: warning: argument 'GlobalMetaDataMap' of command @param is not found in the argument list of SDeviceGpibPlugin::load()
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceGpib/SDeviceGpib.h:94: warning: argument 'set' of command @param is not found in the argument list of SDeviceGpibPlugin::setting(QWidget *parrent=NULL) inherited from member setting at line 252 in file D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevicePluginInterface.h
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceGpib/SDeviceGpib.h:94: warning: The following parameters of SDeviceGpibPlugin::setting(QWidget *parrent=NULL) are not documented:
+  parameter 'parrent'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceGpib/SDeviceGpib.cpp:244: warning: argument 'engine' of command @param is not found in the argument list of SDeviceGpibPlugin::shutdown()
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceK2400/SDeviceK2400.h:239: warning: Member logEvent(QString log, QString name) (signal) of class SDeviceK2400 is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceK2400/SDeviceK2400.h:170: warning: Member metaDataOnOff(bool onOff) (function) of class SDeviceK2400 is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceK2400/SDeviceK2400.h:200: warning: Member voltageRange(void) (function) of class SDeviceK2400 is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceK2400/SDeviceK2400.h:204: warning: Member autoVoltageRange() (function) of class SDeviceK2400 is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceK2400/SDeviceK2400.h:244: warning: Member setMetaData(const QString key, const QVariant value, const QString unit="", const SMetaData::enumType type=SMetaData::string) (function) of class SDeviceK2400 is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceK2400/SDeviceK2400.h:250: warning: Member sendLogError(QString log) (function) of class SDeviceK2400 is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceK2400/SDeviceK2400.h:243: warning: Member gmdm_ (variable) of class SDeviceK2400 is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceK2400/SDeviceK2400.h:245: warning: Member metaDataOnOff_ (variable) of class SDeviceK2400 is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceK2400/SDeviceK2400.cpp:819: warning: argument 'Vmax' of command @param is not found in the argument list of SDeviceK2400::setVoltageRange(const double Imax)
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceK2400/SDeviceK2400.cpp:819: warning: The following parameters of SDeviceK2400::setVoltageRange(const double Imax) are not documented:
+  parameter 'Imax'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceK2400/SDeviceK2400.h:102: warning: Member state() (function) of class SDeviceK2400Plugin is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceK2400/SDeviceK2400.h:103: warning: Member available() (function) of class SDeviceK2400Plugin is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceK2400/SDeviceK2400.h:93: warning: argument 'engine' of command @param is not found in the argument list of SDeviceK2400Plugin::controlPanel(QWidget *parrent=NULL) inherited from member controlPanel at line 282 in file D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevicePluginInterface.h
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceK2400/SDeviceK2400.h:93: warning: argument 'engine' of command @param is not found in the argument list of SDeviceK2400Plugin::controlPanel(QWidget *parrent=NULL) inherited from member controlPanel at line 282 in file D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevicePluginInterface.h
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceK2400/SDeviceK2400.h:93: warning: argument 'engine' of command @param is not found in the argument list of SDeviceK2400Plugin::controlPanel(QWidget *parrent=NULL) inherited from member controlPanel at line 282 in file D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevicePluginInterface.h
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceK2400/SDeviceK2400.h:93: warning: argument 'set' of command @param is not found in the argument list of SDeviceK2400Plugin::controlPanel(QWidget *parrent=NULL) inherited from member controlPanel at line 282 in file D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevicePluginInterface.h
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceK2400/SDeviceK2400.h:93: warning: argument 'engine' of command @param is not found in the argument list of SDeviceK2400Plugin::controlPanel(QWidget *parrent=NULL) inherited from member controlPanel at line 282 in file D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevicePluginInterface.h
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceK2400/SDeviceK2400.h:81: warning: argument 'GlobalMetaDataMap' of command @param is not found in the argument list of SDeviceK2400Plugin::load() inherited from member load at line 141 in file D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevicePluginInterface.h
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceK2400/SDeviceK2400.h:96: warning: argument 'set' of command @param is not found in the argument list of SDeviceK2400Plugin::setting(QWidget *parrent=NULL) inherited from member setting at line 252 in file D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevicePluginInterface.h
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceK2400/SDeviceK2400.h:96: warning: The following parameters of SDeviceK2400Plugin::setting(QWidget *parrent=NULL) are not documented:
+  parameter 'parrent'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevicePluginInterface.h:363: warning: Member logEvent(QString log, QString name) (signal) of class SDevicePluginInterface is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevicePluginInterface.h:331: warning: Member state()=0 (function) of class SDevicePluginInterface is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevicePluginInterface.h:341: warning: Member available()=0 (function) of class SDevicePluginInterface is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevicePluginInterface.h:282: warning: argument 'engine' of command @param is not found in the argument list of SDevicePluginInterface::controlPanel(QWidget *parrent=NULL)
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevicePluginInterface.h:282: warning: argument 'engine' of command @param is not found in the argument list of SDevicePluginInterface::controlPanel(QWidget *parrent=NULL)
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevicePluginInterface.h:282: warning: argument 'engine' of command @param is not found in the argument list of SDevicePluginInterface::controlPanel(QWidget *parrent=NULL)
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevicePluginInterface.h:282: warning: argument 'set' of command @param is not found in the argument list of SDevicePluginInterface::controlPanel(QWidget *parrent=NULL)
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevicePluginInterface.h:282: warning: argument 'engine' of command @param is not found in the argument list of SDevicePluginInterface::controlPanel(QWidget *parrent=NULL)
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevicePluginInterface.h:141: warning: argument 'GlobalMetaDataMap' of command @param is not found in the argument list of SDevicePluginInterface::load()
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevicePluginInterface.h:252: warning: argument 'set' of command @param is not found in the argument list of SDevicePluginInterface::setting(QWidget *parrent=NULL)
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevicePluginInterface.h:252: warning: The following parameters of SDevicePluginInterface::setting(QWidget *parrent=NULL) are not documented:
+  parameter 'parrent'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSAE4440A/SDevicePSAE4440A.h:152: warning: Member SDevicePSAE4440A(QObject *parent=NULL) (function) of class SDevicePSAE4440A is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSAE4440A/SDevicePSAE4440A.h:156: warning: Member setScriptEngin(QScriptEngine *engine) (function) of class SDevicePSAE4440A is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSAE4440A/SDevicePSAE4440A.cpp:892: warning: argument 'RefLvl' of command @param is not found in the argument list of SDevicePSAE4440A::refLevel()
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSGE8257D/SDevicePSGE8257D.cpp:443: warning: argument 'pwr' of command @param is not found in the argument list of SDevicePSAE4440A::setFreqStart(double const freq)
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSGE8257D/SDevicePSGE8257D.cpp:443: warning: argument 'OnOff' of command @param is not found in the argument list of SDevicePSAE4440A::setFreqStart(double const freq)
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSAE4440A/SDevicePSAE4440A.h:110: warning: Member logEvent(QString log, QString name) (signal) of class SDevicePSAE4440APlugin is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSAE4440A/SDevicePSAE4440A.h:105: warning: Member state() (function) of class SDevicePSAE4440APlugin is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSAE4440A/SDevicePSAE4440A.h:106: warning: Member available() (function) of class SDevicePSAE4440APlugin is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSAE4440A/SDevicePSAE4440A.h:96: warning: argument 'engine' of command @param is not found in the argument list of SDevicePSAE4440APlugin::controlPanel(QWidget *parrent=NULL) inherited from member controlPanel at line 282 in file D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevicePluginInterface.h
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSAE4440A/SDevicePSAE4440A.h:96: warning: argument 'engine' of command @param is not found in the argument list of SDevicePSAE4440APlugin::controlPanel(QWidget *parrent=NULL) inherited from member controlPanel at line 282 in file D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevicePluginInterface.h
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSAE4440A/SDevicePSAE4440A.h:96: warning: argument 'engine' of command @param is not found in the argument list of SDevicePSAE4440APlugin::controlPanel(QWidget *parrent=NULL) inherited from member controlPanel at line 282 in file D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevicePluginInterface.h
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSAE4440A/SDevicePSAE4440A.h:96: warning: argument 'set' of command @param is not found in the argument list of SDevicePSAE4440APlugin::controlPanel(QWidget *parrent=NULL) inherited from member controlPanel at line 282 in file D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevicePluginInterface.h
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSAE4440A/SDevicePSAE4440A.h:96: warning: argument 'engine' of command @param is not found in the argument list of SDevicePSAE4440APlugin::controlPanel(QWidget *parrent=NULL) inherited from member controlPanel at line 282 in file D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevicePluginInterface.h
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSAE4440A/SDevicePSAE4440A.h:84: warning: argument 'GlobalMetaDataMap' of command @param is not found in the argument list of SDevicePSAE4440APlugin::load() inherited from member load at line 141 in file D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevicePluginInterface.h
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSAE4440A/SDevicePSAE4440A.h:99: warning: argument 'set' of command @param is not found in the argument list of SDevicePSAE4440APlugin::setting(QWidget *parrent=NULL) inherited from member setting at line 252 in file D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevicePluginInterface.h
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSAE4440A/SDevicePSAE4440A.h:99: warning: The following parameters of SDevicePSAE4440APlugin::setting(QWidget *parrent=NULL) are not documented:
+  parameter 'parrent'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSGE8257D/SDevicePSGE8257D.h:182: warning: Member setFrequency(double const) (function) of class SDevicePSGE8257D is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSGE8257D/SDevicePSGE8257D.h:183: warning: Member setPower(double const ) (function) of class SDevicePSGE8257D is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSGE8257D/SDevicePSGE8257D.h:184: warning: Member setPowerLimit(double const ) (function) of class SDevicePSGE8257D is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSGE8257D/SDevicePSGE8257D.h:185: warning: Member activate(bool) (function) of class SDevicePSGE8257D is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSGE8257D/SDevicePSGE8257D.h:191: warning: Member frequency() const  (function) of class SDevicePSGE8257D is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSGE8257D/SDevicePSGE8257D.h:192: warning: Member power() const  (function) of class SDevicePSGE8257D is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSGE8257D/SDevicePSGE8257D.h:193: warning: Member powerLimit() const  (function) of class SDevicePSGE8257D is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSGE8257D/SDevicePSGE8257D.h:194: warning: Member isActivated() (function) of class SDevicePSGE8257D is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSGE8257D/SDevicePSGE8257D.h:102: warning: Member logEvent(QString log, QString name) (signal) of class SDevicePSGE8257DPlugin is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSGE8257D/SDevicePSGE8257D.h:97: warning: Member state() (function) of class SDevicePSGE8257DPlugin is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSGE8257D/SDevicePSGE8257D.h:98: warning: Member available() (function) of class SDevicePSGE8257DPlugin is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSGE8257D/SDevicePSGE8257D.h:89: warning: argument 'engine' of command @param is not found in the argument list of SDevicePSGE8257DPlugin::controlPanel(QWidget *parrent=NULL) inherited from member controlPanel at line 282 in file D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevicePluginInterface.h
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSGE8257D/SDevicePSGE8257D.h:89: warning: argument 'engine' of command @param is not found in the argument list of SDevicePSGE8257DPlugin::controlPanel(QWidget *parrent=NULL) inherited from member controlPanel at line 282 in file D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevicePluginInterface.h
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSGE8257D/SDevicePSGE8257D.h:89: warning: argument 'engine' of command @param is not found in the argument list of SDevicePSGE8257DPlugin::controlPanel(QWidget *parrent=NULL) inherited from member controlPanel at line 282 in file D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevicePluginInterface.h
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSGE8257D/SDevicePSGE8257D.h:89: warning: argument 'set' of command @param is not found in the argument list of SDevicePSGE8257DPlugin::controlPanel(QWidget *parrent=NULL) inherited from member controlPanel at line 282 in file D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevicePluginInterface.h
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSGE8257D/SDevicePSGE8257D.h:89: warning: argument 'engine' of command @param is not found in the argument list of SDevicePSGE8257DPlugin::controlPanel(QWidget *parrent=NULL) inherited from member controlPanel at line 282 in file D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevicePluginInterface.h
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSGE8257D/SDevicePSGE8257D.h:77: warning: argument 'GlobalMetaDataMap' of command @param is not found in the argument list of SDevicePSGE8257DPlugin::load() inherited from member load at line 141 in file D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevicePluginInterface.h
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSGE8257D/SDevicePSGE8257D.h:92: warning: argument 'set' of command @param is not found in the argument list of SDevicePSGE8257DPlugin::setting(QWidget *parrent=NULL) inherited from member setting at line 252 in file D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevicePluginInterface.h
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDevicePSGE8257D/SDevicePSGE8257D.h:92: warning: The following parameters of SDevicePSGE8257DPlugin::setting(QWidget *parrent=NULL) are not documented:
+  parameter 'parrent'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SDevice/SDeviceVirtual.h:48: warning: Member SDeviceVirtual(QObject *parent=0) (function) of class SDeviceVirtual is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SDevice/SDeviceVirtual.h:50: warning: Member init()=0 (function) of class SDeviceVirtual is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SDevice/SDeviceVirtual.h:51: warning: Member name() const =0 (function) of class SDeviceVirtual is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SDevice/SDeviceVirtual.h:52: warning: Member description() const =0 (function) of class SDeviceVirtual is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SDevice/SDeviceVirtual.h:53: warning: Member available()=0 (function) of class SDeviceVirtual is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SDevice/SDeviceVirtual.h:54: warning: Member setUnavailable()=0 (function) of class SDeviceVirtual is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevice/SDeviceVirtual.h:48: warning: Member SDeviceVirtual(QObject *parent=0) (function) of class SDeviceVirtual is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevice/SDeviceVirtual.h:50: warning: Member init()=0 (function) of class SDeviceVirtual is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevice/SDeviceVirtual.h:51: warning: Member name() const =0 (function) of class SDeviceVirtual is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevice/SDeviceVirtual.h:52: warning: Member description() const =0 (function) of class SDeviceVirtual is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevice/SDeviceVirtual.h:53: warning: Member available()=0 (function) of class SDeviceVirtual is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevice/SDeviceVirtual.h:54: warning: Member setUnavailable()=0 (function) of class SDeviceVirtual is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SDevice/SDeviceVisa.h:72: warning: Member logError(QString log, QString name) (signal) of class SDeviceVisa is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SDevice/SDeviceVisa.h:73: warning: Member logEvent(QString log, QString name) (signal) of class SDeviceVisa is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevice/SDeviceVisa.h:72: warning: Member logError(QString log, QString name) (signal) of class SDeviceVisa is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevice/SDeviceVisa.h:73: warning: Member logEvent(QString log, QString name) (signal) of class SDeviceVisa is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SDevice/SDeviceVisa.h:51: warning: Member SDeviceVisa(QObject *parent=0) (function) of class SDeviceVisa is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SDevice/SDeviceVisa.h:54: warning: Member VisaInterface() const  (function) of class SDeviceVisa is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SDevice/SDeviceVisa.h:58: warning: Member findElement(QString name) (function) of class SDeviceVisa is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SDevice/SDeviceVisa.h:60: warning: Member address(QString cmd) const  (function) of class SDeviceVisa is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SDevice/SDeviceVisa.h:62: warning: Member visaRead(const long buffer=131072) (function) of class SDeviceVisa is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SDevice/SDeviceVisa.h:64: warning: Member name(void) (function) of class SDeviceVisa is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SDevice/SDeviceVisa.h:65: warning: Member setAvailable(bool OnOff=true) (function) of class SDeviceVisa is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SDevice/SDeviceVisa.h:66: warning: Member available(void) const  (function) of class SDeviceVisa is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevice/SDeviceVisa.h:51: warning: Member SDeviceVisa(QObject *parent=0) (function) of class SDeviceVisa is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevice/SDeviceVisa.h:54: warning: Member VisaInterface() const  (function) of class SDeviceVisa is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevice/SDeviceVisa.h:56: warning: Member init(QString add) (function) of class SDeviceVisa is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevice/SDeviceVisa.h:57: warning: Member findAdress(QString name) (function) of class SDeviceVisa is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevice/SDeviceVisa.h:58: warning: Member findElement(QString name) (function) of class SDeviceVisa is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevice/SDeviceVisa.h:60: warning: Member address(QString cmd) const  (function) of class SDeviceVisa is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevice/SDeviceVisa.h:61: warning: Member visaSend(QString cmd) (function) of class SDeviceVisa is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevice/SDeviceVisa.h:62: warning: Member visaRead(const long buffer=131072) (function) of class SDeviceVisa is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevice/SDeviceVisa.h:64: warning: Member name(void) (function) of class SDeviceVisa is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevice/SDeviceVisa.h:65: warning: Member setAvailable(bool OnOff=true) (function) of class SDeviceVisa is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevice/SDeviceVisa.h:66: warning: Member available(void) const  (function) of class SDeviceVisa is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevice/SDeviceVisa.h:68: warning: Member delay(double i) const  (function) of class SDeviceVisa is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevice/SDeviceVisa.h:69: warning: Member setTimeOut(double time) (function) of class SDeviceVisa is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevice/SDeviceVisa.h:78: warning: Member sendLogError(QString log) (function) of class SDeviceVisa is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SDevice/SDeviceVisa.h:76: warning: Member available_ (variable) of class SDeviceVisa is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SDevice/SDeviceVisa.h:77: warning: Member address_ (variable) of class SDeviceVisa is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SDevice/SDeviceVisa.h:90: warning: Member defaultRM (variable) of class SDeviceVisa is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SDevice/SDeviceVisa.h:91: warning: Member instr (variable) of class SDeviceVisa is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SDevice/SDeviceVisa.h:92: warning: Member retCount (variable) of class SDeviceVisa is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SDevice/SDeviceVisa.h:93: warning: Member writeCount (variable) of class SDeviceVisa is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SDevice/SDeviceVisa.h:94: warning: Member status (variable) of class SDeviceVisa is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SDevice/SDeviceVisa.cpp:250: warning: argument 'expression' of command @param is not found in the argument list of SDeviceVisa::findAdress(QString name)
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SDevice/SDeviceVisa.cpp:250: warning: The following parameters of SDeviceVisa::findAdress(QString name) are not documented:
+  parameter 'name'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SDevice/SDeviceVisa.cpp:8: warning: argument 'data' of command @param is not found in the argument list of SDeviceVisa::init(QString adresse)
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SDevice/SDeviceVisa.cpp:8: warning: The following parameters of SDeviceVisa::init(QString adresse) are not documented:
+  parameter 'adresse'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceK2400/SDeviceK2400.cpp:1434: warning: argument 'the' of command @param is not found in the argument list of SDeviceVisa::sendLogError(QString log)
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceK2400/SDeviceK2400.cpp:1434: warning: The following parameters of SDeviceVisa::sendLogError(QString log) are not documented:
+  parameter 'log'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SDevice/SDeviceVisa.cpp:449: warning: argument 'i' of command @param is not found in the argument list of SDeviceVisa::setTimeOut(double time)
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SDevice/SDeviceVisa.cpp:449: warning: The following parameters of SDeviceVisa::setTimeOut(double time) are not documented:
+  parameter 'time'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SDevice/SDeviceVisa.cpp:75: warning: argument 'data' of command @param is not found in the argument list of SDeviceVisa::visaSend(QString cmd)
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SDevice/SDeviceVisa.cpp:75: warning: The following parameters of SDeviceVisa::visaSend(QString cmd) are not documented:
+  parameter 'cmd'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SError.h:42: warning: Member importance (enumeration) of class SError is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SError.h:52: warning: Member traitement(SError &error) (function) of class SError is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SError.h:43: warning: Member name (variable) of class SError is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SError.h:44: warning: Member description (variable) of class SError is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SError.h:45: warning: Member imp (variable) of class SError is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SError.cpp:76: warning: argument 'chaine' of command @param is not found in the argument list of SError::operator==(const SError &error)
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SError.cpp:76: warning: The following parameters of SError::operator==(const SError &error) are not documented:
+  parameter 'error'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SError.cpp:90: warning: The following parameters of SError::traitement(SDeviceVirtual *device, SError &error) are not documented:
+  parameter 'device'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevicePluginInterface.h:97: warning: Member MetaData(QString objName, QString metaDataName) (function) of class SGlobalMetaDataMap is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevicePluginInterface.h:109: warning: Member clear(const QString objName) (function) of class SGlobalMetaDataMap is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevicePluginInterface.cpp:417: warning: The following parameters of SGlobalMetaDataMap::MetaDataExist(QString objName, QString metaDataName) are not documented:
+  parameter 'metaDataName'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevicePluginInterface.cpp:361: warning: argument 'the' of command @param is not found in the argument list of SGlobalMetaDataMap::setMetaData(QString objName, QString metaDataName, QVariant metaData, QString unit="", SMetaData::enumType type=SMetaData::string)
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevicePluginInterface.cpp:361: warning: argument 'value' of command @param is not found in the argument list of SGlobalMetaDataMap::setMetaData(QString objName, QString metaDataName, QVariant metaData, QString unit="", SMetaData::enumType type=SMetaData::string)
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevicePluginInterface.cpp:361: warning: argument 'key' of command @param is not found in the argument list of SGlobalMetaDataMap::setMetaData(QString objName, QString metaDataName, QVariant metaData, QString unit="", SMetaData::enumType type=SMetaData::string)
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevicePluginInterface.cpp:361: warning: argument 'value' of command @param is not found in the argument list of SGlobalMetaDataMap::setMetaData(QString objName, QString metaDataName, QVariant metaData, QString unit="", SMetaData::enumType type=SMetaData::string)
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceDaqFieldOneAxis/SInterfaceDaq.h:86: warning: Member finished() (signal) of class SInterfaceDaq is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceDaqFieldOneAxis/SInterfaceDaq.h:93: warning: Member unavailable() (signal) of class SInterfaceDaq is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceDaqFieldOneAxis/SInterfaceDaq.h:100: warning: Member ready() (signal) of class SInterfaceDaq is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceDaqFieldOneAxis/SDeviceDaqFieldOneAxis.h:157: warning: Member prefactor(void) (function) of class SInterfaceDaq is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceDaqFieldOneAxis/SDeviceDaqFieldOneAxis.h:158: warning: Member setPrefactor(double prefactor) (function) of class SInterfaceDaq is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceDaqFieldOneAxis/SInterfaceDaq.h:65: warning: Member prefactor(void) (function) of class SInterfaceDaq is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceDaqFieldOneAxis/SInterfaceDaq.h:66: warning: Member setPrefactor(double prefactor) (function) of class SInterfaceDaq is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceDaqFieldOneAxis/SInterfaceDaq.h:69: warning: Member sweep(double Vz, double dVz, int channel) (function) of class SInterfaceDaq is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceDaqFieldOneAxis/SInterfaceDaq.h:72: warning: Member available() (function) of class SInterfaceDaq is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceDaqFieldOneAxis/SInterfaceDaq.h:75: warning: Member running() (function) of class SInterfaceDaq is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceDaqFieldOneAxis/SInterfaceDaq.h:77: warning: Member vOld(int channel=0) (function) of class SInterfaceDaq is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceDaqFieldOneAxis/SInterfaceDaq.h:61: warning: Member instance() (function) of class SInterfaceDaq is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceDaqFieldOneAxis/SDeviceDaqFieldOneAxis.cpp:609: warning: Found unknown command `\so'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceDaqFieldOneAxis/SDeviceDaqFieldOneAxis.cpp:627: warning: Found unknown command `\so'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceDaqFieldOneAxis/SDeviceDaqFieldOneAxis.cpp:444: warning: Found unknown command `\so'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceDaqFieldOneAxis/SDeviceDaqFieldOneAxis.cpp:445: warning: Found unknown command `\so'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceDaqFieldOneAxis/SDeviceDaqFieldOneAxis.cpp:446: warning: Found unknown command `\so'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceDaqFieldOneAxis/SDeviceDaqFieldOneAxis.cpp:447: warning: Found unknown command `\so'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SDevice/SDeviceDaqFieldOneAxis/SDeviceDaqFieldOneAxis.cpp:642: warning: Found unknown command `\so'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SInterface/SInterfaceGpib.h:84: warning: Member GpibElementMode (enumeration) of class SInterfaceGpib is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SInterface/SInterfaceGpib.h:84: warning: Member GpibElementMode (enumeration) of class SInterfaceGpib is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SInterface/SInterfaceGpib.h:80: warning: Member init() const  (function) of class SInterfaceGpib is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SInterface/SInterfaceGpib.h:81: warning: Member available() const  (function) of class SInterfaceGpib is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SInterface/SInterfaceGpib.h:82: warning: Member GPIBibsta() (function) of class SInterfaceGpib is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SInterface/SInterfaceGpib.h:79: warning: Member description() const  (function) of class SInterfaceGpib is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SInterface/SInterfaceGpib.h:80: warning: Member init() const  (function) of class SInterfaceGpib is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SInterface/SInterfaceGpib.h:81: warning: Member available() const  (function) of class SInterfaceGpib is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SInterface/SInterfaceGpib.h:82: warning: Member GPIBibsta() (function) of class SInterfaceGpib is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SInterface/SInterfaceGpib.h:102: warning: Member activate(bool active) (function) of class SInterfaceGpib is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SInterface/SInterfaceGpib.h:106: warning: Member switcher(Addr4882_t address, GpibElementMode mode) (function) of class SInterfaceGpib is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SInterface/SInterfaceGpib.h:107: warning: Member switcher(GpibElement &instrument, GpibElementMode mode) (function) of class SInterfaceGpib is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SInterface/SInterfaceGpib.h:109: warning: Member deviceList(int maxDevice=30) (function) of class SInterfaceGpib is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SInterface/SInterfaceGpib.h:110: warning: Member findGpibElement(QString name) (function) of class SInterfaceGpib is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SInterface/SInterfaceGpib.h:112: warning: Member send(const Addr4882_t address, const QString data) (function) of class SInterfaceGpib is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SInterface/SInterfaceGpib.h:113: warning: Member send(const GpibElement &instrument, const QString data) (function) of class SInterfaceGpib is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SInterface/SInterfaceGpib.h:114: warning: Member send(Addr4882_t address, const char *data) (function) of class SInterfaceGpib is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SInterface/SInterfaceGpib.h:115: warning: Member send(GpibElement &instrument, const char *data) (function) of class SInterfaceGpib is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SInterface/SInterfaceGpib.h:117: warning: Member enableLocal(const Addr4882_t address) (function) of class SInterfaceGpib is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SInterface/SInterfaceGpib.h:118: warning: Member enableLocal(const GpibElement &instrument) (function) of class SInterfaceGpib is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SInterface/SInterfaceGpib.h:120: warning: Member receive(const Addr4882_t address, const long bufferLong) (function) of class SInterfaceGpib is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SInterface/SInterfaceGpib.h:121: warning: Member receive(const GpibElement &instrument, const long bufferLong) (function) of class SInterfaceGpib is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SInterface/SInterfaceGpib.h:75: warning: Member instance() (function) of class SInterfaceGpib is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SInterface/SInterfaceGpib.h:76: warning: Member close() (function) of class SInterfaceGpib is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SInterface/SInterfaceGpib.h:130: warning: Member SInterfaceGpib(const SInterfaceGpib &sGpibInterface) (function) of class SInterfaceGpib is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SInterface/SInterfaceGpib.h:132: warning: Member operator=(const SInterfaceGpib &sGpibInterface) (function) of class SInterfaceGpib is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SInterface/SInterfaceGpib.h:130: warning: Member SInterfaceGpib(const SInterfaceGpib &sGpibInterface) (function) of class SInterfaceGpib is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SInterface/SInterfaceGpib.h:132: warning: Member operator=(const SInterfaceGpib &sGpibInterface) (function) of class SInterfaceGpib is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SInterface/SInterfaceGpib.h:134: warning: Member gpibError(SError error) (function) of class SInterfaceGpib is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SInterface/SInterfaceGpib.h:98: warning: Member mode (variable) of class SInterfaceGpib::GpibElement is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevicePluginInterface.h:30: warning: Member enumType (enumeration) of class SMetaData is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevicePluginInterface.h:36: warning: Member SMetaData(const QString objn, const QString metaDataName, const QVariant val, const QString unit="", const enumType type=string) (function) of class SMetaData is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevicePluginInterface.h:48: warning: Member name() const  (function) of class SMetaData is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevicePluginInterface.h:50: warning: Member value() const  (function) of class SMetaData is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevicePluginInterface.cpp:87: warning: argument 'objName' of command @param is not found in the argument list of SMetaData::SMetaData(const QString objn, const QString metaDataName, const QVariant val, const QString unit="", const QString type="s")
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDKDevice/SDevicePluginInterface.cpp:87: warning: The following parameters of SMetaData::SMetaData(const QString objn, const QString metaDataName, const QVariant val, const QString unit="", const QString type="s") are not documented:
+  parameter 'objn'
+  parameter 'unit'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SpinToolBox/SUi/SUiPluginManager.h:19: warning: Member name (variable) of class SPlgInfo is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SpinToolBox/SUi/SUiPluginManager.h:20: warning: Member shortName (variable) of class SPlgInfo is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SpinToolBox/SUi/SUiPluginManager.h:21: warning: Member description (variable) of class SPlgInfo is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SpinToolBox/SUi/SUiPluginManager.h:22: warning: Member scriptable (variable) of class SPlgInfo is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SpinToolBox/SUi/SUiPluginManager.h:23: warning: Member cmdpan (variable) of class SPlgInfo is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SpinToolBox/SUi/SUiPluginManager.h:24: warning: Member activate (variable) of class SPlgInfo is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SpinToolBox/SUi/SUiPluginManager.h:25: warning: Member plgVersion (variable) of class SPlgInfo is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SpinToolBox/SUi/SUiPluginManager.h:26: warning: Member sdkVersion (variable) of class SPlgInfo is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SpinToolBox/SUi/SUiPluginManager.h:27: warning: Member isSetting (variable) of class SPlgInfo is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SpinToolBox/SUi/SUiPluginManager.h:28: warning: Member isLoad (variable) of class SPlgInfo is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SPlot/SPlot2D.h:156: warning: Member doReplot() (slot) of class SPlot2D is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SPlot/SPlot2D.h:159: warning: Member setAntialiasing(const bool onOff) (slot) of class SPlot2D is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SPlot/SPlot2D.h:72: warning: Member mouseReleaseEvent(QMouseEvent *ev) (function) of class SPlot2D is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SPlot/SPlot2D.h:66: warning: Member qsCtor(QScriptContext *context, QScriptEngine *engine) (function) of class SPlot2D is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SPlot/SPlot2D.h:61: warning: Member lstPlot2D (variable) of class SPlot2D is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SPlot/SPlot2D.cpp:389: warning: argument 'nbCurve' of command @param is not found in the argument list of SPlot2D::addData(SData2D *data, int const graphNb=0)
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SPlot/SPlot2D.cpp:389: warning: The following parameters of SPlot2D::addData(SData2D *data, int const graphNb=0) are not documented:
+  parameter 'data'
+  parameter 'graphNb'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SPlot/SPlot2D.cpp:502: warning: The following parameters of SPlot2D::addData(QVector< double > const x, QVector< double > const y, int const nbCurve=0) are not documented:
+  parameter 'x'
+  parameter 'y'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SPlot/SPlot2D.cpp:420: warning: argument 'nbCurve' of command @param is not found in the argument list of SPlot2D::addData(SData2D data, int const graphNb=0)
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SPlot/SPlot2D.cpp:420: warning: The following parameters of SPlot2D::addData(SData2D data, int const graphNb=0) are not documented:
+  parameter 'data'
+  parameter 'graphNb'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SPlot/SPlot2D.cpp:452: warning: The following parameters of SPlot2D::addData(double const x, double const y, int const nbCurve=0) are not documented:
+  parameter 'x'
+  parameter 'y'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SPlot/SPlot2D.cpp:483: warning: argument 'nbCurve' of command @param is not found in the argument list of SPlot2D::append(double const x, double const y, int const graphNb=0)
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SPlot/SPlot2D.cpp:483: warning: The following parameters of SPlot2D::append(double const x, double const y, int const graphNb=0) are not documented:
+  parameter 'x'
+  parameter 'y'
+  parameter 'graphNb'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SPlot/SPlot2D.cpp:583: warning: unable to resolve reference to `removeData(double key)' for \ref command
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SPlot/SPlot2D.cpp:575: warning: The following parameters of SPlot2D::removeData(double fromX, double toX, int const nbCurve=0) are not documented:
+  parameter 'fromX'
+  parameter 'toX'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SPlot/SPlot2D.cpp:637: warning: unable to resolve reference to `removeData(double fromKey, double toKey)' for \ref command
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SPlot/SPlot2D.cpp:628: warning: The following parameters of SPlot2D::removeData(double X, int const nbCurve=0) are not documented:
+  parameter 'X'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SPlot/SPlot2D.cpp:554: warning: The following parameters of SPlot2D::removeDataAfter(double X, int const nbCurve=0) are not documented:
+  parameter 'X'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SPlot/SPlot2D.cpp:533: warning: The following parameters of SPlot2D::removeDataBefore(double X, int const nbCurve=0) are not documented:
+  parameter 'X'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SPlot/SPlot2D.cpp:1407: warning: unable to resolve reference to `deselectAll' for \ref command
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SPlot/SPlot2D.cpp:1371: warning: unable to resolve reference to `deselectAll' for \ref command
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SPlot/SPlot2D.cpp:784: warning: The following parameters of SPlot2D::setColor(const QString colorName, const int nbCurve=0) are not documented:
+  parameter 'colorName'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SData/SData2DScript.cpp:636: warning: The following parameters of SPlot2D::setData(SData2D data, int const nbCurve=0) are not documented:
+  parameter 'nbCurve'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SPlot/SPlot2D.cpp:323: warning: argument 'nbCurve' of command @param is not found in the argument list of SPlot2D::setData(SData2D *data, int const graphNb=0)
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SPlot/SPlot2D.cpp:323: warning: The following parameters of SPlot2D::setData(SData2D *data, int const graphNb=0) are not documented:
+  parameter 'data'
+  parameter 'graphNb'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SPlot/SPlot2D.cpp:750: warning: The following parameters of SPlot2D::setName(const QString title, const int nbCurve=0) are not documented:
+  parameter 'title'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SPlot/SPlot2D.cpp:701: warning: Found unknown command `\list'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SPlot/SPlot2D.cpp:702: warning: Found unknown command `\i'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SPlot/SPlot2D.cpp:702: warning: explicit link request to 'RGB' could not be resolved
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SPlot/SPlot2D.cpp:703: warning: Found unknown command `\i'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SPlot/SPlot2D.cpp:703: warning: explicit link request to 'RRGGBB' could not be resolved
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SPlot/SPlot2D.cpp:704: warning: Found unknown command `\i'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SPlot/SPlot2D.cpp:704: warning: explicit link request to 'RRRGGGBBB' could not be resolved
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SPlot/SPlot2D.cpp:705: warning: Found unknown command `\i'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SPlot/SPlot2D.cpp:705: warning: explicit link request to 'RRRRGGGGBBBB' could not be resolved
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SPlot/SPlot2D.cpp:706: warning: Found unknown command `\i'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SPlot/SPlot2D.cpp:706: warning: Found unknown command `\l'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SPlot/SPlot2D.cpp:709: warning: Found unknown command `\endlist'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SPlot/SPlot2D.cpp:693: warning: The following parameters of SPlot2D::setPen(const QString penStyle, const QString penColor, int nbCurve) are not documented:
+  parameter 'penStyle'
+  parameter 'penColor'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SPlot/SPlot2D.cpp:939: warning: The following parameters of SPlot2D::setScatterSize(const double size, const int nbCurve=0) are not documented:
+  parameter 'size'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SPlot/SPlot2D.cpp:845: warning: unable to resolve reference to `setLineStyle' for \ref command
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SPlot/SPlot2D.cpp:836: warning: The following parameters of SPlot2D::setScatterStyle(const QString ScatterStyle, const int nbCurve=0) are not documented:
+  parameter 'ScatterStyle'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SPlot/SPlot2D.h:326: warning: Member SPlotImageSize(QWidget *parent=NULL) (function) of class SPlotImageSize is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SPlot/SPlot2D.h:332: warning: Member imgHeight() (function) of class SPlotImageSize is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SPlot/SPlot2D.h:333: warning: Member imgWidth() (function) of class SPlotImageSize is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SPlot/SPlot2D.h:334: warning: Member imgScale() (function) of class SPlotImageSize is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SPlot/SPlot2D.h:335: warning: Member imgCosmeticPen() (function) of class SPlotImageSize is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SPlot/SPlot2D.h:338: warning: Member setImgHeight(int value) (function) of class SPlotImageSize is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SPlot/SPlot2D.h:339: warning: Member setImgWidth(int value) (function) of class SPlotImageSize is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SPlot/SPlot2D.h:340: warning: Member setImgScale(double value) (function) of class SPlotImageSize is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SDK/SDK/SPlot/SPlot2D.h:341: warning: Member setImgCosmeticPen(bool value) (function) of class SPlotImageSize is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SpinToolBox/SScript/SScriptEngine.h:68: warning: Member debugger() const  (function) of class SScriptEngine is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SpinToolBox/SScript/SScriptEngine.h:71: warning: Member SScriptEngine(QList< SDevicePluginInterface * > lstPugin, SGlobalMetaDataMap *GlobalMetaDataMap=NULL, QWidget *parent=0) (function) of class SScriptEngine is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SpinToolBox/SScript/SScriptEngine.h:74: warning: Member initSData2D() (function) of class SScriptEngine is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SpinToolBox/SScript/SScriptEngine.h:80: warning: Member qsDebugStdWindow (variable) of class SScriptEngine is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SpinToolBox/SScript/SScriptEngine.h:81: warning: Member qsDebugger (variable) of class SScriptEngine is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/SpinToolBox/SScript/SScriptEngine.cpp:106: warning: Found unknown command `\so'
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SScript/SScriptZlib/SScriptZlib.h:40: warning: Member initialize(const QString &key, QScriptEngine *engine) (function) of class SScriptZlib is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/SScript/SScriptZlib/SScriptZlib.h:41: warning: Member keys() const  (function) of class SScriptZlib is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/STextFileSplitterPlugin/stextfilesplitterplugin.h:58: warning: Member STextFileSplitter(QObject *parent=0) (function) of class STextFileSplitter is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/STextFileSplitterPlugin/stextfilesplitterplugin.h:59: warning: Member STextFileSplitter(QString FileName, int numberOfLinesForEachFile, QObject *parent=0) (function) of class STextFileSplitter is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/STextFileSplitterPlugin/stextfilesplitterplugin.h:61: warning: Member CreateOutputFiles() (function) of class STextFileSplitter is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/STextFileSplitterPlugin/stextfilesplitterplugin.h:63: warning: Member GetNumberOfLines() const  (function) of class STextFileSplitter is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/STextFileSplitterPlugin/stextfilesplitterplugin.h:65: warning: Member CountLines() (function) of class STextFileSplitter is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/STextFileSplitterPlugin/stextfilesplitterplugin.h:28: warning: Member STextFileSplitterPlugin(QObject *parent=0) (function) of class STextFileSplitterPlugin is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/STextFileSplitterPlugin/stextfilesplitterplugin.h:31: warning: Member initialize(const QString &key, QScriptEngine *engine) (function) of class STextFileSplitterPlugin is not documented.
+D:/Sylvain/Instru/SpinToolBox V2.6/src/plugins/STextFileSplitterPlugin/stextfilesplitterplugin.h:32: warning: Member keys() const  (function) of class STextFileSplitterPlugin is not documented.

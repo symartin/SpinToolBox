@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node2" href="$d6/d0c/class_s_device_plugin_interface.html" title="SDevicePluginInterface" alt="" coords="5,101,160,131"/>
+<area shape="rect" id="node4" href="$d1/d1f/class_s_interface_daq.html" title="singleton class for the Ni&#45;DAQmx interface." alt="" coords="184,101,285,131"/>
+<area shape="rect" id="node7" href="$d3/d8f/class_s_global_meta_data_map.html" title="class for passing the metadata between all the device plugins. it is derived of QList" alt="" coords="160,5,309,35"/>
+</map>

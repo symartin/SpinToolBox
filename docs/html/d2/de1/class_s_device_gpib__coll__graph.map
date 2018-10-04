@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node2" href="$db/de9/class_s_device_virtual.html" title="Virtual class for all the devices. It is virtual pur so it cannot be instancied." alt="" coords="5,5,112,35"/>
+<area shape="rect" id="node5" href="$de/dbf/struct_s_interface_gpib_1_1_gpib_element.html" title="this structure defines one device (adress, name ...)" alt="" coords="136,5,325,35"/>
+<area shape="rect" id="node7" href="$d6/de0/class_s_interface_gpib.html" title="SInterfaceGpib" alt="" coords="349,5,456,35"/>
+</map>

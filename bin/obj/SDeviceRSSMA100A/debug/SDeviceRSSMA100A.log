@@ -1,0 +1,20 @@
+﻿La génération a démarré 25/09/2013 09:53:39.
+     1>Projet "D:\Sylvain\Instru\SpinToolBox V2.6\src\plugins\SDevice\SDeviceRSSMA100A\SDeviceRSSMA100A.vcxproj" sur le nœud 2 (build cible(s)).
+     1>InitializeBuildStatus:
+         Création de "D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\obj\SDeviceRSSMA100A\debug\SDeviceRSSMA100A.unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
+       CustomBuild:
+         Toutes les sorties sont à jour.
+       ClCompile:
+         Toutes les sorties sont à jour.
+         Toutes les sorties sont à jour.
+       Link:
+         Toutes les sorties sont à jour.
+         SDeviceRSSMA100A.vcxproj -> D:\Sylvain\Instru\SpinToolBox V2.6\src\\..\bin\debug\plugins\SDevice\SDeviceRSSMA100A.dll
+       FinalizeBuildStatus:
+         Suppression du fichier "D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\obj\SDeviceRSSMA100A\debug\SDeviceRSSMA100A.unsuccessfulbuild".
+         Mise à jour de l'horodatage "D:\Sylvain\Instru\SpinToolBox V2.6\src\..\bin\obj\SDeviceRSSMA100A\debug\SDeviceRSSMA100A.lastbuildstate".
+     1>Génération du projet "D:\Sylvain\Instru\SpinToolBox V2.6\src\plugins\SDevice\SDeviceRSSMA100A\SDeviceRSSMA100A.vcxproj" terminée (build cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:00.48

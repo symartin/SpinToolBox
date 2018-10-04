@@ -1,0 +1,9 @@
+<map id="G" name="G">
+<area shape="rect" id="node1" href="$d6/d0c/class_s_device_plugin_interface.html" title="SDevicePluginInterface" alt="" coords="5,139,160,168"/>
+<area shape="rect" id="node3" href="$d8/dff/class_s_device_apsin20g_plugin.html" title="it is the plugin class for include all the functions of the device in the script module." alt="" coords="233,5,391,35"/>
+<area shape="rect" id="node5" href="$d9/d1b/class_s_device_daq_field_one_axis_plugin.html" title="it is the plugin class for include all the functions of the device in the script module." alt="" coords="209,59,415,88"/>
+<area shape="rect" id="node7" href="$d3/d7b/class_s_device_gpib_plugin.html" title="SDeviceGpibPlugin" alt="" coords="247,112,377,141"/>
+<area shape="rect" id="node9" href="$df/df9/class_s_device_k2400_plugin.html" title="it is the plugin class for include all the functions of the device in the script module." alt="" coords="241,165,383,195"/>
+<area shape="rect" id="node11" href="$d1/d5b/class_s_device_p_s_a_e4440_a_plugin.html" title="it is the class that manage the control panel of the Keithley k2400" alt="" coords="223,219,401,248"/>
+<area shape="rect" id="node13" href="$da/d51/class_s_device_p_s_g_e8257_d_plugin.html" title="it is the plugin class for include all the functions of the device in the script module." alt="" coords="223,272,401,301"/>
+</map>

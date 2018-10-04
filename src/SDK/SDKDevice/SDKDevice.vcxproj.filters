@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{21778161-5bc0-4f83-a29c-553405cb06d0}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{a3f35a02-05e1-413b-ae87-082b979aa560}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="SDevice">
+      <UniqueIdentifier>{47d80a6f-9a26-4efb-a1ea-83bb190ec3b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="SInterface">
+      <UniqueIdentifier>{ca672591-ae53-4703-989c-112a3fc3f9e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gpib-32">
+      <UniqueIdentifier>{325dba33-94ba-43be-a242-3f992d7df911}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="visa32">
+      <UniqueIdentifier>{cb547333-c8f9-4eb2-ac97-092ceea952ae}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SInterfaceGpib.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SInterfaceGpib.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SDeviceGpib.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SDeviceGpib.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SDeviceVirtual.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SDeviceVirtual.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SDeviceVisa.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SDeviceVisa.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="SDevice\SDeviceVisa.cpp">
+      <Filter>SDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="SDevice\SDeviceGpib.cpp">
+      <Filter>SDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="SInterface\SInterfaceGpib.cpp">
+      <Filter>SInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SDevicePluginInterface.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SDevicePluginInterface.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="SDevicePluginInterface.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SDevice\SDeviceError.h">
+      <Filter>SDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="gpib-32\ni488.h">
+      <Filter>gpib-32</Filter>
+    </ClInclude>
+    <ClInclude Include="visa32\visatype.h">
+      <Filter>visa32</Filter>
+    </ClInclude>
+    <ClInclude Include="visa32\visa.h">
+      <Filter>visa32</Filter>
+    </ClInclude>
+    <ClInclude Include="SpinToolBoxSDKDevice.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="SDevice\SDeviceGpib.h">
+      <Filter>SDevice</Filter>
+    </CustomBuild>
+    <CustomBuild Include="SDevice\SDeviceVirtual.h">
+      <Filter>SDevice</Filter>
+    </CustomBuild>
+    <CustomBuild Include="SDevice\SDeviceVisa.h">
+      <Filter>SDevice</Filter>
+    </CustomBuild>
+    <CustomBuild Include="SInterface\SInterfaceGpib.h">
+      <Filter>SInterface</Filter>
+    </CustomBuild>
+    <CustomBuild Include="SDevicePluginInterface.h">
+      <Filter>Main</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="gpib-32\gpib-32.obj">
+      <Filter>gpib-32</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="visa32\visa32.lib">
+      <Filter>visa32</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

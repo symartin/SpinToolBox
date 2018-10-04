@@ -1,0 +1,4173 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        "SpinToolBox"
+    </assembly>
+    <members>
+        <member name="M:SPlotCurveData.setOverbook(System.Boolean)">
+\fn	void SPlotCurveData::setOverbook( bool val)
+
+\brief	set the overbook parameter of the curve  
+
+\remark true by default
+
+if overbook is true, reserve more memory while reallocating memory for the 
+AddPoint function (process is accelerated because there is no reallocated each time) but add invisible 
+point in the curve and maybe offset the scale.
+
+\sa SPlotCurveData::overbook()
+</member>
+        <member name="M:SPlotCurveData.overbook">
+\fn	bool SPlotCurveData::overbook() const
+
+\brief	return the overbook parameter of the curve  
+
+\remark true by default
+
+if overbook is true, reserve more memory while reallocating memory for the 
+AddPoint function (process is accelerated because there is no reallocated each time) but add invisible 
+point in the curve and maybe offset the scale.
+
+\sa SPlotCurveData::setOverbook( bool val )
+</member>
+        <member name="M:SPlotCurveData.y">
+\fn	const double *SPlotCurveData::y() const
+
+\brief	Return a pointer to the array of x values
+
+</member>
+        <member name="M:SPlotCurveData.x">
+\fn	const double *SPlotCurveData::x() const
+
+\brief	Return a pointer to the array of x values
+
+</member>
+        <member name="M:SPlotCurveData.size">
+\fn	int SPlotCurveData::size() const
+
+\brief	Return the size of the data (the number of points).
+
+</member>
+        <member name="M:SPlotCurveData.count">
+\fn	int SPlotCurveData::count() const
+
+\brief	I do not see a real difference between \c count and \c size
+
+</member>
+        <member name="M:SPlotCurveData.append(System.Double,System.Double)">
+\fn	void SPlotCurveData::append(double *x, double *y, int count)
+
+\brief	Adds  "count" points at the curve data.
+
+\param x the  x coordinate
+\param y the  y coordinate 
+
+</member>
+        <member name="M:SPlotCurveData.append(System.Double*,System.Double*,System.Int32)">
+\fn	void SPlotCurveData::append(double *x, double *y, int count)
+
+\brief	Adds  "count" points at the curve data.
+
+\param x a pointer to the array of x coordinate
+\param y a pointer to the array of y coordinate 
+\param count the number of element in the array
+
+\warning this function do not manage the memory
+</member>
+        <member name="M:SPlotCurveData.#ctor">
+\fn	int SPlotCurveData::count() const
+
+\brief	Constructor.
+
+</member>
+        <member name="M:SUiLblLed.isBlue">
+\fn  bool SUiLblLed::isBlue()
+
+\brief	Check if the color is blue.
+
+\return True if the color is blue, false if it is not.
+</member>
+        <member name="M:SUiLblLed.isGrey">
+\fn  bool SUiLblLed::isGrey()
+
+\brief	Check if the color is grey.
+
+\return True if the color is grey, false if it is not.
+</member>
+        <member name="M:SUiLblLed.isYellow">
+\fn  bool SUiLblLed::isYellow()
+
+\brief	Check if the color is yellow.
+
+\return True if the color is yellow, false if it is not.
+</member>
+        <member name="M:SUiLblLed.isGreen">
+\fn  bool SUiLblLed::isGreen()
+
+\brief	Check if the color is green.
+
+\return True if the color is green, false if it is not.
+</member>
+        <member name="M:SUiLblLed.isRed">
+\fn  bool SUiLblLed::isRed()
+
+\brief	Check if the color is red.
+
+\return True if the color is red, false if it is not.
+</member>
+        <member name="M:SUiLblLed.color">
+\fn  SUiLblLed::ledColor SUiLblLed::color()
+
+\brief	Gets the color.
+
+</member>
+        <member name="M:SUiLblLed.setColor(SUiLblLed.ledColor)">
+\fn  void SUiLblLed::setColor( ledColor c )
+
+\brief	Change the color of the LED
+
+\param c The chosen color.
+</member>
+        <member name="M:SUiLblLed.#ctor(QWidget*)">
+\fn  SUiLblLed::SUiLblLed( QWidget * parent)
+
+\brief	Constructor.
+
+\param parent if not null, the Qt parent.
+</member>
+        <member name="M:SPlot2DWidget.setScale(System.Double,System.Double,System.Double,System.Double)">
+\fn	void SPlot2DWidget::setScale(double Xmin, double Xmax, double Ymin, double Ymax)
+
+\brief	(SLOT) sets the scales selected by the user.
+
+\param Xmin the maximum of the x scale
+\param Xmax the minimum of the x scale
+\param Ymin the maximum of the y scale
+\param Ymax the minimum of the y scale
+</member>
+        <member name="M:SPlot2DWidget.selectScale">
+\fn	void SPlot2DWidget::selectScale()
+
+\brief	(SLOT) Open a dialog box asking the scale.
+
+</member>
+        <member name="M:SPlot2DWidget.autoScale">
+\fn	void SPlot2DWidget::autoScale(bool on)
+
+\brief	(SLOT) Reset the scale with the autoScale.
+
+</member>
+        <member name="M:SPlot2DWidget.zoom">
+\fn	void SPlot2DWidget::zoom(bool on)
+
+\brief	(SLOT) actives or deactivates the zooms function.
+
+
+ LeftButton for the zooming
+ MidButton for the panning
+ RightButton: zoom out by 1
+ Ctrl+RighButton: zoom out to full size
+</member>
+        <member name="M:SPlot2DWidget.#ctor(QWidget*)">
+\fn	SPlot2DWidget::SPlot2DWidget(QWidget *parent)
+
+\brief	Constructor.
+
+\author	Sylvain Martin
+\date	2/4/2011
+
+\param [in,out]	parent	If non-null, the Qt parent.
+</member>
+        <member name="M:SDevicePSAE4440A.checkRbw(System.Double!System.Runtime.CompilerServices.IsConst)">
+\fn	 double SDevicePSAE4440A::checkRbw(double const rbw)
+
+\brief	(SCRIPTABLE) Set and return the acceptable resolution of bandwidth the closest to rbw. 
+
+\return	the closest resolution of bandwidth of the given rbw.
+</member>
+        <member name="M:SDevicePSAE4440A.available">
+\fn	bool SDevicePSAE4440A::available(void)
+
+\brief	(SCRIPTABLE) Gets the availability. 
+
+\return	true if the device is available, false if it is not. 
+</member>
+        <member name="M:SDevicePSAE4440A.description">
+\fn	Q_INVOKABLE virtual QString SDevicePSAE4440A::description(void) const
+
+\brief	Gets a brief description of the device. 
+
+\return	a description of the device. 
+</member>
+        <member name="M:SDevicePSAE4440A.name">
+\fn	Q_INVOKABLE QString SDevicePSAE4440A::name(void) const
+
+\brief	Gets the name. 
+
+\return	the name of the device. 
+</member>
+        <member name="M:SDevicePSAE4440A.restart">
+\fn	void SDevicePSAE4440A::restart(void)
+
+\brief	(SCRIPTABLE) reset the average spectrum analyzer. 
+</member>
+        <member name="M:SDevicePSAE4440A.qsReadSpectrum">
+\fn	QScriptValue SDevicePSAE4440A::qsReadSpectrum(void)
+
+\brief	(SCRIPTABLE) Gets the spectrum. 
+
+\return	a SData2DScript object with the data. 
+
+This function is for the QtScript module 
+</member>
+        <member name="M:SDevicePSAE4440A.nbAverage">
+\fn	void SDevicePSAE4440A::nbAverage(int const NbAvrg)
+
+\brief	(SCRIPTABLE) read the number of average. 
+
+\exception SDEVICEERROR_CANNOT_CONVERT_DATA Thrown when the recived data cannot be convert.
+						
+\return the number of average. 	
+</member>
+        <member name="M:SDevicePSAE4440A.readSpectrum">
+\fn	void SDevicePSAE4440A::readSpectrum()
+
+\brief	Reads a spectrum in the analyzer. 
+
+\exception	SDEVICEERROR_CANNOT_CONVERT_DATA	Thrown when the recived data cannot be convert.. 
+												
+\remark Much of the functioning of this part remains unclear. 
+		I tried to adapt it  from MagToolBox without really understanding it.
+		So maybe i made mistakes.
+		
+\remark this function is scriptable throuth \c qsReadSpectrum
+		
+\return a pointer to a \c SData2D object, the user have to destroy the object at the end
+</member>
+        <member name="M:SDevicePSAE4440A.sweepTime">
+\fn	double SDevicePSAE4440A::sweepTime()
+
+\brief	(SCRIPTABLE) Gets the sweep time. 
+
+\exception SDEVICEERROR_CANNOT_CONVERT_DATA Thrown when the recived data cannot be convert.
+
+\return	the sweep time. 
+</member>
+        <member name="M:SDevicePSAE4440A.refLevel">
+\fn	double SDevicePSAE4440A::refLevel()
+
+\brief	(SCRIPTABLE) Gets the reference level. 
+
+\exception SDEVICEERROR_CANNOT_CONVERT_DATA Thrown when the recived data cannot be convert.
+											
+\param	RefLvl	The reference level in dBm. 
+</member>
+        <member name="M:SDevicePSAE4440A.setRefLevel(System.Double!System.Runtime.CompilerServices.IsConst)">
+\fn	void SDevicePSAE4440A::setRefLevel(double RefLvl)
+
+\brief	(SCRIPTABLE) Sets the reference level. 
+
+\param	RefLvl	The reference level in dBm. 
+</member>
+        <member name="M:SDevicePSAE4440A.readMarker(System.Int32!System.Runtime.CompilerServices.IsConst)">
+\fn	void SDevicePSAE4440A::readMarker(int num)
+
+\brief	(SCRIPTABLE) returns the Y position of the marker. 
+
+\param	num	Number of the marker 1 or 2. 
+
+\exception SDEVICEERROR_CANNOT_CONVERT_DATA Thrown when the recived data cannot be convert.
+ 			
+\warning the marker should it be on otherwise error
+		 
+\remark if num is different of 1 or 2, this function do nothing and return 0
+</member>
+        <member name="M:SDevicePSAE4440A.marker(System.Boolean!System.Runtime.CompilerServices.IsConst,System.Int32!System.Runtime.CompilerServices.IsConst)">
+\fn	void SDevicePSAE4440A::marker(int num, bool OnOff)
+
+\brief	(SCRIPTABLE) Enable or disable the marker number num. by default num=1;
+
+\param	num		Number of the marker 1 or 2. 
+\param	OnOff	false to disable,  true to enable the marker. 
+				
+\remark if num is different of 1 or 2, this function do nothing
+</member>
+        <member name="M:SDevicePSAE4440A.setMarker(System.Double!System.Runtime.CompilerServices.IsConst,System.Int32)">
+\fn	void SDevicePSAE4440A::setMarker(double const frequence, int num)
+
+\brief	(SCRIPTABLE) Sets the position (in frequency) of the marker number num. 
+
+\param	frequence	The frequence in GHz. 
+\param	num			Number of the marker, by default equal at 1. 
+\remark if num is different of 1 or 2, this function do nothing
+</member>
+        <member name="M:SDevicePSAE4440A.setNbAverage(System.Int32!System.Runtime.CompilerServices.IsConst)">
+\fn	void SDevicePSAE4440A::setNbAverage(int const NbAvrg)
+
+\brief	(SCRIPTABLE) Sets the number of average, 0 desactivate the average. 
+
+\param	NbAvrg	The number of  average between 0 and 1000. 
+</member>
+        <member name="M:SDevicePSAE4440A.nbPoints">
+\fn	int SDevicePSAE4440A::nbPoints()
+
+\brief	(SCRIPTABLE) Gets the number of points for each spectrum sweep. 
+
+\exception SDEVICEERROR_CANNOT_CONVERT_DATA Thrown when the recived data cannot be convert.
+
+\return	the number of points, if error 0. 
+</member>
+        <member name="M:SDevicePSAE4440A.setNbPoints(System.Int32!System.Runtime.CompilerServices.IsConst)">
+\fn	void SDevicePSAE4440A::setNbPoints(int const NbPts)
+
+\brief	(SCRIPTABLE) Sets the number of points for each spectrum sweep. 
+
+\param	NbPts	The number of points. 
+</member>
+        <member name="M:SDevicePSAE4440A.attenuation">
+\fn	Q_INVOKABLE virtual double SDevicePSAE4440A::attenuation(void)
+
+\brief	Gets the attenuation. 
+
+\exception SDEVICEERROR_CANNOT_CONVERT_DATA Thrown when the recived data cannot be convert.
+
+\return	the attenuation in dBm. 
+</member>
+        <member name="M:SDevicePSAE4440A.setAttenuation(System.Int32!System.Runtime.CompilerServices.IsConst)">
+\fn	void SDevicePSAE4440A::setAttenuation(double const Att)
+
+\brief	(SCRIPTABLE) Sets the attenuation. 
+
+\exception SDEVICEERROR_CANNOT_CONVERT_DATA Thrown when the recived data cannot be convert.
+
+\param	Att	The Attenuation in dB. 
+\remark all the atenuation is not possible.
+</member>
+        <member name="M:SDevicePSAE4440A.rbw">
+\fn	double SDevicePSAE4440A::rbw()
+
+\brief	(SCRIPTABLE) Gets the resolution de Bandwith.
+
+\exception SDEVICEERROR_CANNOT_CONVERT_DATA Thrown when the recived data cannot be convert.
+
+\return	the resolution de Bandwith in GHz, if error 0.0. 
+</member>
+        <member name="M:SDevicePSAE4440A.setRbw(System.Double!System.Runtime.CompilerServices.IsConst)">
+\fn	void SDevicePSAE4440A::setRbw(double const RBW)
+
+\brief	(SCRIPTABLE) Sets the resolution de Bandwith. 
+
+\param	RBW	The resolution de Bandwith in GHz. 
+
+</member>
+        <member name="M:SDevicePSAE4440A.freqStop">
+\fn	double SDevicePSAE4440A::freqStop()
+
+\brief	(SCRIPTABLE) Gets the stop frequency. 
+
+\return	the stop frequency in GHz, if error 0. 
+</member>
+        <member name="M:SDevicePSAE4440A.setFreqStop(System.Double!System.Runtime.CompilerServices.IsConst)">
+\fn	void SDevicePSAE4440A::setFreqStop(double const freq)
+
+\brief	(SCRIPTABLE) Sets the stop frequency. 
+
+
+\param	freq The frequency in GHz. 
+
+</member>
+        <member name="M:SDevicePSAE4440A.freqStart">
+\fn	double SDevicePSAE4440A::freqStart()
+
+\brief	(SCRIPTABLE) Gets the start frequency. 
+
+\exception SDEVICEERROR_CANNOT_CONVERT_DATA Thrown when the recived data cannot be convert.
+
+\return	the start frequency in GHz, if error 0. 
+</member>
+        <member name="M:SDevicePSAE4440A.setFreqStart(System.Double!System.Runtime.CompilerServices.IsConst)">
+\fn	void SDevicePSAE4440A::setFreqStart(double const freq)
+
+\brief	(SCRIPTABLE) Sets the start frequency. 
+
+\param	freq The frequency in GHz. 
+
+</member>
+        <member name="M:SDevicePSAE4440A.Dispose">
+\fn	SDevicePSAE4440A::~SDevicePSAE4440A()
+
+\brief	Destructor. 
+</member>
+        <member name="M:SDevicePSAE4440A.init">
+\fn	void SDevicePSAE4440A::init(void)
+
+\brief	Initializes the PSA E4440A device. 
+
+this function is automatically call at the initialization of this object
+</member>
+        <member name="M:SDevicePSAE4440A.#ctor(System.Double!System.Runtime.CompilerServices.IsConst,System.Double!System.Runtime.CompilerServices.IsConst,System.Double!System.Runtime.CompilerServices.IsConst,System.Int32!System.Runtime.CompilerServices.IsConst,QObject*)">
+\fn	SDevicePSAE4440A::SDevicePSAE4440A(double FreqStart, double FreqStop, double RBW,
+int average, QObject *parent)
+
+\brief	Constructor. 
+
+\author	Sylvain Martin
+\date	1/27/2011
+
+\param	FreqStart		The start frequency . 
+\param	FreqStop		The stop frequency . 
+\param	RBW				The resolution of bandwidth. 
+\param	average			The average( optional, by default 0). 
+\param [in,out]	parent	If non-null, the Qt parent. 
+</member>
+        <member name="M:SDevicePSAE4440A.#ctor(QObject*)">
+\fn	SDevicePSAE4440A::SDevicePSAE4440A()
+
+\brief	Default constructor. 
+
+\author	Sylvain Martin
+\date	1/26/2011
+</member>
+        <member name="M:SDeviceK2400.putLocalMode">
+\fn	void SDeviceK2400::putLocalMode(void)
+
+\brief	(SCRIPTABLE) Puts in local mode (the user can use the front keys). 
+
+\exception	SDEVICEERROR_GPIB_DEVICE_UNAVAILABLE	Thrown when The device has a problem or is busy.
+
+</member>
+        <member name="M:SDeviceK2400.voltageCompliance">
+\fn	double SDeviceK2400::voltageCompliance(void)
+
+\brief	(SCRIPTABLE) Reads the voltage compliance (limit of protection). 
+
+\exception	SDEVICEERROR_GPIB_DEVICE_UNAVAILABLE	Thrown when The device has a problem or is busy. 
+\exception	SDEVICEERROR_CANNOT_CONVERT_DATA		Thrown when the function cannot convert
+													the read data into double
+
+\remark Is not the same thing that the voltage limit. the voltage limite give a range, 
+		the compliance is for security raisons.
+		
+\return	The voltage compliance. 
+
+</member>
+        <member name="M:SDeviceK2400.setVoltageCompliance(System.Double)">
+\fn	void SDeviceK2400::setVoltageCompliance(double Vcomp)
+
+\brief	(SCRIPTABLE) Sets a voltage compliance (limit of protection). 
+
+\exception	SDEVICEERROR_GPIB_DEVICE_UNAVAILABLE	Thrown when The device has a problem or is busy. 
+
+\remark Is not the same thing that the voltage limit. the voltage range give a range(µV,mV,..), 
+		the compliance is for security reasons.
+		
+\param	Vcomp	The voltage. 
+
+</member>
+        <member name="M:SDeviceK2400.currentCompliance">
+\fn	double SDeviceK2400::currentCompliance(void)
+
+\brief	(SCRIPTABLE) Reads the current compliance (limit of protection). 
+
+\exception	SDEVICEERROR_GPIB_DEVICE_UNAVAILABLE	Thrown when The device has a problem or is busy. 
+\exception	SDEVICEERROR_CANNOT_CONVERT_DATA		Thrown when the function cannot convert
+													the read data into double
+													
+\remark Is not the same thing that the current limit. the current range give a range(µV,mV,..), 
+		the compliance is for security reasons.
+		
+\return	The current compliance. 
+
+</member>
+        <member name="M:SDeviceK2400.setCurrentCompliance(System.Double)">
+\fn	void SDeviceK2400::setCurrentCompliance(double Icomp)
+
+\brief	(SCRIPTABLE) Sets a current compliance (limit of protection). 
+
+\exception	SDEVICEERROR_GPIB_DEVICE_UNAVAILABLE	Thrown when The device has a problem or is busy.
+													
+\remark Is not the same thing that the current limit. the current range give a range(µA,mA,..), 
+		the compliance is for security reasons.
+		
+\param	Icomp	the current compliance. 
+
+</member>
+        <member name="M:SDeviceK2400.deactivate">
+\fn	void SDeviceK2400::deactivate(void)
+
+\brief	(SCRIPTABLE) Deactivates the DC generator. 
+
+\exception	SDEVICEERROR_GPIB_DEVICE_UNAVAILABLE	Thrown when The device has a problem or is busy.
+
+</member>
+        <member name="M:SDeviceK2400.activate">
+\fn	void SDeviceK2400::activate()
+
+\brief	(SCRIPTABLE) Activates the DC generator. 
+
+\exception	SDEVICEERROR_GPIB_DEVICE_UNAVAILABLE	Thrown when The device has a problem or is busy. 
+
+</member>
+        <member name="M:SDeviceK2400.description">
+\fn	QString SDeviceK2400::description(void) const
+
+\brief	(SCRIPTABLE) Gets the description of the device. 
+
+\return	the brief description of the device. 
+
+</member>
+        <member name="M:SDeviceK2400.init">
+\fn	void SDeviceK2400::init(void)
+
+\brief	Initializes the K2400 device. 
+
+this function is automatically call at the initialization of this object
+</member>
+        <member name="M:SDeviceK2400.voltageRange">
+\fn	double SDeviceK2400::voltageLimit(void)
+
+\brief	(SCRIPTABLE) Gets the voltage limit. 
+
+\exception	SDEVICEERROR_GPIB_DEVICE_UNAVAILABLE	Thrown when The device has a problem or is busy.
+\exception	SDEVICEERROR_CANNOT_CONVERT_DATA		Thrown when the function cannot convert
+													the read data into double. 
+													
+\remark Is not the same thing that the compliance. the voltage range  gives a range (µA, mA, ...) 
+		 the compliance sets a security limit
+		
+\return	the voltage limit. 
+
+
+</member>
+        <member name="M:SDeviceK2400.currentRange">
+\fn	double SDeviceK2400::currentRange(void)
+
+\brief	(SCRIPTABLE) Gets the current limit. 
+
+\exception	SDEVICEERROR_GPIB_DEVICE_UNAVAILABLE	Thrown when Thrown when The device has a problem or is busy.or is busy.
+\exception	SDEVICEERROR_CANNOT_CONVERT_DATA		Thrown when the function cannot convert
+													the read data into double. 
+													
+\remark Is not the same thing that the compliance. the range limit gives a range (µA, mA, ...) 
+		 the compliance sets a security limit
+		
+\return	the current limit. 
+
+</member>
+        <member name="M:SDeviceK2400.setVoltageRange(System.Double!System.Runtime.CompilerServices.IsConst)">
+\fn	void SDeviceK2400::setVoltageRange(double Vmax)
+
+\brief	(SCRIPTABLE) Sets a voltage limit (compliance). 
+
+\exception	SDEVICEERROR_GPIB_DEVICE_UNAVAILABLE	Thrown when Thrown when The device has a problem or is busy.or is busy.
+
+\param	Vmax	The  maximum Voltage. 
+				
+\remark Is not the same thing that the compliance. the current range gives a range(µV,mV,..), 
+		 the compliance sets a security limit
+</member>
+        <member name="M:SDeviceK2400.setCurrentRange(System.Double)">
+\fn	void SDeviceK2400::setCurrentRange(double Imax)
+
+\brief	(SCRIPTABLE) Sets the current limit. 
+
+\exception	SDEVICEERROR_GPIB_DEVICE_UNAVAILABLE	Thrown when Thrown when The device has a problem or is busy.or is busy.
+
+\param	Imax	The maximum current.  
+
+\remark Is not the same thing that the compliance. the current range  gives a range (µA, mA, ...)  
+		 the compliance sets a security limit
+</member>
+        <member name="M:SDeviceK2400.qsReadIV">
+\fn	QScriptValue SDeviceK2400::qsReadIV(void)
+
+\brief	(SCRIPTABLE) Reads the current and the voltage. 
+
+\return	a QtScript compatible value containing an array with at(0) the current and at(1) the voltage 
+
+\remark this function is especially implanted to be used in script module, do not use it in a c++
+		module, you can call it \c readIV because of an overload in the script engine.
+</member>
+        <member name="M:SDeviceK2400.qsReadVI">
+\fn	QScriptValue SDeviceK2400::qsReadVI(void)
+
+\brief	(SCRIPTABLE) Reads the voltage and the current. 
+
+\author	Sylvain Martin
+\date	1/13/2011
+
+\return	a QtScript compatible value containing an array with at(0) the voltage and at(1) the current 
+
+\remark this function is especially implanted to be used in script module, do not use it in a c++
+		module, you can call it \c readVI because of an overload in the script engine.
+</member>
+        <member name="M:SDeviceK2400.setMode(SDeviceDcGenerator.MODE!System.Runtime.CompilerServices.IsConst)">
+\fn	void SDeviceK2400::setMode(const MODE mode)
+
+\brief	(SCRIPTABLE) change the mode of the DC generator, current or voltage. 
+
+\author	Sylvain Martin
+\date	1/13/2011
+
+\exception	SDEVICEERROR_GPIB_DEVICE_UNAVAILABLE	Thrown when Thrown when The device has a problem or is busy.or is busy. or is busy.
+
+\param	mode	The mode : CURRENT or VOLTAGE. 
+
+</member>
+        <member name="M:SDeviceK2400.setVoltage(System.Double)">
+\fn	void SDeviceK2400::setVoltage(const double voltage)
+
+\brief	(SCRIPTABLE) Sets a voltage. 
+
+\author	Sylvain Martin
+\date	1/13/2011
+
+\exception	SDEVICEERROR_GPIB_DEVICE_UNAVAILABLE	Thrown when Thrown when The device has a problem or is busy.or is busy.
+
+\param	voltage	The voltage in volts. 
+				
+if the \c voltage is greater than \c Vmax fixed with \c setVoltageCompliance, \c voltage is put
+at \c Vmax		
+
+</member>
+        <member name="M:SDeviceK2400.voltage">
+\fn	double SDeviceK2400::voltage(void)
+
+\brief	(SCRIPTABLE) Reads the voltage. 
+
+\author	Sylvain Martin
+\date	1/13/2011
+
+\return	The voltage in volts. 
+\todo not implemented yet
+</member>
+        <member name="M:SDeviceK2400.setCurrent(System.Double)">
+\fn	void SDeviceK2400::setCurrent(const double current)
+
+\brief	(SCRIPTABLE) Sets a current. 
+
+\author	Sylvain Martin
+\date	1/13/2011. 
+
+\exception	SDEVICEERROR_GPIB_DEVICE_UNAVAILABLE Thrown when Thrown when The device has a problem or is busy.
+
+\param	current	The current  in amperes. 
+				
+if the \c current is greater than \c Imax fixed with \c setCurrentCompliance, \c current is put
+at \c Vmax	
+</member>
+        <member name="M:SDeviceK2400.current">
+\fn	double SDeviceK2400::current(void)
+
+\brief	(SCRIPTABLE) Reads the current. 
+
+\author	Sylvain Martin
+\date	1/13/2011
+
+\return	The current in amperes. 
+\todo Not impemented yet !!!
+</member>
+        <member name="M:SDeviceK2400.available">
+\fn	bool SDeviceK2400::available(void)
+
+\brief	(SCRIPTABLE) Gets the availability. 
+
+\author	Sylvain Martin
+\date	1/20/2011
+
+\return	true if the device is available, false if it is not. 
+
+</member>
+        <member name="M:SDeviceK2400.#ctor(SDeviceDcGenerator.MODE,QObject*)">
+\fn	SDeviceK2400::SDeviceK2400(MODE mode, QObject *parent)
+
+\brief	Constructor. 
+
+\author	Sylvain Martin
+\date	1/20/2011
+
+\param	mode			The mode (CURRENT or VOLTAGE). 
+\param [in,out]	parent	If non-null, the Qt parent. 
+
+</member>
+        <member name="M:SDeviceK2400.#ctor(QObject*)">
+\fn	SDeviceK2400::SDeviceK2400(QObject *parent)
+
+\brief	Default constructor. 
+
+\author	Sylvain Martin
+\date	1/20/2011
+
+\param	parent	If non-null, the Qt parent. 
+
+</member>
+        <member name="M:SDeviceGpib.enableLocal">
+\fn	void SDeviceGpib::enableLocal(void)
+
+\brief	actives the front panel commands (activates the "local mode"). 
+
+\author	Sylvain Martin
+\date	1/13/2011
+
+</member>
+        <member name="M:SDeviceGpib.name">
+\fn	QString SDeviceGpib::name(void) const
+
+\brief	Gets the name. 
+
+\author	Sylvain Martin
+\date	1/13/2011
+
+\return	The efective name of the device. 
+
+</member>
+        <member name="M:SDeviceGpib.GpibInterface">
+\fn	SInterfaceGpib* SDeviceGpib::GpibInterface(void) const
+
+\brief	Gets the gpib interface. 
+
+\author	Sylvain Martin
+\date	1/13/2011
+
+\return	a pointer to the GpibInterface.
+		
+\remark this function is normally used only by the other functions of the class, 
+		not by the user. It do not check anything So use this function carefully.
+
+</member>
+        <member name="M:SDeviceGpib.setPAD(System.Int16!System.Runtime.CompilerServices.IsConst)">
+\fn	void SDeviceGpib::setPAD(const Addr4882_t pad)
+
+\brief	Sets a PAD (Primary address) of the device. 
+
+\author	Sylvain Martin
+\date	1/13/2011
+
+\param	pad	The pad. 
+
+\remarks	Normaly the primary adress is auto set at the construction of the object. So use
+			this function carefully. 
+</member>
+        <member name="M:SDeviceGpib.GpibElement">
+\fn	SInterfaceGpib::GpibElement SDeviceGpib::GpibElement(void) const
+
+\brief	Gets the GPIB element which contains the contains the name, the primary and secondary address. 
+
+\author	Sylvain Martin
+\date	1/13/2011
+
+\return	the GPIB element. 
+
+</member>
+        <member name="M:SDeviceGpib.PAD">
+\fn	Addr4882_t SDeviceGpib::PAD(void) const
+
+\brief	Gets the PAD (Primary address) of the device. 
+
+\author	Sylvain Martin
+\date	1/13/2011
+
+\return	the PAD (Primary address). 
+
+</member>
+        <member name="M:SDeviceGpib.setGpibElement(SInterfaceGpib.GpibElement!System.Runtime.CompilerServices.IsConst)">
+\fn	void SDeviceGpib::setGpibElement(const SInterfaceGpib::GpibElement elmt)
+
+\brief	Sets a GPIB element which contains the contains the name, the primary and secondary address. . 
+
+\author	Sylvain Martin
+\date	1/13/2011
+
+\param	elmt GPIB element. 
+			 
+\remarks	Normaly the primary adress is auto set at the construction of the object. So use
+			this function carefully. 
+</member>
+        <member name="M:SDeviceGpib.gpibRead(System.Int32!System.Runtime.CompilerServices.IsLong!System.Runtime.CompilerServices.IsConst)">
+\fn	QVariant SDeviceGpib::gpibRead(const long longBuffer)const
+
+\brief	Read data in the GPIB board. 
+
+\author	Sylvain Martin
+\date	1/13/2011
+
+\param	longBuffer	length of the buffer, by default 131072 bits (128 Ko).
+
+\return	. 
+
+\remark this function is normally used only by the other functions of the class, 
+		not by the user. It do not check anything So use this function carefully.
+</member>
+        <member name="M:SDeviceGpib.gpibSend(QString)">
+\fn	void SDeviceGpib::gpibSend(QString commande)
+
+\brief	send a direct commande to this device by gbib. 
+
+\author	Sylvain Martin
+\date	1/13/2011
+
+\param	commande	The commande sent to the device. 
+
+\remark this function is normally used only by the other functions of the class, 
+		not by the user. It do not check anything So use this function carefully. 
+</member>
+        <member name="D:QtCoreModule">
+\file		SDevice\SDeviceError.h
+		
+\author		Sylvain Martin
+\version	1.0
+\date		1/20/2011
+
+\brief	declare the exception for the device module
+		
+\section LICENSE
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License as
+published by the Free Software Foundation; either version 2 of
+the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+General Public License for more details at
+http://www.gnu.org/copyleft/gpl.html
+</member>
+        <member name="M:SInterfaceGpib.GPIBibsta">
+\fn	Q_INVOKABLE int SInterfaceGpib::ibsta(void)
+
+\brief	Gets the state of the GPIB board.
+
+\author	Sylvain Martin
+\date	1/24/2011
+
+\return	.
+</member>
+        <member name="M:SInterfaceGpib.enableLocal(System.Int16!System.Runtime.CompilerServices.IsConst)">
+\fn	void SInterfaceGpib::enableLocal(const Addr4882_t address)
+
+\brief	Place specified device in local mod (i.e. it can be "programmed" from the front panel
+controls).
+
+\author	Sylvain Martin
+\date	1/17/2011
+
+\exception	gpibError	Thrown when gpib error.
+
+\param	address	The address.
+
+</member>
+        <member name="M:SInterfaceGpib.gpibError(SError)">
+\fn	SError SInterfaceGpib::gpibError(SError error)
+
+\brief	add a description for the GPIB error.
+
+\author	Sylvain Martin
+\date	1/17/2011
+
+\param	error	The error object.
+
+\return	.
+
+
+</member>
+        <member name="M:SInterfaceGpib.findGpibElement(QString)">
+\fn	SInterfaceGpib::GpibElement SInterfaceGpib::findGpibElement(QString name)
+
+\brief	Searches for the first Gpib element that has a efective name containing name.
+
+\author	Sylvain Martin
+\date	1/17/2011
+
+\exception	SDEVICEERROR_GPIB_DEVICE_UNAVAILABLE	Thrown when The device has a problem.
+
+\param	name	part of the efective name of the device.
+
+\return	The found GpibElement, or an element with PAD=-1 if it is not found.
+
+\remarks	the case is insensitive.
+</member>
+        <member name="M:SInterfaceGpib.receive(System.Int16!System.Runtime.CompilerServices.IsConst,System.Int32!System.Runtime.CompilerServices.IsLong!System.Runtime.CompilerServices.IsConst)">
+\fn	QVariant SInterfaceGpib::receive( Addr4882_t address, long bufferLong)
+
+\brief	receive this message (in ASCII).
+
+\author	Sylvain Martin
+\date	1/7/2011
+
+\exception	SDEVICEERROR_GPIB_RECEIVE	Thrown when GPIB Unable to receive data.
+
+\param	address		The address of the device (between 1 and 30).
+\param	bufferLong	The length of the buffer (e.g. if it is 100L it will take the
+					  all the characters until the 100th).
+
+\return	a \c QVariant with the data in it.
+
+\remarks	the data will be cast in QVariant (with QByteArray)
+\remarks	HACK : j'ai enlevÃ© le throw car Ã§a planter systÃ©matiquement, qd erreur, je ne sais pas pk ...
+</member>
+        <member name="M:SInterfaceGpib.send(System.Int16,System.SByte!System.Runtime.CompilerServices.IsSignUnspecifiedByte!System.Runtime.CompilerServices.IsConst*)">
+\fn	void SInterfaceGpib::send(Addr4882_t address, const char *data)
+
+\brief	Send this data to one device (in ASCII).
+
+\author	Sylvain Martin
+\date	1/7/2011
+
+\exception	SDEVICEERROR_GPIB_SEND	GPIB Unable to send data.
+
+\param	address	The address of the device (between 1 and 30).
+\param	data	The data, it must fini by '\0'.
+
+\remarks	Use preferently the function with data in QString because of the pointeur and the
+			'\0' problems.
+</member>
+        <member name="M:SInterfaceGpib.send(System.Int16!System.Runtime.CompilerServices.IsConst,QString!System.Runtime.CompilerServices.IsConst)">
+\fn	void SInterfaceGpib::send(Addr4882_t address, QString data)
+
+\brief	Send this data to one device (in ASCII).
+
+\author	Sylvain Martin
+\date	1/7/2011
+
+\exception	SDEVICEERROR_GPIB_SEND	Thrown when GPIB Unable to send data.
+
+\param	address	The address of the device (between 1 and 30).
+\param	data	The data to send (in text form).
+
+\remarks	the data will be cast in char * (with QByteArray)
+</member>
+        <member name="M:SInterfaceGpib.switcher(System.Int16,SInterfaceGpib.GpibElementMode)">
+\fn	void SInterfaceGpib::switcher(Addr4882_t address,GpibElementMode mode)
+
+\brief	switch the mode of the device Addr4882_t instrument.
+
+\author	Sylvain Martin
+\date	1/7/2011
+
+\exception	SDEVICEERROR_GPIB_SWITCHER_SENDER	Thrown when GPIB Unable to switch the
+												 device to sender.
+
+\param	address	The instrument.
+\param	mode	The mode.
+
+</member>
+        <member name="M:SInterfaceGpib.activate(System.Boolean)">
+\fn	void SInterfaceGpib::activate(bool active)
+
+\brief	activate or desactivate the GPIB device.
+
+\author	Sylvain Martin
+\date	1/7/2011
+
+\param	active	true to active.
+
+\warning always deactivate the GPIB device before the end of the software.
+</member>
+        <member name="M:SInterfaceGpib.available">
+\fn	bool SInterfaceGpib::isActivated() const
+
+\brief	check if the device is activated or not.
+
+\author	Sylvain Martin
+\date	1/7/2011
+
+\return	true if it was activated otherwise false.
+
+</member>
+        <member name="M:SInterfaceGpib.init">
+\fn	bool SInterfaceGpib::isInit() const
+
+\brief	check if the device has been initialised or not.
+
+\author	Sylvain Martin
+\date	1/7/2011
+
+\return	true if it was Initialised otherwise false.
+
+</member>
+        <member name="M:SInterfaceGpib.description">
+\fn	QString SInterfaceGpib::description() const
+
+\brief	retun a bref description of the GPIB device.
+
+\author	Sylvain Martin
+\date	1/7/2011
+
+\return	retun a bref description of the GPIB device.
+
+</member>
+        <member name="M:SInterfaceGpib.close">
+\fn	void SInterfaceGpib::close()
+
+\brief	close the  the GPIB board.
+
+\author	Sylvain Martin
+\date	1/7/2011
+
+\exception	SDEVICEERROR_GPIB_NOT_INITIALISED	Thrown when gpib is not
+												initialised.
+
+</member>
+        <member name="M:SInterfaceGpib.#ctor">
+\fn	SInterfaceGpib::SInterfaceGpib()
+
+\brief	Default constructor.
+
+\author	Sylvain Martin
+\date	1/7/2011
+
+\exception	SDEVICEERROR_GPIB_UNABLE_OPEN_BOARD	Thrown Thrown when gpib driver unable to open
+													board.
+
+</member>
+        <member name="M:SInterfaceGpib.Dispose">
+\fn	SInterfaceGpib::~SInterfaceGpib(void)
+
+\brief	Destructor.
+
+\author	Sylvain Martin
+\date	1/20/2011
+</member>
+        <member name="M:SInterfaceGpib.instance">
+\fn	SInterfaceGpib* SInterfaceGpib::instance()
+
+\brief	get the pointer to the singleton class
+
+\author	Sylvain Martin
+\date	1/7/2011
+
+\return	null if it fails, else.
+
+Implement the logic here to instantiate the class for the first time by validating the member
+pointer. If member pointer is already pointing to some valid memory it means that the first
+object is created and it should not allow for the next instantiation so simply return the
+member pointer without calling its ctor.
+</member>
+        <member name="M:SInterfaceDaq.vOld(System.Int32)">
+\fn	Q_INVOKABLE double SInterfaceDaq::vOld(int channel)
+
+\brief	(SCRIPTABLE) Gets the final value of the last sweep command
+
+\return	a voltage in volt
+\remark It does not indicate if a task is available.
+\so SInterfaceDaq::sweep(double V,double dV, int channel)
+
+if channel is not 0 or 1 return 0
+</member>
+        <member name="M:SInterfaceDaq.running">
+\fn	Q_INVOKABLE bool SInterfaceDaq::running()
+
+\brief	(SCRIPTABLE) Gets if the DAQ is running a task. 
+
+\return	true if it is running a task, false if it not.
+\remark It does not indicate if a task is available.
+\so SInterfaceDaq::available(void)
+</member>
+        <member name="M:SInterfaceDaq.available">
+\fn	Q_INVOKABLE bool SInterfaceDaq::available(void)
+
+\brief	(SCRIPTABLE) Gets if the DAQ is available. 
+
+\return	true if it available, false if it not.
+\remark It does not indicate if a task is running.
+\so SInterfaceDaq::running()
+</member>
+        <member name="M:SInterfaceDaq.delay(System.Double)">
+\fn	inline double SInterfaceDaq::delay(double i)
+
+\brief	(SCRIPTABLE) do a break during i seconds 
+
+\param	number	a number of seconds. 
+
+let the rest of the application process normally (e.g. the GUIs)		
+</member>
+        <member name="M:SInterfaceDaq.sgn(System.Double)">
+\fn	inline double SInterfaceDaq::sgn(double number)
+
+\brief	return the sign of the number. 
+
+\param	number	a number. 
+
+\return	-1 if number is negative an +1 if it is positive. 
+\remark 0 is positive		
+</member>
+        <member name="M:SInterfaceDaq.fabs(System.Double)">
+\fn	inline double SInterfaceDaq::fabs(double num)
+
+\brief	compute the absolute value of num. 
+
+\param	num	a number. 
+
+\return	the absolute value of num. 
+</member>
+        <member name="M:SInterfaceDaq.sweep(System.Double,System.Double,System.Int32)">
+\fn	double SInterfaceDaq::sweep(double V,double dV, int channel)
+
+\brief	(SCRIPTABLE) it does a sweeps between the older constant voltage and a new one  
+
+\param	V		The goal value in volts   
+\param	dV		The "speed" of the sweep
+\param	channel	The channel (0 or 1). 
+
+\so running()
+\so finished()
+\so Prefactor()
+\so SetPrefactor
+
+\remark for historical reason a pre-factor is applied on the V value for be compatible with different Kepcos.
+
+it emits the finished() signal when the task is finished
+it does nothing if a task is already running
+it does noting if the channel is not correct
+it does noting if the command is greater than the card limit
+</member>
+        <member name="M:SInterfaceDaq.instance">
+\fn  SInterfaceDaq* SInterfaceDaq::instance()
+
+\brief	get the pointer to the singleton class
+
+\return	null if it fails, else return a pointer to the SInterfaceDaq object. 
+
+Implement the logic here to instantiate the class for the first time by validating the member
+pointer. If member pointer is already pointing to some valid memory it means that the first
+object is created and it should not allow for the next instantiation so simply return the
+member pointer without calling its ctor. 
+</member>
+        <member name="M:SInterfaceDaq.Dispose">
+\fn  SInterfaceDaq::~SInterfaceDaq(void)
+
+\brief	destructor
+
+
+</member>
+        <member name="M:SInterfaceDaq.#ctor">
+\fn  SInterfaceDaq::~SInterfaceDaq(void)
+
+\brief	Constructor
+
+Initialize the memory and the internal variables.
+</member>
+        <member name="M:SDeviceVirtual.setUnavailable">
+            <summary>	Sets the device unavailable. </summary>
+            <remarks>	Sylvain Martin, 1/17/2011. </remarks>
+        </member>
+        <member name="M:SDeviceVirtual.delay(System.Double)">
+            <summary>	Pause l'application pour i seconds </summary>
+            <remarks>	Sylvain Martin, 1/14/2011. </remarks>
+            <param name="i">	the number of seconde. </param>
+        </member>
+        <member name="M:SDeviceVirtual.clearLog">
+            <summary>	Clears the log. </summary>
+            <remarks>	Sylvain Martin, 1/14/2011. </remarks>
+        </member>
+        <member name="M:SDeviceVirtual.addLog(QString)">
+            <summary>	Adds a line to the log. </summary>
+            <remarks>	Sylvain Martin, 1/14/2011. </remarks>
+            <param name="log">	The line to add to the log. </param>
+        </member>
+        <member name="M:SDeviceVirtual.log">
+            <summary>	Gets the log. </summary>
+            <remarks>	Sylvain Martin, 1/14/2011. </remarks>
+            <returns>	the log of this device. </returns>
+        </member>
+        <member name="M:SDeviceVirtual.#ctor(QObject*)">
+            <summary>	Constructor. </summary>
+            <remarks>	Sylvain Martin, 1/18/2011. </remarks>
+            <param name="parent">	[in,out] If non-null, the parent. </param>
+        </member>
+        <member name="M:qsBip(QScriptContext*,QScriptEngine*)">
+\fn	   QScriptValue qsClear( QScriptContext *context, QScriptEngine *engine )
+
+\brief	(SCRIPTABLE) (with bip()) does a bip-sound 
+
+\example bip(); 
+
+\TODO the default sound is played instead of the wav file, I do not know why...
+\ingroup SScriptMod	
+</member>
+        <member name="M:qsClear(QScriptContext*,QScriptEngine*)">
+\fn	   QScriptValue qsClear( QScriptContext *context, QScriptEngine *engine )
+
+\brief	(SCRIPTABLE) (with clear()) clear the Debug Output text, the Console and the Error Log
+
+\example clear(); 
+\ingroup SScriptMod	
+
+</member>
+        <member name="M:qsNowTime(QScriptContext*,QScriptEngine*)">
+\fn	    QScriptValue qsNowTime( QScriptContext *context, QScriptEngine *engine )
+
+\brief	(SCRIPTABLE) (with nowTime()) return the time, see the documentation of qt for the argument
+
+\example nowTime(""hh-mm-ss""); return 16-03-22
+
+\deprecated Use the Qt binding.
+
+\ingroup SScriptMod	
+</member>
+        <member name="M:qsNowDate(QScriptContext*,QScriptEngine*)">
+\fn	    QScriptValue qsNowDate( QScriptContext *context, QScriptEngine *engine )
+
+\brief	(SCRIPTABLE) (with nowDate()) return the date of today, see the documentation of qt for the argument
+
+\example nowDate("yyyymmdd"); return 20110309
+
+\deprecated Use the Qt binding.
+
+\ingroup SScriptMod	
+</member>
+        <member name="M:qsWarningMsgBox(QScriptContext*,QScriptEngine*)">
+\fn  QScriptValue qsWarningMsgBox( QScriptContext *context, QScriptEngine *engine )
+
+\brief	(SCRIPTABLE) (with warningMsgBox()) show a warning message box with. 
+
+\example warningMsgBox("be careful!", "My title");
+
+\deprecated Use the Qt binding.
+
+The first argument is text and the second the title.
+
+\ingroup SScriptMod	
+</member>
+        <member name="M:qsStop(QScriptContext*,QScriptEngine*)">
+\fn QScriptValue qsStop( QScriptContext *context, QScriptEngine *engine )
+
+\brief	(SCRIPTABLE) (with stop()) stop the script.
+
+\example stop();
+
+\ingroup SScriptMod	
+</member>
+        <member name="M:qsDebug(QScriptContext*,QScriptEngine*)">
+\fn	 QScriptValue qsDebug(QScriptContext *context, QScriptEngine *engine)
+
+\brief	(SCRIPTABLE) (with debug()) Write something to the debug console.
+
+</member>
+        <member name="M:qsDelay(QScriptContext*,QScriptEngine*)">
+\fn	QScriptValue qsDelay(QScriptContext * context, QScriptEngine * qsEng)
+
+\brief	(SCRIPTABLE) (with delay())
+
+</member>
+        <member name="M:SScriptEngine.initPSGE8257D">
+\fn	void SScriptEngine::initPSAE4440A()
+
+\brief	initializes an object accessible from the script for the microwave source PSGE8257D
+
+\so SDevicePSAE4440A
+</member>
+        <member name="M:SScriptEngine.abort">
+\fn	void SScriptEngine::abort()
+
+\brief	(SLOT) Aborts any script evaluation currently taking place in this engine.
+
+If the engine isn't evaluating a script (i.e. isEvaluating() returns false), 
+this function does nothing.
+
+\remark This function are the same that QScriptEngine::abortEvaluation() but it is a slot.
+</member>
+        <member name="M:SScriptEngine.debugger">
+\fn	void SScriptEngine::setDebugger(QScriptEngineDebugger * debugger)
+
+\brief	get the debugger object, the SScriptEngine object instantiates one in the constructor
+
+</member>
+        <member name="M:SScriptEngine.initPSAE4440A">
+\fn	void SScriptEngine::initPSAE4440A()
+
+\brief	initializes an object accessible from the script for the spectrum analyzer PSAE4440A
+
+\so SDevicePSAE4440A
+</member>
+        <member name="M:SScriptEngine.initSPlot2D">
+\fn	void SScriptEngine::initSPlot2D()
+
+\brief	add to the engine the possibility to instantiate a new \c SPlot2D
+
+\so SPlot2D
+</member>
+        <member name="M:SScriptEngine.initSData2D">
+\fn	void SScriptEngine::initData2D()
+
+\brief	add to the engine the possibility to instantiate a new \c SData2D
+
+\so SData2D
+</member>
+        <member name="M:SScriptEngine.initK2400">
+\fn	void SScriptEngine::initK2400()
+
+\brief	initializes an object accessible from the script for Keithley 2400 SourceMeter
+
+\so SDeviceK2400
+</member>
+        <member name="M:SScriptEngine.initDaq">
+\fn	void SScriptEngine::initDaq()
+
+\brief	initializes an object accessible from the script for the DAQ board
+
+\so SInterfaceDaq
+</member>
+        <member name="M:SScriptEngine.initGpib">
+\fn	void SScriptEngine::initGpib()
+
+\brief	initializes an object accessible from the script for the GPIB board
+
+\so SInterfaceGpib
+</member>
+        <member name="M:SScriptEngine.#ctor">
+\fn	void SInterfaceGpib::SScriptEngine()
+
+\brief	constructor
+
+</member>
+        <member name="M:SDevicePSGE8257D.available">
+\fn	bool SDevicePSGE8257D::available(void)
+
+\brief	(SCRIPTABLE) Gets the availability. 
+
+\return	true if the device is available, false if it is not. 
+</member>
+        <member name="M:SDevicePSGE8257D.description">
+\fn	 QString SDevicePSGE8257D::description(void) const
+
+\brief	(SCRIPTABLE) Gets a brief description of the device. 
+
+\return	a description of the device. 
+</member>
+        <member name="M:SDevicePSGE8257D.activate(System.Boolean)">
+\fn	void SDevicePSAE4440A::setFreqStart(double const freq)
+
+\brief	(SCRIPTABLE) activates or deactivates the microwave. 
+
+\param	OnOff  activate if true, deactivates otherwise. 
+
+</member>
+        <member name="M:SDevicePSGE8257D.setPowerLimit(System.Double!System.Runtime.CompilerServices.IsConst)">
+\fn	void SDevicePSAE4440A::setFreqStart(double const freq)
+
+\brief	(SCRIPTABLE) Sets the power limit of the microwave. 
+
+\param	pwr The power in dBm. 
+
+</member>
+        <member name="M:SDevicePSGE8257D.setPower(System.Double!System.Runtime.CompilerServices.IsConst)">
+\fn	void SDevicePSAE4440A::setFreqStart(double const freq)
+
+\brief	(SCRIPTABLE) Sets the power of the microwave. 
+
+\param	pwr The power in dBm. 
+
+</member>
+        <member name="M:SDevicePSGE8257D.setFrequence(System.Double!System.Runtime.CompilerServices.IsConst)">
+\fn	void SDevicePSAE4440A::setFreqStart(double const freq)
+
+\brief	(SCRIPTABLE) Sets the frequency of the microwave. 
+
+\param	freq The frequency in GHz. 
+
+</member>
+        <member name="M:SDevicePSGE8257D.init">
+\fn	void SDevicePSGE8257D::init(void)
+
+\brief	Initializes the PSG E8257D device. 
+
+this function is automatically call at the initialization of this object
+</member>
+        <member name="M:SData2D.delItem(System.Int32)">
+\fn	void SData2D::delItem( int i )
+
+\brief	delete an item of the data
+
+\param i the index of the item
+
+if i is out of range, do nothing
+</member>
+        <member name="M:SData2D.yData">
+\fn	double * SData2D::yData()
+
+\brief	Gets a pointer to the y data like a plain C++ array
+
+\sa SData2D::xData()
+</member>
+        <member name="M:SData2D.xData">
+\fn	double * SData2D::xData()
+
+\brief	Gets a pointer to the x data like a plain C++ array
+
+\sa SData2D::yData()
+</member>
+        <member name="M:SData2D.size">
+\fn	int SData2D::size(void)
+
+\brief	Gets the count of element. 
+
+\sa SData2D::count()
+</member>
+        <member name="M:SData2D.sizeComment">
+\fn	void SData2D::sizeComment()
+
+\brief	return the number of comments
+</member>
+        <member name="M:SData2D.colYUnit">
+\fn	void SData2D::setColXUnit( QString XUnit )
+
+\brief	return the unit of the y column
+</member>
+        <member name="M:SData2D.colXUnit">
+\fn	void SData2D::setColXUnit( QString XUnit )
+
+\brief	return the unit of the X column
+</member>
+        <member name="M:SData2D.colYName">
+\fn	void SData2D::setColXUnit( QString XUnit )
+
+\brief	return the name of the y column
+</member>
+        <member name="M:SData2D.colXName">
+\fn	void SData2D::setColXUnit( QString XUnit )
+
+\brief	return the name of the X column
+</member>
+        <member name="M:SData2D.setColYUnit(QString)">
+\fn	void SData2D::setColXUnit( QString XUnit )
+
+\brief	set the unit of the X column
+</member>
+        <member name="M:SData2D.setColXUnit(QString)">
+\fn	void SData2D::setColXUnit( QString XUnit )
+
+\brief	set the unit of the X column
+</member>
+        <member name="M:SData2D.setColUnit(QString,QString)">
+\fn	void SData2D::setColUnit( QString XUnit, QString YUnit )
+
+\brief	set the units of the columns
+</member>
+        <member name="M:SData2D.setColYName(QString)">
+\fn	void SData2D::setColYName( QString Yname)
+
+\brief	set the name of the X column
+</member>
+        <member name="M:SData2D.setColXName(QString)">
+\fn	void SData2D::setColXName( QString Xname)
+
+\brief	set the name of the X column
+</member>
+        <member name="M:SData2D.setColName(QString,QString)">
+\fn	void SData2D::setColName( QString Xname, QString Yname )
+
+\brief	set the name of the columns
+</member>
+        <member name="M:SData2D.clearMetaData">
+\fn	void SData2D::clearMetaData()
+
+\brief	clear the all the metadata
+</member>
+        <member name="M:SData2D.clearComment">
+\fn	void SData2D::clearComment()
+
+\brief	clear the all comments
+</member>
+        <member name="M:SData2D.addComment(QString)">
+\fn	void SData2D::addComment( QString com )
+
+\brief	add a comment that will be put in the header
+
+\param com	The new line of comment
+</member>
+        <member name="M:SData2D.setData(SData2D)">
+\fn	void SData2D::setData(SData2D * data)
+
+\brief	Copy an other SData2D in this one. 
+
+\author	Sylvain Martin
+\date	12/09/2011
+
+\param [in]	data	The data. 
+</member>
+        <member name="M:SData2D.count">
+\fn	int SData2D::count(void)
+
+\brief	Gets the count of element. 
+
+\sa SData2D::size()
+</member>
+        <member name="M:SData2D.max(System.Int32!System.Runtime.CompilerServices.IsConst)">
+\fn	SData2D::DataPoint SData2D::max(int const start) const
+
+\brief	   return the point of the first max find between "start" en the end
+		   of the data
+
+\author	Sylvain Martin
+\date	1/25/2011
+
+\exception	SERROR_OUT_OF_BOUNDS	The specified index is out of bounds
+
+\param	start	The start. 
+
+\return	The maximum value. 
+</member>
+        <member name="M:SData2D.treatSharpLine(QString)">
+\fn	void SData2D::treatSharpLine(QString line)
+
+\brief	Extract the metadata from a comment line. 
+
+\author	Sylvain Martin
+\date	1/25/2011
+
+  \param line QString starting with a sharp character
+
+  add element to the MetaData_ map table. extract the metadata
+  from line in the form of "# variable = value". if equal character
+  is not found the line is add to the com key of the map table.
+				
+\warning
+      - If a line contains several couple, i.e. "a=b;c=d;e=f",
+     this function split its : MetaData_["a"]==b and MetaData_["c"]==d
+      and MetaData_["e"]==f.
+      - If a line contains a odd equal symbol split, i.e. "a=b;c=" ,
+      this function let empty the value of the odd key : MetaData_["a"]==b
+      and MetaData_["c"]== ""
+</member>
+        <member name="M:SData2D.saveFile(QFile*)">
+\fn	void SData2D::saveFile(QFile * file)
+
+\brief	save data to a MagToolBox data file
+
+\author	Sylvain Martin
+\date	1/25/2011
+
+\exception	SERROR_INACCESSIBLE_FILE	Thrown when The file is inaccessible
+
+\param file  file that we want write data
+</member>
+        <member name="M:SData2D.saveFile(QString)">
+\fn	void SData2D::saveFile(QString file)
+
+\brief	save data to a MagToolBox data file. 
+
+\author	Sylvain Martin
+\date	1/25/2011
+
+\param	file	file from which we want write data. 
+				
+\exception SERROR_INACCESSIBLE_FILE The file is inaccessible
+</member>
+        <member name="M:SData2D.openFile(QFile*)">
+\fn	void SData2D::openFile(QFile * file)
+
+\brief	Open and read data from a data file
+
+\author	Sylvain Martin
+\date	1/25/2011
+
+  \exception SERROR_NO_SUPPORTED_FILE File type no supported
+  \exception SERROR_INACCESSIBLE_FILE The file is inaccessible
+  \exception SERROR_NO_VALIDE_DATA One line of the data file is not correct
+
+\param	file	file from which we want read data
+				
+Open and read data from a data file,
+  you can acces data with the \c data() function.
+</member>
+        <member name="M:SData2D.append(SData2D.DataPoint!System.Runtime.CompilerServices.IsConst)">
+\fn	void SData2D::append (SData2D::DataPoint const point)
+
+\brief	add a point at the SData2D
+
+\author	Sylvain Martin
+\date	1/25/2011
+
+\param	point	The SData2D::DataPoint const to append. 
+</member>
+        <member name="M:SData2D.append(System.Double!System.Runtime.CompilerServices.IsConst,System.Double!System.Runtime.CompilerServices.IsConst)">
+\fn	void SData2D::append (double const x, double const y)
+
+\brief	add a couple of value at the SData2D. 
+
+\author	Sylvain Martin
+\date	1/25/2011
+
+\param	x	The x value. 
+\param	y	The y value. 
+</member>
+        <member name="M:SData2D.setMetaData(QString!System.Runtime.CompilerServices.IsConst,QVariant!System.Runtime.CompilerServices.IsConst)">
+\fn	void SData2D::setMetaData(QString const key, QVariant const value)
+
+\brief	add or reset a key of the metadata. 
+
+\author	Sylvain Martin
+\date	1/25/2011
+
+\param	key		The key. 
+\param	value	The value. 
+				
+ \warning if the key already exist, this function just overwrite it.
+</member>
+        <member name="M:SData2D.metaDataAsDouble(QString!System.Runtime.CompilerServices.IsConst)">
+\fn	double SData2D::metaDataAsDouble(QString const key) const
+
+\brief	return the MetaData with the key give in argument. 
+
+\author	Sylvain Martin
+\date	1/25/2011
+
+\exception	SERROR_NO_CANNOT_CONVERT_METADATA	Thrown when This metadata cannot be converted. 
+\exception	SERROR_NO_FOUND_METADATA			Thrown when the key is no found. 
+
+\param	key	The key in the map table. 
+			
+\deprecated use \c metaData(QString const key) instead.
+			
+\return	the MetaData with the key give in argument. 
+		
+  return the MetaData with the key give in argument convert into
+  double. This function is useful when the metadata value has a unit,
+  like MetaData("Freq") = 0.500 GHz, because the toDouble() function
+  cannot correctly convert it.
+</member>
+        <member name="M:SData2D.metaData(QString!System.Runtime.CompilerServices.IsConst)">
+\fn	QVariant SData2D::metaData(QString const key) const
+
+\brief	return the MetaData with the key give in argument. 
+
+\param	key	The key in the map table. 
+
+\return	the MetaData with the key give in argument. 
+\remark return nothing (an empty QVarient) if the key is not found
+</member>
+        <member name="M:SData2D.openFile(QString)">
+\fn	void SData2D::openFile(QString file)
+
+\brief	open a data file and put it in the data object. 
+
+
+ \exception SERROR_NO_SUPPORTED_FILE File type no supported
+ \exception SERROR_INACCESSIBLE_FILE The file is inaccessible
+ \exception SERROR_NO_VALIDE_DATA One line of the data file is not correct
+
+ \param	file	The file that we want load. 
+				
+</member>
+        <member name="M:SData2D.#ctor(QString!System.Runtime.CompilerServices.IsConst)">
+\fn	SData2D::SData2D(QFile * file)
+
+\brief	Constructor which open a data file. 
+
+\author	Sylvain Martin
+\date	1/25/2011
+
+\exception SERROR_NO_SUPPORTED_FILE File type no supported
+\exception SERROR_INACCESSIBLE_FILE The file is inaccessible
+\exception SERROR_NO_VALIDE_DATA One line of the data file is not correct
+								 
+\param file  path of the file we want read data.
+				
+  create an object SDataMagToolBox, then open and read data
+  from a SData2D data file, you can access data with the
+  data() function.
+</member>
+        <member name="M:SData2D.#ctor(QFile*)">
+\fn	SData2D::SData2D(QFile * file)
+
+\brief	Constructor which open a data file. 
+
+\author	Sylvain Martin
+\date	1/25/2011
+
+\exception SERROR_NO_SUPPORTED_FILE File type no supported
+\exception SERROR_INACCESSIBLE_FILE The file is inaccessible
+\exception SERROR_NO_VALIDE_DATA One line of the data file is not correct
+								 
+\param file  pointer to the file we want read data.
+				
+  create an object SDataMagToolBox, then open and read data
+  from a SData2D data file, you can access data with the
+  data() function.
+</member>
+        <member name="M:SData2D.#ctor">
+\fn	SData2D::SData2D()
+
+\brief	Default constructor. 
+
+\author	Sylvain Martin
+\date	1/25/2011
+</member>
+        <member name="M:SDeviceDcGenerator.#ctor(SDeviceDcGenerator.MODE,QObject*)">
+            <summary>	Constructor. </summary>
+            <remarks>	Sylvain Martin, 1/14/2011. </remarks>
+            <param name="mode">	The mode. </param>
+            <param name="parent">	[in,out] If non-null, the parent. </param>
+        </member>
+        <member name="M:SDeviceDcGenerator.#ctor(QObject*)">
+            <summary>	Constructor. </summary>
+            <remarks>	Sylvain Martin, 1/18/2011. </remarks>
+            <param name="parent">	[in,out] If non-null, the parent. </param>
+        </member>
+        <member name="M:SDeviceMicroWaveGenerator.#ctor(QObject*)">
+\fn	SDeviceMicroWaveGenerator::SDeviceMicroWaveGenerator()
+
+\brief	constructor. 
+
+</member>
+        <member name="M:SDeviceMicroWaveGenerator.isActivated">
+\fn	double SDeviceMicroWaveGenerator::frequence() const 
+
+\brief	get if the generator is Activated. 
+
+</member>
+        <member name="M:SDeviceMicroWaveGenerator.powerLimit">
+\fn	double SDeviceMicroWaveGenerator::frequence() const 
+
+\brief	get the power limit of the microwave. 
+
+</member>
+        <member name="M:SDeviceMicroWaveGenerator.power">
+\fn	double SDeviceMicroWaveGenerator::frequence() const 
+
+\brief	get the power of the microwave in dBm.
+
+</member>
+        <member name="M:SDeviceMicroWaveGenerator.frequency">
+\fn	double SDeviceMicroWaveGenerator::frequence() const 
+
+\brief	get the frequency of the microwave in GHz. 
+
+</member>
+        <member name="M:SUiScriptEditor.executeSelectedText">
+\fn	void SUiScriptEditor::executeSelectedText()
+
+\brief	(SLOT) Execute the selected text.
+
+</member>
+        <member name="M:SUiScriptEditor.tabDbgCurrentChanged(System.Int32)">
+\fn	void SUiScriptEditor::tabDbgCurrentChanged( int index )
+
+\brief	(SLOT) when the user change of tab, it is useful went we reconstruct the tab when the focus changes
+
+</member>
+        <member name="M:SUiScriptEditor.Kill">
+\fn	void SUiScriptEditor::Kill()
+
+\brief	(SLOT) when the user clicks on the kill action, ask if he really want it, and if yes, do it
+
+</member>
+        <member name="M:SUiScriptEditor.onFocus(QWidget*,QWidget*)">
+\fn	void SUiScriptEditor::setupUI()
+
+\brief	set up the UI (Scintilla, debug console, ...)
+
+</member>
+        <member name="M:SUiScriptEditor.setupUI">
+\fn	void SUiScriptEditor::setupUI()
+
+\brief	set up the UI (Scintilla, debug console, ...)
+
+</member>
+        <member name="M:SUiScriptEditor.switchLexerDebugComp">
+\fn	void SUiScriptEditor::switchLexerDebugComp()
+
+\brief	switch the Lexer of Scintilla to the Debug compatibility mode
+
+</member>
+        <member name="M:SUiScriptEditor.switchLexerNormal">
+\fn	void SUiScriptEditor::switchLexerNormal()
+
+\brief	switch the Lexer of Scintilla to the Normal mode
+
+</member>
+        <member name="M:SUiScriptEditor.createScintilla">
+\fn	void SUiScriptEditor::createScintilla()
+
+\brief	set up of the highlight and other stuffs on the text editor
+
+</member>
+        <member name="M:SUiScriptEditor.swichToEditMode">
+\fn	void SUiScriptEditor::swichToEditMode()
+
+\brief	(SLOT) switch text display of the debugger with the Scintilla text editor
+
+</member>
+        <member name="M:SUiScriptEditor.swichToDebugMode">
+\fn	void SUiScriptEditor::swichToDebugMod()
+
+\brief	(SLOT) switch the text editor with the text display of the debugger
+
+</member>
+        <member name="M:SUiScriptEditor.alreadyRun">
+\fn	void SUiScriptEditor::alreadyRun()
+
+\brief	(SLOT) slot that puts a message in the statue bar because only on script can be execute  at once
+
+</member>
+        <member name="M:SUiScriptEditor.execute">
+\fn	void SUiScriptEditor::execute()
+
+\brief	slot that emits a signal for run the script
+
+normally the run signal is connected to run slot of the script engine
+</member>
+        <member name="M:SUiScriptEditor.setCurrentFile(QString!System.Runtime.CompilerServices.IsConst*!System.Runtime.CompilerServices.IsImplicitlyDereferenced)">
+\fn	void SUiScriptEditor::createScintilla()
+
+\brief	set up of the highlight and other stuffs on the text editor
+
+</member>
+        <member name="M:SUiScriptEditor.maybeSave">
+\fn	void SUiScriptEditor::maybeSave()
+
+\brief	ask if the user want save the current file
+
+</member>
+        <member name="M:SUiScriptEditor.createToolBars">
+\fn	void SUiScriptEditor::createToolBars()
+
+\brief	setup the tools bar
+
+</member>
+        <member name="M:SUiScriptEditor.createMenus">
+\TODO find a way to kill the script
+\fn	void SUiScriptEditor::createMenus()
+
+\brief	setup the menu bar
+
+</member>
+        <member name="M:SUiScriptEditor.createActions">
+\fn void SUiScriptEditor::createActions()
+
+\brief Create the action.
+
+</member>
+        <member name="M:SDataND.openFile(QString)">
+\fn	void SDataND::openFile(QString file)
+
+\brief	open a data file and put it in the data object. 
+
+
+ \exception SERROR_NO_SUPPORTED_FILE File type no supported
+ \exception SERROR_INACCESSIBLE_FILE The file is inaccessible
+ \exception SERROR_NO_VALIDE_DATA One line of the data file is not correct
+
+ \param	file	The file that we want load. 
+				
+</member>
+        <member name="T:SDataND">
+\class	SData2D
+
+\brief	Class for the manipulation of the data in N dimensions (generalized the SData2D class).
+
+\author	Sylvain Martin
+\date	22/11/2011
+
+\ingroup SDataMod
+
+\remark Data are stocked in a vector of column.
+
+</member>
+        <member name="M:SData.#ctor">
+\fn	SData::SData()
+
+\brief	default constructor
+</member>
+        <member name="M:SData.extractHeader(QFile!System.Runtime.CompilerServices.IsConst*)">
+\fn	void SData::extractHeader()
+
+\brief	This function extract the informations from the header (lines beginning by #).
+
+\return the number of lines of header.
+
+\remark The number returned does not count the line for the compatibility with MagToolBox
+</member>
+        <member name="M:SData.colUnit(System.Int32)">
+\fn	QString SData::colUnit( int ColNum )
+
+\brief	
+</member>
+        <member name="M:SData.setColUnit(System.Int32,QString)">
+\fn	void SData::setColUnit( int ColNum, QString Unit )
+
+\brief	
+</member>
+        <member name="M:SData.colName(System.Int32)">
+\fn	SData::colName( int ColNum )
+
+\brief	
+</member>
+        <member name="M:SData.clearMetaData">
+\fn	void SData::clearMetaData()
+
+\brief	clear the all the metadata
+</member>
+        <member name="M:SData.sizeComment">
+\fn	void SData::sizeComment()
+
+\brief	return the number of comments
+</member>
+        <member name="M:SData.clearComment">
+\fn	void SData::clearComment()
+
+\brief	clear the all comments
+</member>
+        <member name="M:SData.addComment(QString)">
+\fn	void SData::addComment( QString com )
+
+\brief	add a comment that will be put in the header
+
+\param com	The new line of comment
+</member>
+        <member name="M:SData.setColName(System.Int32,QString)">
+\fn	void SData::setColName( int ColNum,QString name )
+
+\brief	add a comment that will be put in the header
+
+\param com	The new line of comment
+</member>
+        <member name="M:SData.treatSharpLine(QString)">
+\fn	void SData::treatSharpLine(QString line)
+
+\brief	Extract the metadata from a comment line. 
+
+\author	Sylvain Martin
+\date	1/25/2011
+
+  \param line QString starting with a sharp character
+
+  add element to the MetaData_ map table. extract the metadata
+  from line in the form of "# variable = value". if equal character
+  is not found the line is add to the com key of the map table.
+				
+\warning
+      - If a line contains several couple, i.e. "a=b;c=d;e=f",
+     this function split its : MetaData_["a"]==b and MetaData_["c"]==d
+      and MetaData_["e"]==f.
+      - If a line contains a odd equal symbol split, i.e. "a=b;c=" ,
+      this function let empty the value of the odd key : MetaData_["a"]==b
+      and MetaData_["c"]== ""
+</member>
+        <member name="M:SData.setMetaData(QString!System.Runtime.CompilerServices.IsConst,QVariant!System.Runtime.CompilerServices.IsConst)">
+\fn	void SData::setMetaData(QString const key, QVariant const value)
+
+\brief	add or reset a key of the metadata. 
+
+\author	Sylvain Martin
+\date	1/25/2011
+
+\param	key		The key. 
+\param	value	The value. 
+				
+ \warning if the key already exist, this function just overwrite it.
+</member>
+        <member name="M:SData.metaData(QString!System.Runtime.CompilerServices.IsConst)">
+\fn	QVariant SData::metaData(QString const key) const
+
+\brief	return the MetaData with the key give in argument. 
+
+\param	key	The key in the map table. 
+
+\return	the MetaData with the key give in argument. 
+\remark return nothing (an empty QVarient) if the key is not found
+</member>
+        <member name="T:SData">
+\class	SData2D
+
+\brief	Abstract class for the manipulation of the data in n dimensions.
+
+\author	Sylvain Martin
+\date	26/01/2011
+
+\ingroup SDataMod
+
+the implantation is not finished yet
+</member>
+        <member name="M:SDeviceSpectrumAnalyzer.#ctor(QObject*)">
+\fn	SDeviceSpectrumAnalyzer::SDeviceSpectrumAnalyzer(QObject *parent)
+
+\brief	Constructor. 
+
+\author	Sylvain Martin
+\date	1/26/2011
+
+\param [in,out]	parent	If non-null, the Qt parent. 
+</member>
+        <member name="M:SUiCmdMan.on_dsbMwPowerLimit_valueChanged">
+\fn void SUiCmdMan::on_dsbMwFreq_valueChanged()
+\brief	(SLOT) when the value of the microwave generator power limit double spin box changes 
+
+</member>
+        <member name="M:SUiCmdMan.on_dsbMwFreq_valueChanged">
+\fn void SUiCmdMan::on_dsbMwFreq_valueChanged()
+\brief	(SLOT) when the value of the microwave generator frequency double spin box changes 
+
+</member>
+        <member name="M:SUiCmdMan.on_dsbMwPower_valueChanged">
+\fn void SUiCmdMan::on_dsbMwPower_valueChanged()
+\brief	(SLOT) when the value of the microwave generator power double spin box changes
+
+</member>
+        <member name="M:SUiCmdMan.on_cmdMwOnOff_clicked(System.Boolean)">
+\fn void SUiCmdMan::on_cmdMwOnOff_clicked()
+\brief	(SLOT) When the [ON]/[OFF] button of the microwave generator tab is clicked.
+
+</member>
+        <member name="M:SUiCmdMan.on_cmdGenStop_clicked">
+\fn void SUiCmdMan::on_cmdGenStop_clicked()
+\brief	(SLOT) stop all the devices
+
+</member>
+        <member name="M:SUiCmdMan.on_cmdSaMeasure_clicked">
+\fn void SUiCmdMan::on_cmdSaMeasure_clicked()
+\brief	(SLOT) take a measurement with the spectrum analyzer
+
+</member>
+        <member name="M:SUiCmdMan.delay(System.Double)">
+\fn void SUiCmdMan::delay(double i) 
+\brief	Pause the application for i seconds 
+
+\param i the number of seconds
+</member>
+        <member name="M:SUiCmdMan.on_cmdSaTargetFolder_clicked">
+\fn	void SUiCmdMan::on_cmdSaGo_clicked()
+
+\brief (SLOT) when the [...] (target folder) button is clicked, update all the settings of the spectrum analyzer
+
+</member>
+        <member name="M:SUiCmdMan.on_cmdSaGo_clicked">
+\fn	void SUiCmdMan::on_cmdSaGo_clicked()
+
+\brief (SLOT) when the [GO] button is clicked, update all the settings of the spectrum analyzer
+
+</member>
+        <member name="M:SUiCmdMan.on_sldSaMarker_sliderMoved(System.Int32)">
+\fn	void SUiCmdMan::on_sldSaMarker_sliderMoved( int d )
+
+\brief (SLOT) when the value Slider of the marker is moved
+
+</member>
+        <member name="M:SUiCmdMan.on_dsbSaMarker_valueChanged(System.Double)">
+\fn	void SUiCmdMan::on_dsbSaMarker_valueChanged( double d )
+
+\brief (SLOT) when the value of the double spin box of the marker is changed
+
+</member>
+        <member name="M:SUiCmdMan.on_chkbxSaMarkerOnOff_stateChanged(System.Int32)">
+\fn	void SUiCmdMan::on_chkbxSaMarkerOnOff_stateChanged( int state )
+
+\brief (SLOT) when the value check box of the marker is clicked (activate or deactivate the marker)
+
+</member>
+        <member name="M:SUiCmdMan.on_dsbSaLevel_valueChanged(System.Double)">
+\fn	void SUiCmdMan::on_dsbSaLevel_valueChanged( double d )
+
+\brief (SLOT) when the value of the [ref level] changed
+
+</member>
+        <member name="M:SUiCmdMan.on_dsbSaNbPoints_valueChanged(System.Int32)">
+\fn	void SUiCmdMan::on_dsbSaNbPoints_valueChanged( int i )
+
+\brief (SLOT) when the value of the [Number of Points] changed
+
+</member>
+        <member name="M:SUiCmdMan.on_dsbSaAverage_valueChanged(System.Int32)">
+\fn	void SUiCmdMan::on_dsbSaAverage_valueChanged( int i )
+
+\brief (SLOT) when the value of the [Average] changed
+
+</member>
+        <member name="M:SUiCmdMan.on_cmdSaCheckRbw_clicked">
+\fn	void SUiCmdMan::on_cmdSaCheckRbw_clicked()
+
+\brief (SLOT) when the value of the [check] (close to the rbw double spin box) is clicked
+
+</member>
+        <member name="M:SUiCmdMan.on_dsbSaRbw_valueChanged(System.Double)">
+\fn	void SUiCmdMan::on_dsbSaRbw_valueChanged( double d )
+
+\brief (SLOT) when the value of the [RBW] double spin box is changed 
+
+</member>
+        <member name="M:SUiCmdMan.on_dsbSaStartFreq_valueChanged(System.Double)">
+\fn	void SUiCmdMan::on_dsbSaStopFreq_valueChanged( double d )
+
+\brief (SLOT) when the value of the [Start Frequency] double spin box is changed 
+
+</member>
+        <member name="M:SUiCmdMan.on_dsbSaStopFreq_valueChanged(System.Double)">
+\fn	void SUiCmdMan::on_dsbSaStopFreq_valueChanged( double d )
+
+\brief (SLOT) when the value of the [Stop Frequency] double spin box is changed 
+
+</member>
+        <member name="M:SUiCmdMan.on_radbttDcVoltage_clicked(System.Boolean)">
+\fn	void SUiCmdMan::on_radbttDcVoltage_clicked( bool checked )
+
+\brief (SLOT) When the [Voltage] radio button of the DC bias tab is clicked.
+
+</member>
+        <member name="M:SUiCmdMan.on_radbttDcCurrent_clicked(System.Boolean)">
+\fn	void SUiCmdMan::on_radbttDcCurrent_clicked( bool checked )
+
+\brief (SLOT) When the [Current] radio button of the DC bias tab is clicked.
+
+</member>
+        <member name="M:SUiCmdMan.on_dsbDcVoltageMax_valueChanged(System.Double)">
+\fn	void SUiCmdMan::on_dsbDcVoltageMax_valueChanged( double d )
+
+\brief (SLOT) when the value of voltage limit double spin box changes (in the DC bias tab)
+
+</member>
+        <member name="M:SUiCmdMan.on_dsbDcCurrentMax_valueChanged(System.Double)">
+\fn	void SUiCmdMan::on_dsbDcCurrentMax_valueChanged( double d )
+
+\brief (SLOT) when the value of current limit double spin box changes (in the DC bias tab)
+
+</member>
+        <member name="M:SUiCmdMan.on_dsbDcValue_valueChanged(System.Double)">
+\fn	void SUiCmdMan::on_dsbDcValue_valueChanged( double d )
+
+\brief (SLOT) When the [Value] double spin box of the DC bias tab is changed  
+
+</member>
+        <member name="M:SUiCmdMan.on_cmdDcOnOff_clicked(System.Boolean)">
+\fn	void SUiCmdMan::on_cmdDcOnOff_clicked( bool checked )
+
+\brief (SLOT) When the [ON]/[OFF] button of the DC bias tab is clicked.
+
+</member>
+        <member name="M:SUiCmdMan.hearderMsgFormat(QString,QColor)">
+\fn	void SUiCmdMan::hearderMsgFormat( QString msg, QColor color )
+
+\brief Format a text (font and color) to the header of the form.
+
+\param msg The text that will be format
+\param color The color desired.
+</member>
+        <member name="M:SUiCmdMan.changeField(System.Double,System.Double)">
+\fn	void SUiCmdMan::changeField( double V, double dV )
+
+\brief 
+\param	V		The goal value in volts   
+\param	dV		The "speed" of the sweep
+</member>
+        <member name="M:SUiCmdMan.on_cmdFieldOnOff_clicked(System.Boolean)">
+\fn	void SUiCmdMan::on_cmdFieldGo_clicked( double d )
+
+\brief (SLOT) when the [ON]/[OFF] button of the field tab is clicked
+
+</member>
+        <member name="M:SUiCmdMan.on_chkbxFieldRealTime_stateChanged(System.Int32)">
+\fn	void SUiCmdMan::on_cmdFieldGo_clicked( double d )
+
+\brief (SLOT) when the [Real Time] button of the field tab is clicked (and the state change)
+
+</member>
+        <member name="M:SUiCmdMan.on_cmdFieldZero_clicked">
+\fn	void SUiCmdMan::on_cmdFieldGo_clicked( double d )
+
+\brief (SLOT) when the [-0-] (for zero) button of the field tab is clicked
+
+</member>
+        <member name="M:SUiCmdMan.on_cmdFieldP_clicked">
+\fn	void SUiCmdMan::on_cmdFieldGo_clicked( double d )
+
+\brief (SLOT) when the [P] (P for parallel) button of the field tab is clicked
+
+</member>
+        <member name="M:SUiCmdMan.on_cmdFieldAP_clicked">
+\fn	void SUiCmdMan::on_cmdFieldGo_clicked( double d )
+
+\brief (SLOT) when the [AP] (AP for anti-parallel)button of the field tab is clicked
+
+</member>
+        <member name="M:SUiCmdMan.on_cmdFieldGo_clicked">
+\fn	void SUiCmdMan::on_cmdFieldGo_clicked( double d )
+
+\brief (SLOT) when the [GO] button of the field tab is clicked
+
+</member>
+        <member name="M:SUiCmdMan.on_sldFieldValue_sliderMoved(System.Int32)">
+\fn	void SUiCmdMan::on_sldField_valueChanged( double d )
+
+\brief (SLOT) when the value of the slide bar of the field tab changes
+
+\param d the new value
+</member>
+        <member name="M:SUiCmdMan.on_dsbFieldValue_valueChanged(System.Double)">
+\fn	void SUiCmdMan::on_dsbField_valueChanged( double d )
+
+\brief (SLOT) when the value of the double spin box of the field tab changes
+
+\param d the new value
+</member>
+        <member name="M:SUiCmdMan.#ctor(QWidget*)">
+\fn	SUiCmdMan::SUiCmdMan()
+
+\brief Constructor.
+
+\param parrent if not null, the Qt parent.
+</member>
+        <member name="M:SUiLblLed.colorChanged(SUiLblLed.ledColor)">
+\fn  SUiLblLed::colorChanged(SUiLblLed::ledColor c)
+
+\brief	(SIGNAL)Emitted when the color is changed.
+
+\param c The new color.
+</member>
+        <member name="M:SUiLblLed.setBlue">
+(SLOT) Puts the color blue.
+</member>
+        <member name="M:SUiLblLed.setYellow">
+(SLOT) Puts the color yellow.
+</member>
+        <member name="M:SUiLblLed.setGrey">
+(SLOT) Puts the color grey.
+</member>
+        <member name="M:SUiLblLed.setGreen">
+(SLOT) Puts the color green.
+</member>
+        <member name="M:SUiLblLed.setRed">
+(SLOT) Puts the color red.
+</member>
+        <member name="T:SUiLblLed">
+\class SUiLblLed
+
+\ingroup SUiMod
+\brief this class provides a Qt Widget that display a "LED" which can change its color
+</member>
+        <member name="M:SPlot2D.setScale(System.Double,System.Double,System.Double,System.Double)">
+\fn	void SPlot2D::setScale(double Xmin, double Xmax, double Ymin, double Ymax)
+
+\brief	(SLOT) sets the scales selected by the user.
+
+\param Xmin the maximum of the x scale
+\param Xmax the minimum of the x scale
+\param Ymin the maximum of the y scale
+\param Ymax the minimum of the y scale
+</member>
+        <member name="M:SPlot2D.selectScale">
+\fn	void SPlot2D::selectScale()
+
+\brief	(SLOT) Open a dialog box asking the scale.
+
+</member>
+        <member name="M:SPlot2D.autoScale">
+\fn	void SPlot2D::autoScale(bool on)
+
+\brief	(SLOT) Reset the scale with the autoScale.
+
+</member>
+        <member name="M:SPlot2D.zoom">
+\fn	void SPlot2D::zoom(bool on)
+
+\brief	(SLOT) actives or deactivates the zooms function.
+
+
+ LeftButton for the zooming
+ MidButton for the panning
+ RightButton: zoom out by 1
+ Ctrl+RighButton: zoom out to full size
+</member>
+        <member name="M:SPlot2D.setOverbookDefault(System.Boolean)">
+\fn	bool SPlot2D::overbookDefault() const
+
+\brief	set the overbook parameter use by default for this window
+
+\sa SPlot2D::overbook( int curveNb)
+\sa SPlot2D::setOverbook( bool val, int curveNb)
+\sa SPlot2D::overbookDefault()
+</member>
+        <member name="M:SPlot2D.overbookDefault">
+\fn	bool SPlot2D::overbookDefault() const
+
+\brief	return the overbook parameter use by default for this window
+
+\sa SPlot2D::overbook( int curveNb)
+\sa SPlot2D::setOverbook( bool val, int curveNb)
+\sa SPlot2D::setOverbookDefault( bool val )
+</member>
+        <member name="M:SPlot2D.setOverbook(System.Boolean,System.Int32)">
+\fn	void SPlotCurveData::setOverbook( bool val, int curveNb /*=0*/)
+
+\brief	set the overbook parameter of the curve curveNb 
+
+\param curveNb the number of the curve, if it is not valid, the function just return false
+
+\remark true by default
+
+if overbook is true, reserve more memory while reallocating memory for the 
+AddPoint function (process is accelerated because there is no reallocated each time) but add invisible 
+point in the curve and maybe offset the scale.
+
+\sa SPlot2D::overbook( int curveNb)
+</member>
+        <member name="M:SPlot2D.overbook(System.Int32)">
+\fn	bool SPlotCurveData::overbook(int curveNb) const
+
+\brief	return the overbook parameter of the curve curveNb 
+
+\param curveNb the number of the curve, if it is not valid, the function just return false
+
+\remark true by default
+
+if overbook is true, reserve more memory while reallocating memory for the 
+AddPoint function (process is accelerated because there is no reallocated each time) but add invisible 
+point in the curve and maybe offset the scale.
+
+\sa SPlot2D::setOverbook( bool val, int curveNb)
+</member>
+        <member name="M:SPlot2D.setColor(QString,System.Int32)">
+\fn	QString SPlot2D::title()
+
+\brief	(SCRIPTABLE) set the color of the curve curveNb.
+
+\param name the name of the color
+\param curveNb number of the curve
+
+Sets the RGB value of this curve to name, which may be in one of these formats:
+
+\li #RGB (each of R, G, and B is a single hex digit)
+\li #RRGGBB
+\li #RRRGGGBBB
+\li #RRRRGGGGBBBB
+\li A name from the list of colors defined in the list of SVG color keyword 
+    names provided by the World Wide Web Consortium; for example, "steelblue" or 
+	"gainsboro". These color names work on all platforms.
+\li transparent - representing the absence of a color.
+
+</member>
+        <member name="M:SPlot2D.clearData(System.Int32)">
+\fn	QString SPlot2D::title()
+
+\brief	(SCRIPTABLE) Get the title of the curve curveNb.
+
+\param title the title
+\param curveNb number of the curve
+</member>
+        <member name="M:SPlot2D.title(System.Int32)">
+\fn	QString SPlot2D::title()
+
+\brief	(SCRIPTABLE) Get the title of curve curveNb.
+
+\param title the title
+\param curveNb number of the curve
+</member>
+        <member name="M:SPlot2D.setTitle(QString,System.Int32)">
+\fn	void SPlot2D::setTitle( QString title, int curveNb)
+
+\brief	(SCRIPTABLE) Set the title of curve curveNb.
+
+\param title the title
+\param curveNb number of the curve
+</member>
+        <member name="M:SPlot2D.setupUI">
+\fn	void SPlot2D::setupUI(void)
+
+\brief	Sets up the user interface.
+
+</member>
+        <member name="M:SPlot2D.qsCtor(QScriptContext*,QScriptEngine*)">
+\fn	QScriptValue SData2DScript::qsCtor(QScriptContext *context, QScriptEngine *engine)
+
+\brief	this function is use by script engine to create a new SPlot2D object.
+
+\author	Sylvain Martin
+\date	1/28/2011
+
+\param [in,out]	context	If non-null, the QScript context.
+\param [in,out]	engine	If non-null, the QScript engine.
+
+\return	a QScript version of a SData2D.
+</member>
+        <member name="M:SPlot2D.plot2DWidget">
+\fn	SPlot2DWidget * SPlot2D::plot2DWidget(void)
+
+\brief	Gets the SPlot2DWidget.
+
+</member>
+        <member name="M:SPlot2D.Dispose">
+\fn	SPlot2D::~SPlot2D()
+
+\brief	Destructor.
+
+</member>
+        <member name="M:SPlot2D.addData(System.Double*,System.Double*,System.Int32!System.Runtime.CompilerServices.IsConst,System.Int32!System.Runtime.CompilerServices.IsConst)">
+\fn	void SPlot2D::addData(double const x, double const y, int const curveNb)
+
+\brief	add new points at the end of the actual data, create the curve if necessary .
+
+</member>
+        <member name="M:SPlot2D.append(System.Double,System.Double,System.Int32!System.Runtime.CompilerServices.IsConst)">
+\fn	void SPlot2D::addData(double const x, double const y, int const curveNb)
+
+\brief	add new points at the end of the actual data, create the curve if necessary .
+
+\sa SPlot2D::addData(double  *x, double  *y, int const size, int const curveNb)
+
+exactly the same that \c SPlot2D::addData(double  x, double  y, int const curveNb)
+</member>
+        <member name="M:SPlot2D.addData(System.Double,System.Double,System.Int32!System.Runtime.CompilerServices.IsConst)">
+\fn	void SPlot2D::addData(double const x, double const y, int const curveNb)
+
+\brief	add new points at the end of the actual data, create the curve if necessary .
+
+\sa SPlot2D::append( double x, double y, int const curveNb)
+
+exactly the same that \c SPlot2D::addData(double  x, double  y, int const curveNb)
+</member>
+        <member name="M:SPlot2D.setData(SData2D,System.Int32)">
+\fn	void SPlot2D::setData(SData2D const data, int const curveNb)
+
+\brief	add new points at the end of the actual data, create the curve if necessary .
+
+\remark Copy the data in a local variable so, you can destroy the Data2D after.
+</member>
+        <member name="M:SPlot2D.#ctor(SData2D*,System.Boolean,QWidget*)">
+\fn SPlot2D::SPlot2D( SData2D *data, QWidget *parent)
+
+\brief	constructor.
+
+\param data a pointer to the data that we want in first curve
+\param parent if not null, the Qt parent
+
+\warning do not destroy the data before the complete load of the windows
+</member>
+        <member name="M:SPlot2D.#ctor(QWidget*)">
+\fn SPlot2D::SPlot2D(QWidget *parent)
+
+\brief	constructor.
+
+\param parent if not null, the Qt parent
+</member>
+        <member name="M:SError.traitement(SDeviceVirtual*,SError*!System.Runtime.CompilerServices.IsImplicitlyDereferenced)">
+            <summary>	Traitements. </summary>
+            <remarks>	Sylvain Martin, 1/17/2011. </remarks>
+            <param name="error">	[in,out] The error. </param>
+        </member>
+        <member name="M:SError.op_Equality(SError!System.Runtime.CompilerServices.IsConst*!System.Runtime.CompilerServices.IsImplicitlyDereferenced)">
+            <summary>	overload of the comparaison operator </summary>
+            <remarks>	Sylvain Martin, 1/17/2011. </remarks>
+            <param name="chaine">	The error. </param>
+            <returns>	true if it succeeds, false if it fails. </returns>
+        </member>
+        <member name="M:SError.op_Implicit~QString">
+            <summary>	QString casting operator. </summary>
+            <remarks>	Sylvain Martin, 1/14/2011. </remarks>
+        </member>
+        <member name="M:SError.stringImp(SError.importance)">
+            <summary>	cast the importance in QString. </summary>
+            <remarks>	Sylvain Martin, 1/14/2011. </remarks>
+            <param name="imp">	The importance. </param>
+            <returns>	a QString with FATAL, WARNING, WEAK or NON. </returns>
+        </member>
+        <member name="M:SError.#ctor(QString,SError.importance,QString)">
+            <summary>the stream operator for qDebug </summary>
+            <value>	The QDebug object </value>
+            <summary>	Constructor. </summary>
+            <remarks>	Sylvain Martin, 1/14/2011. </remarks>
+            <param name="name">			The name. </param>
+            <param name="imp">			The importance (FATAL, WARNING, WEAK or NON). </param>
+            <param name="description">	The description. </param>
+        </member>
+        <member name="T:SScriptEngine">
+\class	SScriptEngine
+
+\brief	this is a derivate class from QScriptEngine which initialize the the script engine for SpinToolBox
+
+\author	Sylvain Martin
+\date	1/28/2011
+		
+\ingroup SScriptMod	
+		 
+</member>
+        <member name="M:QScienceSpinBox.setupMenu">
+\fn	void QScienceSpinBox::setupMenu()
+
+\brief	(SLOT) Set up the context menu.
+
+</member>
+        <member name="M:QScienceSpinBox.setModeEngineer">
+\fn	void QScienceSpinBox::setModeEngineer()
+
+\brief	(SLOT) When the user click on the Engineer mode menu.
+
+Change the step of this spinbox and hide the menu.
+</member>
+        <member name="M:QScienceSpinBox.setModeClassic">
+\fn	void QScienceSpinBox::setModeClassic()
+
+\brief	(SLOT) When the user click on the Classic mode menu.
+
+</member>
+        <member name="M:QScienceSpinBox.setModeScientific">
+\fn	void QScienceSpinBox::setModeScientific()
+
+\brief	(SLOT) When the user click on the Scientific mode menu.
+
+</member>
+        <member name="M:QScienceSpinBox.stepCahnged">
+\fn	void QScienceSpinBox::stepCahnged()
+
+\brief	(SLOT) When the step was changed by the user.
+
+Change the step of this spinbox and hide the menu.
+</member>
+        <member name="M:QScienceSpinBox.contextMenuEvent(QContextMenuEvent*)">
+\fn	void QScienceSpinBox::contextMenuEvent(QContextMenuEvent *event)
+
+\brief	(SLOT) Show a context menu. 
+
+this context menu allows to change the step and the precision of this spin box.
+</member>
+        <member name="M:QScienceSpinBox.setMinimum(System.Double)">
+\fn	void QScienceSpinBox::setMinimum( double d )
+
+\brief	(SLOT)  Set the minimum
+
+</member>
+        <member name="M:QScienceSpinBox.setMaximum(System.Double)">
+\fn	void QScienceSpinBox::setMaximum( double d )
+
+\brief	(SLOT) Set the maximum
+
+</member>
+        <member name="M:QScienceSpinBox.setStep(System.Double)">
+\fn	void QScienceSpinBox::setStep(  double s )
+
+\brief	(Slot) Set the step of this spin box.
+
+</member>
+        <member name="M:QScienceSpinBox.round(System.Double)">
+\fn  double QScienceSpinBox::round(double value) const      
+
+\brief  I don't now ???
+
+\param value 
+
+this function is never used...?
+</member>
+        <member name="M:QScienceSpinBox.valueFromText(QString!System.Runtime.CompilerServices.IsConst*!System.Runtime.CompilerServices.IsImplicitlyDereferenced)">
+\fn void QScienceSpinBox::stepDown()
+
+\brief I don't now ???
+
+</member>
+        <member name="M:QScienceSpinBox.textFromValue(System.Double)">
+\fn void QScienceSpinBox::stepDown()
+
+\brief return the text to be displayed in spinbox
+
+</member>
+        <member name="M:QScienceSpinBox.stepUp">
+\fn void QScienceSpinBox::stepUp()
+
+\brief (SLOT) When the user click on the up spin.
+
+</member>
+        <member name="M:QScienceSpinBox.stepDown">
+\fn void QScienceSpinBox::stepDown()
+
+\brief (SLOT) When the user click on the down spin.
+
+</member>
+        <member name="M:QScienceSpinBox.stepBy(System.Int32)">
+\fn void QScienceSpinBox::stepBy(int steps)
+
+\brief (SLOT) Does "steps" steps (up if steps&gt;0) down otherelse.
+
+overwritten virtual function of QAbstractSpinBox
+</member>
+        <member name="M:QScienceSpinBox.setDecimals(System.Int32)">
+\fn void QScienceSpinBox::setDecimals(int value)
+
+\brief 
+
+</member>
+        <member name="M:QScienceSpinBox.decimals">
+\fn int QScienceSpinBox::decimals() const       
+
+\brief 
+
+</member>
+        <member name="M:QScienceSpinBox.initLocalValues(QWidget*)">
+\fn void QScienceSpinBox::initLocalValues(QWidget *parent)       
+
+\brief 
+
+
+</member>
+        <member name="M:QScienceSpinBox.#ctor(QWidget*)">
+\fn QScienceSpinBox::QScienceSpinBox(QWidget * parent)       
+
+\brief constructor
+
+\param parent if not null, the Qt object parent
+
+</member>
+        <member name="T:QScienceSpinBox">
+\clase QScienceSpinBox
+
+\ingroup SUiMod
+\brief  this class provides a Qt widget that can handle numbers in a scientific notation.
+
+Since I started using Qt over a year ago I have been asking and looking for a Qt widget
+that can handle numbers in a scientific notation. Unfortunately Qt Software does not offer
+such a solution nor is it trivial to implement. With the hints I got in some public web
+forums I implement the solution provided here.
+
+widget is derived from QDoubleSpinBox. It uses a decimal value of 1000
+(that is more decimal points than a double can handle) and implements a new decimal
+value for the presentation in scientific notation. The Validator is realised by setting
+the LineEdit to a QDoubleValidator::ScientificNotation. However the most important part
+is the reimplementation of textFromValue and valueFromText. This unfortunately requires
+to copy the whole validation code of QDoubleSpinBox, which can not be borrowed and
+represents the major part of the code.
+
+If someone can show a shrinked but still functional equivalent version that would be great.
+In the end I think that it would be better if such a solution would be included into a Qt
+release, especially because in its current form I use so much of their code.
+</member>
+        <member name="M:SData2DScript.delItem(System.Int32)">
+\fn	void SData2D::delItem( int i )
+
+\brief	(SCRIPTABLE) Delete an item of the data.
+
+\param i the index of the item
+
+if i is out of range, do nothing
+</member>
+        <member name="M:SData2DScript.setData(SData2D)">
+\fn	 void SData2DScript::setData( SData2D * data )
+
+\brief	(SCRIPTABLE) Copy an other SData2D in this one. 
+
+\author	Sylvain Martin
+\date	1/28/2011
+
+\param	data the data to copy.
+
+</member>
+        <member name="M:SData2DScript.sety(System.Int32,System.Double)">
+\fn	double SData2DScript::setx( int i, double val )
+
+\brief	(SCRIPTABLE) set the value val at index position i in the ordinate of the data.
+
+\author	Sylvain Martin
+\date	1/28/2011
+
+\param	i	index of the wanted value.
+\param	val	the wanted value.
+
+If the index i is out of bounds, the function do nothing.
+</member>
+        <member name="M:SData2DScript.setx(System.Int32,System.Double)">
+\fn	double SData2DScript::setx( int i, double val )
+
+\brief	(SCRIPTABLE) set the value val at index position i in the abscissa of the data.
+
+\author	Sylvain Martin
+\date	1/28/2011
+
+\param	i	index of the wanted value.
+\param	val	the wanted value.
+
+If the index i is out of bounds, the function do nothing.
+</member>
+        <member name="M:SData2DScript.max(System.Int32!System.Runtime.CompilerServices.IsConst)">
+\fn	int SData2DScript::size(void)
+
+\brief	(SCRIPTABLE) Gets the count of element. 
+
+\sa SData2DScript::count()
+</member>
+        <member name="M:SData2DScript.size">
+\fn	int SData2DScript::size(void)
+
+\brief	(SCRIPTABLE) Gets the count of element. 
+
+\sa SData2DScript::count()
+</member>
+        <member name="M:SData2DScript.clearComment">
+\fn	int SData2DScript::clearComment(void)
+
+\brief	(SCRIPTABLE) Empty the data 
+
+\sa SData2DScript::clearComment()
+</member>
+        <member name="M:SData2DScript.comment">
+\fn	void SData2DScript::addComment( QString com )
+
+\brief	add a comment that will be put in the header
+
+\param return an QsScript array with all the comments
+</member>
+        <member name="M:SData2DScript.addComment(QString)">
+\fn	void SData2DScript::addComent( QString com )
+
+\brief	add a comment that will be put in the header
+
+\param com	The new line of comment
+</member>
+        <member name="M:SData2DScript.colYUnit">
+\fn	void SData2DScript::colYUnit()
+
+\brief	return the unit of the Y column
+</member>
+        <member name="M:SData2DScript.setColYUnit(QString)">
+\fn	void SData2DScript::setColYUnit( QString YUnit )
+
+\brief	set the unit of the Y column
+</member>
+        <member name="M:SData2DScript.colXUnit">
+\fn	void SData2DScript::colXUnit()
+
+\brief	return the unit of the X column
+</member>
+        <member name="M:SData2DScript.setColXUnit(QString)">
+\fn	void SData2DScript::setColXUnit( QString XUnit )
+
+\brief	set the units of the columns
+</member>
+        <member name="M:SData2DScript.setColUnit(QString,QString)">
+\fn	void SData2DScript::setColUnit( QString XUnit, QString YUnit )
+
+\brief	set the units of the columns
+</member>
+        <member name="M:SData2DScript.colYName">
+\fn	void SData2DScript::colYName(  )
+
+\brief	return the name of the Y column
+</member>
+        <member name="M:SData2DScript.setColYName(QString)">
+\fn	void SData2DScript::setColYName( QString Yname )
+
+\brief	set the name of the Y column
+</member>
+        <member name="M:SData2DScript.colXName">
+\fn	void SData2DScript::colXName(  )
+
+\brief	return the name of the X column
+</member>
+        <member name="M:SData2DScript.setColXName(QString)">
+\fn	void SData2DScript::setColXName( QString Xname )
+
+\brief	set the name of the X column
+</member>
+        <member name="M:SData2DScript.setColName(QString,QString)">
+\fn	void SData2DScript::setColName( QString Xname, QString Yname )
+
+\brief	set the name of the columns
+</member>
+        <member name="M:SData2DScript.data2DObject">
+\fn	SData2D * SData2DScript::data2DObject(void)
+
+\brief	Gets the SData2D object en capsuled by this warper.
+
+\author	Sylvain Martin
+\date	2/2/2011
+
+\return	null if it fails, else.
+</member>
+        <member name="M:SData2DScript.setMetaData(QString!System.Runtime.CompilerServices.IsConst,QVariant!System.Runtime.CompilerServices.IsConst)">
+\fn	 void SData2DScript::setMetaData(QString const key, QVariant const value)
+
+\brief	(SCRIPTABLE) add or reset a key of the metadata.
+
+\author	Sylvain Martin
+\date	1/25/2011
+
+\param	key		The key.
+\param	value	The value.
+
+ \warning if the key already exist, this function just overwrite it.
+</member>
+        <member name="M:SData2DScript.metaData(QString!System.Runtime.CompilerServices.IsConst)">
+\fn	 QVariant SData2DScript::metaData(QString const key) const
+
+\brief	(SCRIPTABLE) return the MetaData with the key give in arguement.
+
+\author	Sylvain Martin
+\date	1/25/2011
+
+\param	key	The key in the map table.
+
+\return	the MetaData with the key give in arguement.
+</member>
+        <member name="M:SData2DScript.saveFile(QString!System.Runtime.CompilerServices.IsConst)">
+\fn	Q_INVOKABLE void SData2DScript::saveFile(QString const file)
+
+\brief	(SCRIPTABLE) Saves the data in a file.
+
+\author	Sylvain Martin
+\date	1/28/2011
+
+\param	file	file from which we want write data.
+</member>
+        <member name="M:SData2DScript.count">
+\fn	int SData2DScript::count(void)
+
+\brief	(SCRIPTABLE) Gets the count of element. 
+
+\sa SData2DScript::size()
+</member>
+        <member name="M:SData2DScript.y(System.Int32)">
+\fn	double SData2DScript::y(int i)
+
+\brief	(SCRIPTABLE) get the value at index position i in the abscissa of the data.
+
+\author	Sylvain Martin
+\date	1/28/2011
+
+\param	i	index of the wanted value.
+
+If the index i is out of bounds, the function returns 0.
+</member>
+        <member name="M:SData2DScript.x(System.Int32)">
+\fn	double SData2DScript::x(int i)
+
+\brief	(SCRIPTABLE) get the value at index position i in the ordinate of the data.
+
+\author	Sylvain Martin
+\date	1/28/2011
+
+\param	i	index of the wanted value.
+
+If the index i is out of bounds, the function returns 0.
+</member>
+        <member name="M:SData2DScript.append(System.Double,System.Double)">
+\fn	Q_INVOKABLE void SData2DScript::append(QScriptContext *context, QScriptEngine *engine)
+
+\brief	(SCRIPTABLE) Appends a couple of value.
+
+\author	Sylvain Martin
+\date	1/28/2011
+
+\param [in,out]	context	If non-null, the QtScript context.
+\param [in,out]	engine	If non-null, the QtScript .
+</member>
+        <member name="M:SData2DScript.append(QList&lt;QVariant&gt;,QList&lt;QVariant&gt;)">
+\fn	Q_INVOKABLE void SData2DScript::append(QScriptContext *context, QScriptEngine *engine)
+
+\brief	(SCRIPTABLE) Appends a couple of arrays.
+
+\author	Sylvain Martin
+\date	1/28/2011
+
+\param [in,out]	context	If non-null, the QtScript context.
+\param [in,out]	engine	If non-null, the QtScript .
+</member>
+        <member name="M:SData2DScript.openFile(QString!System.Runtime.CompilerServices.IsConst)">
+\fn	Q_INVOKABLE void SData2DScript::openFile(QString const file)
+
+\brief	Opens a file.
+
+\author	Sylvain Martin
+\date	1/28/2011
+
+\param	file	The file.
+</member>
+        <member name="M:SData2DScript.toScriptValue(QScriptContext*,QScriptEngine*)">
+\fn	QScriptValue SData2DScript::toQScriptValue(QScriptContext *context, QScriptEngine *engine)
+
+\brief	Converts this object to a q script value.
+
+\author	Sylvain Martin
+\date	1/28/2011
+
+\param [in,out]	context	If non-null, the context.
+\param [in,out]	engine	If non-null, the engine.
+
+\return	This object as a QScriptValue.
+</member>
+        <member name="M:SData2DScript.qsCtor(QScriptContext*,QScriptEngine*)">
+\fn	QScriptValue SData2DScript::qsCtor(QScriptContext *context, QScriptEngine *engine)
+
+\brief	this function is use by script engine to create a new SData2D.
+
+\author	Sylvain Martin
+\date	1/28/2011
+
+\param [in,out]	context	If non-null, the QScript context.
+\param [in,out]	engine	If non-null, the QScript engine.
+
+\return	a QScript version of a SData2D.
+</member>
+        <member name="M:SData2DScript.Dispose">
+\fn	SData2DScript::~SData2DScript(void)
+
+\brief	Destructor.
+
+\author	Sylvain Martin
+\date	1/28/2011
+</member>
+        <member name="M:SData2DScript.#ctor(SData2D*,QObject*)">
+\fn	SData2DScript::SData2DScript(SData2D * data, QObject * parent)
+
+\brief	psedo constructor by copy.
+
+\author	Sylvain Martin
+\date	1/28/2011
+
+\param 	data	the data.
+\param 	parent	If non-null, the Qt parent.
+</member>
+        <member name="M:SData2DScript.#ctor(QObject*)">
+\fn	SData2DScript::SData2DScript(QObject * parent)
+
+\brief	defalut constructor.
+
+\author	Sylvain Martin
+\date	1/28/2011
+
+\param [in,out]	parent	If non-null, the Qt parent.
+</member>
+        <member name="T:SData2DScript">
+\class	SData2DScript
+
+\brief	this class provides a Qt Script warper for the \SData2D class 
+
+\author	Sylvain Martin
+\date	1/28/2011
+		
+\ingroup SDataMod	
+		 
+this class takes up the useful functions of the class SData2D in order to use it in the Qt script.
+
+\sa SData2D	 
+</member>
+        <member name="D:size_t">
+\file		SDevice\SData2DScript.cpp
+
+\author		Sylvain Martin
+\version	1.0
+\date		1/20/2011
+
+\brief	implante the SData2DScript class
+
+This file is part of the SpinToolBox project
+
+\section LICENSE
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License as
+published by the Free Software Foundation; either version 2 of
+the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+General Public License for more details at
+http://www.gnu.org/copyleft/gpl.html
+
+\file		SUi\QScienceSpinBox.cpp
+		
+\author		Matthias Pospiech (http://www.matthiaspospiech.de/blog/)
+\version	1.0
+\date		2010
+
+\brief	Declares the SInterfaceDaq class
+		
+\section LICENSE
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License as
+published by the Free Software Foundation; either version 2 of
+the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+General Public License for more details at
+http://www.gnu.org/copyleft/gpl.html
+\file		SUi\QScienceSpinBox.h
+		
+\author		Matthias Pospiech (http://www.matthiaspospiech.de/blog/)
+\version	1.0
+\date		2010
+
+\brief	Declares the SInterfaceDaq class
+		
+\section LICENSE
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License as
+published by the Free Software Foundation; either version 2 of
+the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+General Public License for more details at
+http://www.gnu.org/copyleft/gpl.html
+
+\file		SUi\SUiLblLed.h
+		
+\author		Sylvain Martin
+\version	1.0
+\date		02/24/2011
+
+\brief	Declares the SUiLblLed class
+		
+\section LICENSE
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License as
+published by the Free Software Foundation; either version 2 of
+the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+General Public License for more details at
+http://www.gnu.org/copyleft/gpl.html
+
+\file		SDevice\SDeviceMicroWaveGenerator.h
+		
+\author		Sylvain Martin
+\version	1.0
+\date		18/04/2011
+
+\brief	Declares the SDeviceMicroWaveGenerator class
+		
+\section LICENSE
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License as
+published by the Free Software Foundation; either version 2 of
+the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+General Public License for more details at
+http://www.gnu.org/copyleft/gpl.html
+
+\file		SDevice\SDeviceMicroWaveGenerator.cpp
+		
+\author		Sylvain Martin
+\version	1.0
+\date		24/02/2011
+
+\brief	Implants the SDeviceMicroWaveGenerator class
+		
+\section LICENSE
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License as
+published by the Free Software Foundation; either version 2 of
+the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+General Public License for more details at
+http://www.gnu.org/copyleft/gpl.html
+\file		SDevice\SDeviceMicroWaveGenerator.h
+		
+\author		Sylvain Martin
+\version	1.0
+\date		18/04/2011
+
+\brief	Declares the SDeviceMicroWaveGenerator class
+		
+\section LICENSE
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License as
+published by the Free Software Foundation; either version 2 of
+the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+General Public License for more details at
+http://www.gnu.org/copyleft/gpl.html
+<summary>	Default constructor. </summary><remarks>	Sylvain Martin, 1/13/2011. </remarks>
+\file		SDevice\SDeviceE8557D.cpp
+		
+\author		Sylvain Martin
+\version	1.0
+\date		18/04/2011
+
+\brief	Implants the SDeviceE8257D class
+		
+\section LICENSE
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License as
+published by the Free Software Foundation; either version 2 of
+the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+General Public License for more details at
+http://www.gnu.org/copyleft/gpl.html
+\file		SDevice\SDeviceE8257D.h
+		
+\author		Sylvain Martin
+\version	1.0
+\date		24/02/2011
+
+\brief	Declares the SDeviceE8257D class
+		
+\section LICENSE
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License as
+published by the Free Software Foundation; either version 2 of
+the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+General Public License for more details at
+http://www.gnu.org/copyleft/gpl.html
+\file		SDevice\SDeviceMicroWaveGenerator.h
+		
+\author		Sylvain Martin
+\version	1.0
+\date		18/04/2011
+
+\brief	Declares the SDeviceMicroWaveGenerator class
+		
+\section LICENSE
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License as
+published by the Free Software Foundation; either version 2 of
+the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+General Public License for more details at
+http://www.gnu.org/copyleft/gpl.html
+
+\file		SInterface\SInterfaceDaq.cpp
+		
+\author		Sylvain Martin
+\version	1.0
+\date		02/24/2011
+
+\brief	Declares the SInterfaceDaq class
+		
+\section LICENSE
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License as
+published by the Free Software Foundation; either version 2 of
+the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+General Public License for more details at
+http://www.gnu.org/copyleft/gpl.html
+\file		SDevice\SInterface\SInterfaceDaq.h
+		
+\author		Sylvain Martin
+\version	1.0
+\date		1/20/2011
+
+\brief	Declares the SInterfaceDaq class
+		
+\section LICENSE
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License as
+published by the Free Software Foundation; either version 2 of
+the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+General Public License for more details at
+http://www.gnu.org/copyleft/gpl.html
+
+\file		SDevice\SGpibInterface.h
+
+\author		Sylvain Martin
+\version	1.0
+\date		1/20/2011
+
+\brief	Implants the SGpibInterface class.
+
+This file is part of the SpinToolBox project
+
+\section LICENSE
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License as
+published by the Free Software Foundation; either version 2 of
+the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+General Public License for more details at
+http://www.gnu.org/copyleft/gpl.html
+
+\file		SDevice\SDeviceK2400.cpp
+		
+\author		Sylvain Martin
+\version	1.0
+\date		1/20/2011
+
+\brief	Implements the SDevicek2400 class
+		
+\section LICENSE
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License as
+published by the Free Software Foundation; either version 2 of
+the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+General Public License for more details at
+http://www.gnu.org/copyleft/gpl.html
+\file		SDevice\SDeviceK2400.h
+		
+\author		Sylvain Martin
+\version	1.0
+\date		1/20/2011
+
+\brief	Implements the SDevicek2400 class
+		
+\section LICENSE
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License as
+published by the Free Software Foundation; either version 2 of
+the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+General Public License for more details at
+http://www.gnu.org/copyleft/gpl.html
+
+\file		SDevice\SDevicePSAE4440A.cpp
+		
+\author		Sylvain Martin
+\version	1.0
+\date		24/02/2011
+
+\brief	Implants the SDevicePSAE4440A class
+		
+\section LICENSE
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License as
+published by the Free Software Foundation; either version 2 of
+the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+General Public License for more details at
+http://www.gnu.org/copyleft/gpl.html
+\file		SError.h
+		
+\author		Sylvain Martin
+\version	1.0
+\date		1/20/2011
+
+\brief	Declares the error class.
+		
+\section LICENSE
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License as
+published by the Free Software Foundation; either version 2 of
+the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+General Public License for more details at
+http://www.gnu.org/copyleft/gpl.html
+
+\file		SUi\QScienceSpinBox.h
+		
+\author		Matthias Pospiech (http://www.matthiaspospiech.de/blog/)
+\version	1.0
+\date		2010
+
+\brief	Declares the SInterfaceDaq class
+		
+\section LICENSE
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License as
+published by the Free Software Foundation; either version 2 of
+the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+General Public License for more details at
+http://www.gnu.org/copyleft/gpl.html
+
+\file		SUi\SUiLblLed.c
+		
+\author		Sylvain Martin
+\version	1.0
+\date		02/24/2011
+
+\brief	Implants the SUiLblLed class
+		
+\section LICENSE
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License as
+published by the Free Software Foundation; either version 2 of
+the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+General Public License for more details at
+http://www.gnu.org/copyleft/gpl.html
+\file		SUi\SUiLblLed.h
+		
+\author		Sylvain Martin
+\version	1.0
+\date		02/24/2011
+
+\brief	Declares the SUiLblLed class
+		
+\section LICENSE
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License as
+published by the Free Software Foundation; either version 2 of
+the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+General Public License for more details at
+http://www.gnu.org/copyleft/gpl.html
+</member>
+        <member name="M:SUiMainWindow.dragEnterEvent(QDragEnterEvent*)">
+\fn  void SUiMainWindow::dragEnterEvent(QDragEnterEvent *event)
+
+\brief	Check if the element is "dropable".
+</member>
+        <member name="M:SUiMainWindow.dropEvent(QDropEvent*)">
+\fn  void SUiMainWindow::dropEvent ( QDropEvent * event )
+
+\brief	When the user drop some elements
+</member>
+        <member name="M:SUiMainWindow.askQuit">
+\fn  void SUiMainWindow::askQuit()
+
+\brief	make sure if the user really want quit, and emit a signal to do it
+</member>
+        <member name="M:SUiMainWindow.closeEvent(QCloseEvent*)">
+\fn  void SUiMainWindow::closeEvent(QCloseEvent *e)
+
+\brief	(SLOT) When the user click on the [X] (close) button
+</member>
+        <member name="M:SUiMainWindow.on_cmdQuit_clicked">
+\fn  void SUiMainWindow::on_cmdNewScript_clicked()
+
+\brief	(SLOT) When the user click on the [Quit] button
+</member>
+        <member name="M:SUiMainWindow.on_cmdCmdMan_clicked">
+\fn  void SUiMainWindow::on_cmdNewScript_clicked()
+
+\brief	(SLOT) When the user click on the [Control panel] button
+</member>
+        <member name="M:SUiMainWindow.newScriptWindow(QString)">
+\fn  SUiMainWindow::newScriptWindow(QString file)
+
+\brief	
+</member>
+        <member name="M:SUiMainWindow.on_cmdNewScript_clicked">
+\fn  void SUiMainWindow::on_cmdNewScript_clicked()
+
+\brief	(SLOT) When the user click on the [New Script] button
+</member>
+        <member name="M:SUiMainWindow.openFile(QStringList)">
+\fn  void SUiMainWindow::openFile(QStringList paths)
+
+\brief	open a list of files
+
+\param paths a list of path
+</member>
+        <member name="M:SUiMainWindow.on_cmdOpen_clicked">
+\fn  void SUiMainWindow::on_cmdOpen_clicked()
+
+\brief	(SLOT) When the user click on the [Open] button
+</member>
+        <member name="M:SUiMainWindow.Dispose">
+\fn  void SUiMainWindow::~SUiMainWindow()
+
+\brief	Destructor.
+</member>
+        <member name="M:SUiMainWindow.#ctor(QWidget*)">
+\fn  void SUiMainWindow::SUiMainWindow()
+
+\brief	Constructor.
+</member>
+        <member name="T:SPlot2D">
+\class	SPlot2D
+
+\brief	define a Main windows that contained a 2D Plot with all the basic tool (zoom, ...).
+
+\author	Sylvain Martin
+\date	2/4/2011
+
+\remark order to use Qwt as a dll and inherit a QWT object we must define the macro in the
+		preprocessor QWT_DLL. in , the project need a preprocessor define
+		[configuration properties]-&gt;[c/c++]-&gt;[preprocessor]-&gt;[preprocessor definitions]-&gt; QWT_DLL
+		(and leave the rest as it is)
+
+\sa SPlot2DWidget
+
+contained a sub-class of QwtPlot that has some new functions, like a \c zoom, an \c autoscale
+and a way to chose a scale (\c selectScale).
+</member>
+        <member name="T:SPlotCurveData">
+\class	SPlotCurveData
+
+\brief	(PRIVATE) define an object that contained the data for on curve.
+
+\author	Sylvain Martin
+\date	2/4/2011
+
+\remark order to use Qwt as a dll and inherit a QWT object we must define the macro in the
+		preprocessor QWT_DLL. in , the project need a preprocessor define
+		[configuration properties]-&gt;[c/c++]-&gt;[preprocessor]-&gt;[preprocessor definitions]-&gt; QWT_DLL
+		(and leave the rest as it is)
+
+inspired from the "real time" example of Qwt
+it is a private class, do not use it directly !
+</member>
+        <member name="M:SPlotSetScale.scaleChange(System.Double,System.Double,System.Double,System.Double)">
+\fn	void SPlotSetScale::scaleChange
+
+\brief	(SIGNAL) sends the scales selected by the user.
+
+\param Xmin the maximum of the x scale
+\param Xmax the minimum of the x scale
+\param Ymin the maximum of the y scale
+\param Ymax the minimum of the y scale
+
+this signal is send when the OK button is clicked
+</member>
+        <member name="M:SPlotSetScale.initialValue(System.Double,System.Double,System.Double,System.Double)">
+\fn	void SPlotSetScale::initialValue
+
+\brief	puts the initials value for the maximum of the minimum of the 2 scales (x and y)
+
+\param Xmin the maximum of the x scale
+\param Xmax the minimum of the x scale
+\param Ymin the maximum of the y scale
+\param Ymax the minimum of the y scale
+</member>
+        <member name="M:SPlotSetScale.#ctor(QWidget*)">
+\fn	void SPlotSetScale::SPlotSetScale(void)
+
+\brief	put the initials value for the maximum of the minimum of the 2 scales (x and y)
+
+\param [in,out]	parent	If non-null, the Qt parent.
+</member>
+        <member name="T:SPlotSetScale">
+\class	SPlotSetScale
+
+\brief	(PRIVATE) small QDialog to let the user set a scale.
+
+\author	Sylvain Martin
+\date	2/4/2011
+
+it is a private class, do not use it directly !
+</member>
+        <member name="M:SPlotZoomer.trackerText(QPointF!System.Runtime.CompilerServices.IsConst*!System.Runtime.CompilerServices.IsImplicitlyDereferenced)">
+\fn	SPlotZoomer::trackerText(QWidget *parent)
+
+I do not know the real utility of this function, I picked up that in a QWT example ...
+</member>
+        <member name="M:SPlotZoomer.#ctor(QwtPlotCanvas*)">
+\fn	SPlotZoomer::SPlot2DWidget(QWidget *parent)
+
+\brief	Constructor.
+
+\param [in,out]	the canvas of the 2D QwtPlot.
+</member>
+        <member name="T:SPlotZoomer">
+\class	SPlotZoomer
+
+\brief	(PRIVATE) sub-class of \c QwtPlotZoomer used to add a zoom to the plot widget
+
+\author	Sylvain Martin
+\date	2/4/2011
+
+it is a private_class
+</member>
+        <member name="T:SPlot2DWidget">
+\class	SPlot2DWidget
+
+\brief	define a custom object for plot the 2-dimensional curves.
+
+\author	Sylvain Martin
+\date	2/4/2011
+
+\remark order to use Qwt as a dll and inherit a QWT object we must define the macro in the
+		preprocessor QWT_DLL. in , the project need a preprocessor define
+		[configuration properties]-&gt;[c/c++]-&gt;[preprocessor]-&gt;[preprocessor definitions]-&gt; QWT_DLL
+		(and leave the rest as it is)
+
+It is a sub-class of QwtPlot that adds some functions, like a \c zoom, an \c autoscale
+and a way to chose a scale (\c selectScale).
+</member>
+        <member name="T:SUiCmdMan">
+\clase SUiCmdMan
+
+\ingroup SUiMod
+\brief this class provides a graphical interface for control the device manually (without a script)
+</member>
+        <member name="M:SInterfaceDaq.ready">
+\fn	inline double SInterfaceDaq::ready()
+
+\brief	(SIGNAL) emitted when the board is anew available 
+\todo not yet used
+</member>
+        <member name="M:SInterfaceDaq.unavailable">
+\fn	inline double SInterfaceDaq::unavailable()
+
+\brief	(SIGNAL) emitted when the board becomes unavailable
+\todo not yet used
+</member>
+        <member name="M:SInterfaceDaq.finished">
+\fn	inline double SInterfaceDaq::finished()
+
+\brief	(SIGNAL) emitted when the task is finished, the board can do another 
+</member>
+        <member name="T:SInterfaceDaq">
+\class	SInterfaceDaq
+
+\brief	singleton class for the Ni-DAQmx interface. 
+
+\author	Sylvain Martin
+\date	1/20/2011
+		
+\ingroup SInterfaceMod
+
+\image html NI-DAQmx.gif "NI-DAQmx card"
+
+NI-DAQmx is National Instruments' newest, next-generation data acquisition driver. 
+NI-DAQmx incorporates an entirely new driver architecture and API, complete with new
+functions and development tools for controlling National Instruments DAQ devices.  
+NI-DAQmx is entirely separate from the Traditional NI-DAQ driver. The architectural 
+changes and new features allow NI-DAQmx to deliver increased ease-of-use and improved 
+performance over the Traditional NI-DAQ driver.
+NI-DAQmx defines and enforces a state model, which eliminates unnecessary reconfigurations
+of input limits, timing, triggering, and accessories. This improvement significantly increases
+overall performance, but is most noticeable in single-point software-timed analog input. 
+The link below contains examples that illustrate the significant single-point software-timed 
+speed improvement in NI-DAQmx over Traditional NI-DAQ. 
+
+</member>
+        <member name="D:int8">
+\file		SDevice\SInterface\SInterfaceDaq.h
+		
+\author		Sylvain Martin
+\version	1.0
+\date		1/20/2011
+
+\brief	Declares the SInterfaceDaq class
+		
+\section LICENSE
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License as
+published by the Free Software Foundation; either version 2 of
+the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+General Public License for more details at
+http://www.gnu.org/copyleft/gpl.html
+</member>
+        <member name="T:SDeviceMicroWaveGenerator">
+\file		SDevice\SDeviceE8257D.h
+		
+\author		Sylvain Martin
+\version	1.0
+\date		24/02/2011
+
+\brief	Declares the SDeviceE8257D class
+		
+\section LICENSE
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License as
+published by the Free Software Foundation; either version 2 of
+the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+General Public License for more details at
+http://www.gnu.org/copyleft/gpl.html
+\file		SDevice\SDeviceMicroWaveGenerator.h
+		
+\author		Sylvain Martin
+\version	1.0
+\date		18/04/2011
+
+\brief	Declares the SDeviceMicroWaveGenerator class
+		
+\section LICENSE
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License as
+published by the Free Software Foundation; either version 2 of
+the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+General Public License for more details at
+http://www.gnu.org/copyleft/gpl.html
+\class	SDeviceMicroWaveGenerator
+
+\brief	 Micro wave generator device virtual class. 
+
+\author	Sylvain Martin
+\date	18/04/2011
+		
+\nosubgrouping
+							
+\ingroup SDeviceMod
+		 
+\sa SDeviceE8557D
+
+\class	SDeviceMicroWaveGenerator
+
+\brief	 Micro wave generator device virtual class. 
+
+\author	Sylvain Martin
+\date	18/04/2011
+		
+\nosubgrouping
+							
+\ingroup SDeviceMod
+		 
+\sa SDeviceE8557D
+</member>
+        <member name="T:SDevicePSAE4440A">
+\class	SDevicePSAE4440A
+
+\brief	Provides control of the E4440A PSA Spectrum Analyzer, 3 Hz - 26.5 GHz, Agilent. 
+	
+\ingroup SDeviceMod
+ 
+\image html spectrum_analyzer_E4440A.jpg "spectrum analyzer E4440A"
+								 	   		 		 
+The Agilent E4440A PSA high-performance spectrum analyzer measures and monitors complex RF and
+microwave signals up to 26.5 GHz. With optional external mixing, the frequency coverage expands
+to 110 GHz by Agilent external mixer, and to 325 GHz by other vendors' mixer.
+
+\par Performance
+
+   \li +/-0.19 dB absolute amplitude accuracy
+   \li -155 dBm (-169 dBm w/preamp) displayed average noise level (DANL)
+   \li -118 dBc/Hz phase noise at 10 kHz offset
+   \li 81 dB W-CDMA ACLR dynamic range
+
+\par  Analysis bandwidth
+
+   \li 10 MHz analysis bandwidth (option B7J for the Basic mode)
+   \li Optional 40 or 80 MHz analysis bandwidth to capture and measure complex signals. View the demo
+   \li -78 dB (nominal) third order intermodulation for 40 or 80 MHz analysis bandwidth
+   \li Up to 300 MHz analysis bandwidth for calibrated VSA measurements
+
+</member>
+        <member name="M:SDeviceSpectrumAnalyzer.setFreqStart(System.Double!System.Runtime.CompilerServices.IsConst)">
+\nosubgrouping
+</member>
+        <member name="T:SDeviceSpectrumAnalyzer">
+\class	SDeviceSpectrumAnalyzer
+
+\brief	Device spectrum analyzer. 
+
+\author	Sylvain Martin
+\date	1/20/2011
+		
+\nosubgrouping
+							
+\ingroup SDeviceMod
+		 
+\sa SDevicePSAE4440A
+</member>
+        <member name="T:SData2D">
+\file		SDevice\SDevicePSAE4440A.h
+		
+\author		Sylvain Martin
+\version	1.0
+\date		24/02/2011
+
+\brief	Declares the SDevicePSAE4440A class
+		
+\section LICENSE
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License as
+published by the Free Software Foundation; either version 2 of
+the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+General Public License for more details at
+http://www.gnu.org/copyleft/gpl.html
+\class	SData2D
+
+\brief	Class for the manipulation of the data in 2 dimensions (y and y).
+
+\author	Sylvain Martin
+\date	1/26/2011
+
+\ingroup SDataMod
+
+\class	SData2D
+
+\brief	Class for the manipulation of the data in 2 dimensions (y and y).
+
+\author	Sylvain Martin
+\date	1/26/2011
+
+\ingroup SDataMod
+</member>
+        <member name="T:SDeviceK2400">
+\class	SDeviceK2400
+
+\brief	Provides control of the Keithley K2400 SourceMeter. 
+
+\ingroup SDeviceMod
+
+\author	Sylvain Martin
+\date	1/20/2011
+		
+\image html Keithley2400.jpg "Keithley 2400 SourceMeter"
+
+Keithley 2400 is designed";
+specifically for test applications that demand tightly
+coupled sourcing and measurement.\n All SourceMeter models
+provide precision voltage and current sourcing as well 
+as measurement capabilities. Each SourceMeter instrument 
+is both a highly stable DC power source and a true 
+instrument-grade 5-1/2 digit multimeter. The power 
+source characteristics include low noise, precision, 
+and readback. The multimeter capabilities include high 
+repeatability and low noise. The result is a compact, 
+single-channel, DC parametric tester. In operation, 
+these instruments can act as a voltage source, a 
+current source, a voltage meter, a current meter, 
+and an ohmmeter.	
+		
+</member>
+        <member name="M:SDeviceDcGenerator.voltageCompliance">
+\fn	Q_INVOKABLE virtual double SDeviceDcGenerator::voltageCompliance()=0;
+
+\brief	Gets the voltage compliance. 
+
+\author	Sylvain Martin
+\date	1/20/2011
+
+\return	voltage compliance in volts. 
+</member>
+        <member name="M:SDeviceDcGenerator.currentCompliance">
+\fn	Q_INVOKABLE virtual double SDeviceDcGenerator::currentCompliance()=0;
+
+\brief	Gets the current compliance. 
+
+\author	Sylvain Martin
+\date	1/20/2011
+
+\return	current compliance in amperes. 
+		
+\remark Is not the same thing that the compliance. the current limite gives a range, 
+		 the compliance sets a security limit
+</member>
+        <member name="M:SDeviceDcGenerator.setVoltageCompliance(System.Double)">
+\fn	Q_INVOKABLE virtual void SDeviceDcGenerator::setVoltageCompliance(double Vcomp)=0;
+
+\brief	Sets a voltage compliance. 
+
+\author	Sylvain Martin
+\date	1/20/2011
+
+\param	Vcomp	The voltage compliance in volts. 
+				
+\remark Is not the same thing that the compliance. the voltage limite gives a range, 
+		 the compliance sets a security limit
+</member>
+        <member name="M:SDeviceDcGenerator.setCurrentCompliance(System.Double)">
+\fn	Q_INVOKABLE virtual void SDeviceDcGenerator::setCurrentCompliance(double Icomp)=0;
+
+\brief	Sets a current compliance. 
+
+\author	Sylvain Martin
+\date	1/20/2011
+
+\param	Icomp	The current compliance in amperes. 
+				
+\remark Is not the same thing that the compliance. the current limite gives a range, 
+		 the compliance sets a security limit
+</member>
+        <member name="M:SDeviceDcGenerator.voltageRange">
+\fn	Q_INVOKABLE virtual double SDeviceDcGenerator::voltageRange()
+
+\brief	Gets the voltage limit. 
+
+\author	Sylvain Martin
+\date	1/20/2011
+
+\return	the voltage limit in volts. 
+		
+\remark Is not the same thing that the compliance. the voltage range gives a range (µ, m, ...), 
+		 the compliance sets a security limit
+</member>
+        <member name="M:SDeviceDcGenerator.currentRange">
+\fn	Q_INVOKABLE virtual double SDeviceDcGenerator::currentRange()
+
+\brief	Gets the current limit. 
+
+\author	Sylvain Martin
+\date	1/20/2011
+
+\return	the current limit in amperes. 
+		
+\remark Is not the same thing that the compliance. the current range gives a range (µ, m, ...),
+		 the compliance sets a security limit
+</member>
+        <member name="M:SDeviceDcGenerator.setVoltageRange(System.Double)">
+\fn	Q_INVOKABLE virtual void SDeviceDcGenerator::setVoltageRange(double Vmax)
+
+\brief	Sets a voltage limit. 
+
+\author	Sylvain Martin
+\date	1/20/2011
+
+\param	Vmax	The voltage maximum in volts. 
+				
+\remark Is not the same thing that the compliance. the voltage range gives a range (µ, m, ...), 
+		 the compliance sets a security limit
+</member>
+        <member name="M:SDeviceDcGenerator.setCurrentRange(System.Double)">
+\fn	Q_INVOKABLE virtual void SDeviceDcGenerator::setCurrentRange(double I_max)
+
+\brief	Sets a current limit. 
+
+\author	Sylvain Martin
+\date	1/20/2011
+
+\param	Imax The current maximum in amperes. 
+				
+ \remark Is not the same thing that the compliance. the current range gives a range (µ, m, ...),
+		 the compliance sets a security limit
+</member>
+        <member name="M:SDeviceDcGenerator.isActivated">
+\fn	Q_INVOKABLE virtual bool SDeviceDcGenerator::isActivated( );
+
+\brief	Query if the DC generator is activated. 
+
+\author	Sylvain Martin
+\date	1/20/2011
+
+\return	true if activated, false if not. 
+<summary>	Query if this object is activated. </summary><remarks>	Sylvain Martin, 1/13/2011. </remarks><returns>	true if activated, false if not. </returns></member>
+        <member name="M:SDeviceDcGenerator.deactivate">
+\fn	Q_INVOKABLE virtual void SDeviceDcGenerator::deactivate()=0;
+
+\brief	Deactivates the DC generator. 
+
+\author	Sylvain Martin
+\date	1/20/2011
+</member>
+        <member name="M:SDeviceDcGenerator.activate">
+\fn	Q_INVOKABLE virtual void SDeviceDcGenerator::activate()=0;
+
+\brief	Activates the DC generator. 
+
+\author	Sylvain Martin
+\date	1/20/2011
+</member>
+        <member name="M:SDeviceDcGenerator.mode">
+\fn	Q_INVOKABLE virtual MODE SDeviceDcGenerator::mode( );
+
+\brief	Gets the mode of the DC generator, current or voltage. 
+
+\author	Sylvain Martin
+\date	1/20/2011
+
+\return	the mode. 
+<summary>	Gets the mode of the generator. </summary><remarks>	Sylvain Martin, 1/13/2011. </remarks><returns>	return the mode of the DC source Current or Voltage. </returns></member>
+        <member name="M:SDeviceDcGenerator.setMode(SDeviceDcGenerator.MODE!System.Runtime.CompilerServices.IsConst)">
+\fn	Q_INVOKABLE virtual void SDeviceDcGenerator::setMode(MODE const )=0;
+
+\brief	change the mode of the DC generator, current or voltage. 
+
+\author	Sylvain Martin
+\date	1/20/2011
+
+\param	mode	The mode : CURRENT or VOLTAGE. 
+</member>
+        <member name="M:SDeviceDcGenerator.setVoltage(System.Double)">
+\fn	Q_INVOKABLE virtual void SDeviceDcGenerator::setVoltage(double)=0;
+
+\brief	Sets the voltage. 
+
+\author	Sylvain Martin
+\date	1/20/2011
+
+\param	voltage	The current in amperes. 
+</member>
+        <member name="M:SDeviceDcGenerator.setCurrent(System.Double)">
+\fn	Q_INVOKABLE virtual void SDeviceDcGenerator::setCurrent(double)=0;
+
+\brief	Sets the current. 
+
+\author	Sylvain Martin
+\date	1/20/2011
+
+\param	current	The current in volts. 
+</member>
+        <member name="M:SDeviceDcGenerator.voltage">
+\fn	Q_INVOKABLE virtual double SDeviceDcGenerator::voltage( ) =0;
+
+\brief	Reads the the voltage. 
+
+\author	Sylvain Martin
+\date	1/20/2011
+
+\return	the voltage in volts. 
+</member>
+        <member name="M:SDeviceDcGenerator.current">
+\fn	Q_INVOKABLE virtual double SDeviceDcGenerator::current( ) =0;
+
+\brief	Reads the current. 
+
+\author	Sylvain Martin
+\date	1/20/2011
+
+\return	the current in amperes. 
+</member>
+        <member name="T:SDeviceDcGenerator.MODE">
+\enum	MODE
+
+\brief	Values that represent the mode of the DC generator. 
+</member>
+        <member name="T:SDeviceDcGenerator">
+\class	SDeviceDcGenerator
+
+\brief	Virtual class for the DC generator. It is virtual pur so it cannot be instancied.
+
+\author	Sylvain Martin
+\date	1/20/2011
+		
+\ingroup SDeviceMod
+		 
+\sa SDeviceK2400		 
+</member>
+        <member name="T:SDeviceGpib">
+\class	SDeviceGpib
+
+\brief	Virtual class for all the GPIB devices. It is virtual pur so it cannot be instancied.
+
+\author	Sylvain Martin
+\date	1/13/2011
+		
+\ingroup SDeviceMod
+</member>
+        <member name="T:SInterfaceGpib.GpibElement">
+\struct	GpibElement
+
+\brief	this structure defines one device (adress, name ...)
+
+\author	Sylvain Martin
+\date	1/20/2011
+</member>
+        <member name="T:SInterfaceGpib">
+\class	SGpibInterface
+
+\brief	Gpib interface.
+
+\author	Sylvain Martin
+\date	1/20/2011
+\ingroup SInterfaceMod
+</member>
+        <member name="T:SError">
+\file		SError.h
+		
+\author		Sylvain Martin
+\version	1.0
+\date		1/20/2011
+
+\brief	Declares the error class.
+		
+\section LICENSE
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License as
+published by the Free Software Foundation; either version 2 of
+the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+General Public License for more details at
+http://www.gnu.org/copyleft/gpl.html
+\class	SError
+
+\brief	class of object throw when an exception has been came. 
+
+\author	Sylvain Martin
+\date	1/20/2011
+
+\class	SError
+
+\brief	class of object throw when an exception has been came. 
+
+\author	Sylvain Martin
+\date	1/20/2011
+</member>
+        <member name="T:_EXCEPTION_DISPOSITION">
+\file		SDevice\SGpibInterface.h
+
+\author		Sylvain Martin
+\version	1.0
+\date		1/20/2011
+
+\brief	Declares the SGpibInterface class
+
+This file is part of the SpinToolBox project
+
+\section LICENSE
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License as
+published by the Free Software Foundation; either version 2 of
+the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+General Public License for more details at
+http://www.gnu.org/copyleft/gpl.html
+</member>
+        <member name="T:SDeviceVirtual">
+\class	SDeviceVirtual
+
+\brief	Virtual class for all the devices. It is virtual pur so it cannot be instancied.
+
+\author	Sylvain Martin
+\date	1/20/2011
+		
+\ingroup SDeviceMod
+</member>
+        <member name="D:QtScriptModule">
+\file		SDevice\SDeviceK2400.h
+		
+\author		Sylvain Martin
+\version	1.0
+\date		1/20/2011
+
+\brief	Implements the SDevicek2400 class
+		
+\section LICENSE
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License as
+published by the Free Software Foundation; either version 2 of
+the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+General Public License for more details at
+http://www.gnu.org/copyleft/gpl.html
+</member>
+        <member name="M:isIntermediateValueHelper(System.Int64,System.Int64,System.Int64,System.Int64*)">
+\file		SUi\SUiCmdMan.h
+		
+\author		Sylvain Martin
+\version	1.0
+\date		02/24/2011
+
+\brief	Declares the SUiCmdMan and the SUiLblLed classes
+		
+\section LICENSE
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License as
+published by the Free Software Foundation; either version 2 of
+the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+General Public License for more details at
+http://www.gnu.org/copyleft/gpl.html
+</member>
+        <!-- Le commentaire de document XML incorrect pour le membre 'T:SDevicePSGE8257D' est ignoré. -->
+        <!-- Le commentaire de document XML incorrect pour le membre 'D:QwtPlotItemList' est ignoré. -->
+        <!-- Le commentaire de document XML incorrect pour le membre 'D:QwtPlotItemList' est ignoré. -->
+        <!-- Le commentaire de document XML incorrect pour le membre 'M:SData2DScript.slideAverage(System.Int32!System.Runtime.CompilerServices.IsConst,System.Double!System.Runtime.CompilerServices.IsConst)' est ignoré. -->
+        <!-- Le commentaire de document XML incorrect pour le membre 'M:SData2DScript.toScriptValue(QScriptEngine*,SData2D!System.Runtime.CompilerServices.IsConst*!System.Runtime.CompilerServices.IsImplicitlyDereferenced)' est ignoré. -->
+        <!-- Le commentaire de document XML incorrect pour le membre 'M:QScienceSpinBox.validate(QString*!System.Runtime.CompilerServices.IsImplicitlyDereferenced,System.Int32*!System.Runtime.CompilerServices.IsImplicitlyDereferenced)' est ignoré. -->
+        <!-- Le commentaire de document XML incorrect pour le membre 'M:QScienceSpinBox.fixup(QString*!System.Runtime.CompilerServices.IsImplicitlyDereferenced)' est ignoré. -->
+        <!-- Le commentaire de document XML incorrect pour le membre 'M:QScienceSpinBox.isIntermediateValue(QString!System.Runtime.CompilerServices.IsConst*!System.Runtime.CompilerServices.IsImplicitlyDereferenced)' est ignoré. -->
+        <!-- Le commentaire de document XML incorrect pour le membre 'M:QScienceSpinBox.validateAndInterpret(QString*!System.Runtime.CompilerServices.IsImplicitlyDereferenced,System.Int32*!System.Runtime.CompilerServices.IsImplicitlyDereferenced,QValidator.State*!System.Runtime.CompilerServices.IsImplicitlyDereferenced)' est ignoré. -->
+        <!-- Le commentaire de document XML incorrect pour le membre 'M:QScienceSpinBox.stripped(QString!System.Runtime.CompilerServices.IsConst*!System.Runtime.CompilerServices.IsImplicitlyDereferenced,System.Int32*)' est ignoré. -->
+        <!-- Le commentaire de document XML incorrect pour le membre 'D:QwtPlotItemList' est ignoré. -->
+        <!-- Le commentaire de document XML incorrect pour le membre 'M:SPlot2D.setData(SData2D*,System.Int32)' est ignoré. -->
+        <!-- Le commentaire de document XML incorrect pour le membre 'T:SDevicePSGE8257D' est ignoré. -->
+        <!-- Le commentaire de document XML incorrect pour le membre 'D:QwtPlotItemList' est ignoré. -->
+        <!-- Le commentaire de document XML incorrect pour le membre 'M:SUiCmdMan.on_cmbxSaAttenuation_currentIndexChanged(QString!System.Runtime.CompilerServices.IsConst*!System.Runtime.CompilerServices.IsImplicitlyDereferenced)' est ignoré. -->
+        <!-- Le commentaire de document XML incorrect pour le membre 'D:QwtPlotItemList' est ignoré. -->
+        <!-- Le commentaire de document XML incorrect pour le membre 'M:SData.addComment(QStringList)' est ignoré. -->
+        <!-- Le commentaire de document XML incorrect pour le membre 'M:SData.comment' est ignoré. -->
+        <!-- Le commentaire de document XML incorrect pour le membre 'M:SData.setComment(QStringList)' est ignoré. -->
+        <!-- Le commentaire de document XML incorrect pour le membre 'M:SDataND.Dispose' est ignoré. -->
+        <!-- Le commentaire de document XML incorrect pour le membre 'M:SUiScriptEditor.loadFile(QString!System.Runtime.CompilerServices.IsConst*!System.Runtime.CompilerServices.IsImplicitlyDereferenced)' est ignoré. -->
+        <!-- Le commentaire de document XML incorrect pour le membre 'M:SUiScriptEditor.saveFile(QString!System.Runtime.CompilerServices.IsConst*!System.Runtime.CompilerServices.IsImplicitlyDereferenced)' est ignoré. -->
+        <!-- Le commentaire de document XML incorrect pour le membre 'M:SUiScriptEditor.strippedName(QString!System.Runtime.CompilerServices.IsConst*!System.Runtime.CompilerServices.IsImplicitlyDereferenced)' est ignoré. -->
+        <!-- Le commentaire de document XML incorrect pour le membre 'T:SDevicePSGE8257D' est ignoré. -->
+        <!-- Le commentaire de document XML incorrect pour le membre 'M:SData2D.#ctor(QList<System.Double>!System.Runtime.CompilerServices.IsConst,QList<System.Double>!System.Runtime.CompilerServices.IsConst)' est ignoré. -->
+        <!-- Le commentaire de document XML incorrect pour le membre 'M:SData2D.Dispose' est ignoré. -->
+        <!-- Le commentaire de document XML incorrect pour le membre 'M:SData2D.append(QList<System.Double>!System.Runtime.CompilerServices.IsConst,QList<System.Double>!System.Runtime.CompilerServices.IsConst)' est ignoré. -->
+        <!-- Le commentaire de document XML incorrect pour le membre 'M:SData2D.slideAverage(System.Int32!System.Runtime.CompilerServices.IsConst,System.Double!System.Runtime.CompilerServices.IsConst)' est ignoré. -->
+        <!-- Le commentaire de document XML incorrect pour le membre 'M:SData2D.#ctor(SData2D*)' est ignoré. -->
+        <!-- Le commentaire de document XML incorrect pour le membre 'M:SData2D.overwrite(SData2D*!System.Runtime.CompilerServices.IsImplicitlyDereferenced)' est ignoré. -->
+        <!-- Le commentaire de document XML incorrect pour le membre 'M:SData2D.overwrite(SData2D*)' est ignoré. -->
+        <!-- Le commentaire de document XML incorrect pour le membre 'M:SData2D.addComment(QStringList)' est ignoré. -->
+        <!-- Le commentaire de document XML incorrect pour le membre 'M:SData2D.comment' est ignoré. -->
+        <!-- Le commentaire de document XML incorrect pour le membre 'M:SData2D.setComment(QStringList)' est ignoré. -->
+        <!-- Le commentaire de document XML incorrect pour le membre 'M:SData2D.x' est ignoré. -->
+        <!-- Le commentaire de document XML incorrect pour le membre 'M:SData2D.y' est ignoré. -->
+        <!-- Le commentaire de document XML incorrect pour le membre 'T:SDevicePSGE8257D' est ignoré. -->
+        <!-- Le commentaire de document XML incorrect pour le membre 'T:SDevicePSGE8257D' est ignoré. -->
+        <!-- Le commentaire de document XML incorrect pour le membre 'D:QwtPlotItemList' est ignoré. -->
+        <!-- Le commentaire de document XML incorrect pour le membre 'M:SScriptEngine.run(QString!System.Runtime.CompilerServices.IsConst*!System.Runtime.CompilerServices.IsImplicitlyDereferenced,QString!System.Runtime.CompilerServices.IsConst*!System.Runtime.CompilerServices.IsImplicitlyDereferenced,System.Int32,System.Boolean)' est ignoré. -->
+        <!-- Le commentaire de document XML incorrect pour le membre 'M:SInterfaceGpib.deviceList(System.Int32)' est ignoré. -->
+        <!-- Le commentaire de document XML incorrect pour le membre 'M:SInterfaceGpib.switcher(SInterfaceGpib.GpibElement*!System.Runtime.CompilerServices.IsImplicitlyDereferenced,SInterfaceGpib.GpibElementMode)' est ignoré. -->
+        <!-- Le commentaire de document XML incorrect pour le membre 'M:SInterfaceGpib.send(SInterfaceGpib.GpibElement!System.Runtime.CompilerServices.IsConst*!System.Runtime.CompilerServices.IsImplicitlyDereferenced,QString!System.Runtime.CompilerServices.IsConst)' est ignoré. -->
+        <!-- Le commentaire de document XML incorrect pour le membre 'M:SInterfaceGpib.send(SInterfaceGpib.GpibElement*!System.Runtime.CompilerServices.IsImplicitlyDereferenced,System.SByte!System.Runtime.CompilerServices.IsSignUnspecifiedByte!System.Runtime.CompilerServices.IsConst*)' est ignoré. -->
+        <!-- Le commentaire de document XML incorrect pour le membre 'M:SInterfaceGpib.receive(SInterfaceGpib.GpibElement!System.Runtime.CompilerServices.IsConst*!System.Runtime.CompilerServices.IsImplicitlyDereferenced,System.Int32!System.Runtime.CompilerServices.IsLong!System.Runtime.CompilerServices.IsConst)' est ignoré. -->
+        <!-- Le commentaire de document XML incorrect pour le membre 'M:SInterfaceGpib.enableLocal(SInterfaceGpib.GpibElement!System.Runtime.CompilerServices.IsConst*!System.Runtime.CompilerServices.IsImplicitlyDereferenced)' est ignoré. -->
+        <!-- Le commentaire de document XML incorrect pour le membre 'M:SDeviceK2400.readVI' est ignoré. -->
+        <!-- Le commentaire de document XML incorrect pour le membre 'M:SDeviceK2400.readIV' est ignoré. -->
+        <!-- Le commentaire de document XML incorrect pour le membre 'T:SDevicePSGE8257D' est ignoré. -->
+        <!-- Le commentaire de document XML incorrect pour le membre 'D:QwtPlotItemList' est ignoré. -->
+        <!-- Le commentaire de document XML incorrect pour le membre 'D:QwtPlotItemList' est ignoré. -->
+    </members>
+</doc>

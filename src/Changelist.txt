@@ -1,0 +1,129 @@
+25/02/2013
+	- add max search on the spectrum analyser
+	- fix marker double spinbox (in techspinbox)
+
+
+20/11/2012
+	- bugfix : SUiScriptEditor.cpp > throwKill : pb avec disconect.
+
+19/11/2012
+	- plus ou moins bugfix qd on stop le script : maintenant im attend la fin de 
+		l'instruction c++ en cours, mais le script en pause et stop le script.
+	- bug fix, si on desactive le mode MagToolBox de data2D, il laisse une ligne en trop
+	- desactivation du mod compatibilité MagToolBox par defaut.
+
+08/11/2012
+	- Réorganisation des fichiers intermédiaires pendant la compilation
+	- Suppression de tous les fichiers .old et de tous les fichiers qui rester dans la solution mais qui ne servaient pas
+	- Déplacement de tous les fichiers lier à la communication avec les outils de mesure dans les SDKDevice (et suppression partout ailleurs)
+	- Début de restructuration de la doc
+	- bug fix pour le slider de SDeviceDaqFieldOneAxis
+
+07/11/2012
+	- Integration du composant QTechSpinBox dans SDevicePSGE8257D
+	
+30/10/2012
+	- BugFix du slide du plugin SDeviceDaqFieldOneAxis
+	- BugFix dans le control pannel avec les GlobalMetaData
+	- Ajout du composant QTechSpinBox au SDK
+	- Integration du composant QTechSpinBox dans SDeviceApsin20g et SDevicePSAE4440A
+
+18/10/2012
+	- Fin implantation gestion des options pour les plugings.
+	- ajout d'un onglet dans le control pannel avec les GlobalMetaData
+	- le slide du plugin SDeviceDaqFieldOneAxis se déplace en même temp que le champ quand on fait un sweep.
+	- ajout d'un bouton pour accéder au préférence depuis le control pannel de SDeviceDaqFieldOneAxis.
+
+15/10/2012
+	- ajout de la fonction affichage linaire/log pour l'analyseur de spectre
+	- ajout d'un avertissement ds l'infobulle Real-time du k2400 car il y a un bug obscure ...
+	- Tentative de fix du pb de ressources en transférant tout ds le soft principal, normalement on peu les mettre ds une lib, mais pour l'instant ça ne marche pas ...
+	- début de l'intégration de la gestion des options pour les plugins ds le gestionnaire de plugin. Essaie avec le champ mag.
+
+13/10/2012 Passage à la version 2.6
+	- Changement complet du ploter, on laisse tomber QWT qui est une usine à gaz impersonnalisable pour QCustomplot  http://www.workslikeclockwork.com/
+		L'intégration est un peu faite brutalement en modifiant le code source et non en le dérivant
+	- ptt problème de ressources qui ne sont pas chargées comme il faut pour les icones
+
+30/04/2012
+	- Qq bug fix (dont in important ds le module GPIB qui faissait tout planter ...)
+	- ajout GUI pour Apsin20g
+	- ajout d'une fonction include(file.js) pour le script
+
+20/04/2012
+    - extraction de tous les instruments du programme principal.
+	- découpage en deux SDK les parties commune a tous et celles que pour les devices.
+	- début d'implantation d'une classe mère pour les instruments VISA (à la place du GPIB).
+	- début d'implantation d'un nouveau système de gestion des erreurs (qui évite les try catch) avec des signaux.
+	- début d'implantation de device "GPIB" qui permettre de communiquer directement depuis le soft/script avec les device GPIB.
+
+
+23/04/2012
+	- Réimplantation total de la classe SGlobalMetaDataMap et SMetaData (suppression de la classe SMetaDataMap) pour être utilisable avec la mémoire partagé
+			-> Enfin une version qui fonctionne !!!
+	- Plugin Analiseur de spectre PSA 4440A en cours, pb avec qsSpectrum.
+	- Plugin source MW E8257D fini.
+	- Réimpletation du lecteur de  metadata global.
+	- Bug fix : ouvrir le control panel et le gestionair de plugin en meme temps ne fait pas tout bugger ...
+	- Buf fix : les icone de fenetre de script et de command panel fonction
+
+14/03/2012
+	- Réimplantation total de la classe SGlobalMetaDataMap et SMetaData (suppression de la classe SMetaDataMap) pour être utilisable avec la mémoire partagé
+	- externalisation des classes SData et SPlot dans le SDK
+	- implantation des metadata dans les plugins déjà existant.
+
+07/03/2012
+	- avancement du plugin DAQ : SDeviceDaqFieldOneAxis
+	- Création de deux class SMetaDataMap (Dérivant de QMap<QString, QVariant>) et SGlobalMetaDataMap (Dérivant de QList<SMetaDataMap>). 
+	- (Re-)création d'un debut d'interface graphique pour voir les MetaData.
+
+29/02/212
+	- commencement du plugin pour la carte DAQ qui commande le champ magnétique : SDeviceDaqFieldOneAxis
+	- ajout d'un bouton auto RBW pour le contrôle panel du spectrum analyser
+	- ajout d'un paramètre à la fonction load des plugins permettant de partager des metadatas entre tous les plugins (a revoir pck pas encore ça ...)
+
+25/01/2012
+	- ajout d'une fonction isSetting et Setting pour ajouter une fenêtre d'option pour les plugins
+	- ajout de l'intégration des control pannel des plugins 
+	- vérification l'interface graphique pour le plugin K2400 
+	- implantation les interfaces graphique des plugins dans le soft père 
+
+20/01/2012
+	- La première version du plugin manager est fini
+	- maintenant c'est la main window qui charge les plugins et les envoie a moteur de script et au ctrlpanel
+	- début d'une nouvelle implantation pour le ctrl panel
+	- les devices affiche moins de message d'erreur (mais encore trop) qd ils ne sont pas connectés
+	- pas d'unload des plugins, il faut relancer l'appli !
+
+13/01/2012
+	- Les plugins vérifient la version du SDK avant de se compiler
+	- les functions plgVersion() SDKVersion() et  unload() ont été ajouter au template des plug in
+			et au plugin Apsin20g et K2400
+
+12/01/2012
+	- Modification du système de SDK, maintenant c'est une librairie statique partagé par tous les plugins
+	- modification du nom de la variable d'environnement pour qsintilla (QSINTILLA_PARH -> QSINTILLA_PATH)
+	- début d'ajout d'un système pour activer/désactiver les plugins (avec conf dans un *.ini)
+	- ajout d'un plug in pour la source APSIN20G
+		- TODO l'interface graphique pour APSIN20G
+	- TODO ajouter à la classe interface des plugins un moyen de controle de la version
+	- TODO ajouter l'intégration des control pannel des plugins
+	- bug fix du DC bias control panel buildin (pas pour la version plug in -> TODO) 
+
+10/01/2012
+	- Modification de l'onglet DC de la commande manuelle
+		- ajout d'un check box realtime et activation des mis a jour 
+			après validation pour éviter de changer involontairement le courant
+
+
+05/01/2012
+	- Début du developent d'un plug in pour la source RF AnaPico 
+        	- Template de classe copié sur celui de la Agilent
+        	- Initialisation d'une communication VISA pour faire du GPIB sur USB (USBTMC)
+        	- TODO : tout le reste (commande de freq, de puissance ...)
+       	 	- TODO : faire une interface graphique
+	- Correction de qq bug dans le plugin pour le K2400
+        	- TODO vérifier l'interface graphique
+
+	- TODO implanter les interfaces graphiques des plugins dans le soft mere
+

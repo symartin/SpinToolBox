@@ -1,0 +1,12 @@
+#ifndef SDEVICEK2400_GLOBAL_H
+#define SDEVICEK2400_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#ifdef SDEVICEK2400_LIB
+# define SDEVICEK2400_EXPORT Q_DECL_EXPORT
+#else
+# define SDEVICEK2400_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // SDEVICEK2400_GLOBAL_H

@@ -1,0 +1,133 @@
+
+//---------------------------------------------------------------------------------------------------
+//                                                First use 
+//---------------------------------------------------------------------------------------------------
+
+//------------------------------ Where can I find some documentations -------------------------------
+/*!
+	\page firstDoc Where can I find some documentations? 
+	<table width="100%" border="0" frame="void"><tr width="100%">
+	<td align="left">\ref license "[Previous:License]"</td>
+	<td align="right">\ref firstMainWin "[Next:The main window]"</td>
+	</tr></table>
+	
+	
+	
+	<table width="100%" border="0" frame="void"><tr width="100%">
+	<td align="left">\ref license "[Previous:License]"</td>
+	<td align="center">Last update 8/11/2012 for V2.6</td>
+	<td align="right">\ref firstMainWin "[Next:The main window]"</td>
+	</tr></table>
+*/		
+		
+//------------------------------------------- The main window -------------------------------------------
+// 
+/*!	
+	
+	
+	\page firstMainWin The main window
+	
+	\section mainwin The main Window
+	
+		<table width="100%" border="0" frame="void"><tr width="100%">
+		<td align="left">\ref firstDoc "[Previous:Where can I find some documentations]"</td>
+		<td align="right">\ref firstScriptWin "[Next:The script window]"</td>
+		</tr></table>
+		
+		When you open SpinToolBox, two windows appear:
+		<ul>
+			<li>A window with white text written on a black background. This window is called the console. Here, Here, it is mainly used for SpinToolBox development, the messages that appear represents the trace of certain events (such as plugins loading or triggering of an error because of a problem with a measuring tool)</li>
+			<li>A standard window, as shown below, it is the main window of SpinToolBox. </li>
+		</ul>
+		\image html doc/MainWindow.png "Main window"
+		
+		On the main window there are five buttons:
+		<ol>
+			<li>for open a file, a script file (*.js) or data file (*.dat)</li>
+			<li>for open a new empty script window (cf. \ref firstScriptWin )</li>
+			<li>for open the control panel (cf. \ref firstCmdManWin)</li>
+			<li>for open the plugins manager (cf. below)</li>
+			<li>for quit the application, be careful, when you close the application, the script is brutally stop, and all the devices are let as it </li>
+		</ol>
+		
+		\tips{To open files quickly\, you can also drag and drop files from Windows Explorer on the left side of the main window (where there is the compass).}
+ 
+	\section plugmanwin The plugin manager
+	
+		The plugin manager allows you to activate or deactivate plugins. The left side (1) is the list of the plugin detected in the plugin directory (./plugins/SDevice for the devices and ./plugins/script for the script). The detection is automatic, if you want to add a plugin just put it in the good directory and restart SpinToolBox. A plugin is activated if the checkbox at the left on the plugin name is checked.
+		
+		\note For the moment, except for the QtBinding plugin, the management of the just script plugin is not developed yet.
+		<br/>
+		
+		The right side lists the properties of the selected plugin. The text areas (2) and (3) indicate, respectively, the name of the plugin and a short description. The text areas (4) indicate the version of the plugin, and the version of the SDK which it is made for. If you use an old plugin (made for a SDK version different that 2.0) it is possible that you will have some (major) bugs. 
+		
+		In the part (5) the checkbox [Scriptable] indicate if it is possible to interact with the plugin through the script and [Control panel] if the plugin has a control panel for directly interact with it (with a GUI). The gears icon is a button to access to the plugin configuration panel. It is accessible only if the plugin has on and if it is already loaded. 
+		
+		On the bottom of the windows the two checkboxes are of activate or deactivate the QtBinding script plugins. The QtBinding allows you to use almost all the Qt API in your script, see the script section for more details. 
+		
+		Finaly, clickin on the OK button closes the window. The configuration file is changed in the real time, but the effect of changing the configuration (load or not some plugins) is effective only at the next start of the application.
+		
+		\image html doc/PluginManager.png "Plugin Manager"
+
+   
+
+	<table width="100%" border="0" frame="void"><tr width="100%">
+	<td align="left">\ref license "[Previous:License]"</td>
+	<td align="center">Last update 8/11/2012 for V2.6</td>
+	<td align="right">\ref firstScriptWin "[Next:The script window]"</td>
+	</tr></table>
+*/
+//------------------------------------------- The script window -------------------------------------------
+/*!
+	\page firstScriptWin The script window
+	<table width="100%" border="0" frame="void"><tr width="100%">
+	<td align="left">\ref firstMainWin "[Previous:The main window]"</td>
+	<td align="right">\ref firstCmdManWin "[Next:The control panel window]"</td>
+	</tr></table>
+
+	\image html doc/ScriptWin.png "Script window"
+	\image html doc/ScriptWinMnuFile.png "File menu"
+	\image html doc/ScriptWinMnuEdit.png "Edit menu"
+	\image html doc/ScriptWinMnuScript.png "Script menu"
+	
+
+	<table width="100%" border="0" frame="void"><tr width="100%">
+	<td align="left">\ref firstMainWin "[Previous:The main window]"</td>
+	<td align="center">Last update 8/11/2012 for V2.6</td>
+	<td align="right">\ref firstCmdManWin "[Next:The control panel window]"</td>
+	</tr></table>
+*/
+//------------------------------------------- The control panel window -------------------------------------------
+/*!
+	\page firstCmdManWin The control panel window
+	<table width="100%" border="0" frame="void"><tr width="100%">
+	<td align="left">\ref firstScriptWin "[Previous:The script window]"</td>
+	<td align="right">\ref scrtipWhatScript "[Next:What is QtScript-ECMAScript?]"</td>  
+	</tr></table>
+	
+	
+	
+	<table width="100%" border="0" frame="void"><tr width="100%">
+	<td align="left">\ref firstScriptWin "[Previous:The script window]"</td>
+	<td align="center">Last update 8/11/2012 for V2.6</td>
+	<td align="right">\ref firstPlotWin "[Next:The plot window]"</td>  
+	</tr></table>
+*/
+
+//------------------------------------------- The control panel window -------------------------------------------
+/*!
+	\page firstPlotWin The control panel window
+	<table width="100%" border="0" frame="void"><tr width="100%">
+	<td align="left">\ref firstCmdManWin "[Previous:The control panel window]"</td>
+	<td align="right">\ref scrtipWhatScript "[Next:What is QtScript-ECMAScript?]"</td>  
+	</tr></table>
+	
+	
+	
+	<table width="100%" border="0" frame="void"><tr width="100%">
+	<td align="left">\ref firstCmdManWin "[Previous:The control panel window]"</td>
+	<td align="center">Last update 8/11/2012 for V2.6</td>
+	<td align="right">\ref scrtipWhatScript "[Next:What is QtScript-ECMAScript?]"</td>  
+	</tr></table>
+*/
+

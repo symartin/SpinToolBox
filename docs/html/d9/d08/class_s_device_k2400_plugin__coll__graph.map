@@ -1,0 +1,9 @@
+<map id="G" name="G">
+<area shape="rect" id="node2" href="$d6/d0c/class_s_device_plugin_interface.html" title="SDevicePluginInterface" alt="" coords="53,197,208,227"/>
+<area shape="rect" id="node4" href="$da/d0e/class_s_device_k2400.html" title="Provides control of the Keithley K2400 SourceMeter." alt="" coords="232,197,339,227"/>
+<area shape="rect" id="node6" href="$de/dfb/class_s_device_gpib.html" title="class for all the GPIB devices." alt="" coords="139,101,235,131"/>
+<area shape="rect" id="node8" href="$db/de9/class_s_device_virtual.html" title="Virtual class for all the devices. It is virtual pur so it cannot be instancied." alt="" coords="5,5,112,35"/>
+<area shape="rect" id="node11" href="$de/dbf/struct_s_interface_gpib_1_1_gpib_element.html" title="this structure defines one device (adress, name ...)" alt="" coords="136,5,325,35"/>
+<area shape="rect" id="node13" href="$d6/de0/class_s_interface_gpib.html" title="SInterfaceGpib" alt="" coords="349,5,456,35"/>
+<area shape="rect" id="node16" href="$d3/d8f/class_s_global_meta_data_map.html" title="class for passing the metadata between all the device plugins. it is derived of QList" alt="" coords="259,101,408,131"/>
+</map>

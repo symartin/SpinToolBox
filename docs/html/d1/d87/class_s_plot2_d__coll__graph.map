@@ -1,0 +1,4 @@
+<map id="G" name="G">
+<area shape="rect" id="node2" href="$d9/d60/class_s_plot_set_scale.html" title="(PRIVATE) small QDialog to let the user set a scale." alt="" coords="5,5,112,35"/>
+<area shape="rect" id="node4" title="The central class which is also the QWidget which displays the plot and interacts with the user..." alt="" coords="136,5,235,35"/>
+</map>

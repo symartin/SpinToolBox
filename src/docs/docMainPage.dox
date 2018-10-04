@@ -1,0 +1,234 @@
+ //------------------------------------------- Main -------------------------------------------
+ /*!
+ 		
+\mainpage main SpinToolBox		
+\section intro_sec Introduction 
+ 
+  		   
+This soft was developed during my PhD (2010-2013) for automatize the measurement process in the 
+ characterization of the magnetic tunnel junction vortex oscillator.
+
+Because it has been developed during 3 years, many parts have been modified to add features and / or add flexibility. Certain concepts that have been implemented systematically at the beginning were eventually abandoned because they are too heavy or they are needed too much work. This is the case for example of the errors handling that stopped the program for almost every mistake (for example: communication measurement tools error or syntax errors in scripts) with a notion of importance of the errors. At the end, the errors are just displayed on the consol.
+
+
+This soft was thought by plug-ins, each managing a measuring tool. This allows people to enable or disable the tools according to their needs.
+
+So there is a project for the main program, one by plug-in and finally two SDKs.
+SDK (for standard developer kit) consists of pieces of code used in all plug-in, there are two, because I kept the possibility of introducing plug-in that do not control measurement tools, but adds functions (or script, for example). This function is not yet developed.
+
+SDK "classic" is necessary for all plug-in, it manages:
+<ol>
+ <li> Error handling</li>
+ <li> Data management and their files</li>
+ <li> The ability to display graphs</li>
+ <li> components for GUI</li>
+</ol>
+
+SDK "device" is required for all commander plug-in a measurement tool, it supports:
+ <ol>
+ <li> Interface with GPIB</li>
+ <li> Interface with VISA</li>
+ <li> Specific error handling for  devices</li>
+</ol>	
+
+\section doc_sec General Documentation 	
+	\subsection AboutIntro About and introduction
+	<ol>
+		<li>\subpage intro "Introduction"</li>
+		<li>\subpage license "License"</li>
+	</ol>
+
+  \section firstUse First use 
+ 	<ol>
+		<li>\subpage firstDoc "Where can I find some documentation (TODO)" </li>
+		<li>\subpage firstMainWin "The main window (TODO)"</li>
+		<li>\subpage firstScriptWin "The script window (TODO)"</li>
+		<li>\subpage firstCmdManWin "The control panel window (TODO)" </li>
+		<li>\subpage firstPlotWin "The plot window (TODO)" </li>
+	</ol>
+	
+  \section scriptBase Initiation to the scripting
+ 	<ol>
+		<li>\subpage scrtipWhatScript "What is QtScript-ECMAScript? (TODO)"</li>
+		<li>\subpage scriptBasis "The basis (TODO)"</li>
+		<li>\subpage scriptStrucObject "Structures and objects (TODO)"</li>
+		<li>\subpage scriptExample "Some examples (TODO)"</li>
+ 	</ol>
+
+  \section cppPlugin Hard coding and C++ and plugins 
+ 	<ol>
+		<li>\subpage cppIntro "Introduction"</li>
+		<li>\subpage cppTuto "Where can I learn the Base of C++?"</li>
+		<li>\subpage cppMainStruct "What is the main structure of SpinToolBox?"</li>
+		<li>\subpage cppAddDevice "How to add a new device? (TODO)"</li>
+	</ol>
+ */
+//------------------------------------------- Main Introduction -------------------------------------------
+/*!
+	\page intro Introduction
+	<table width="100%" border="0" frame="void"><tr width="100%">
+	<td align="left">\ref main "[Previous:Main Page]"</td>
+	<td align="right">\ref license "[Next:License]"</td>
+	</tr></table>
+	
+	
+	
+	<table width="100%" border="0" frame="void"><tr width="100%">
+	<td align="left">\ref main "[Previous:Main Page]"</td>
+	<td align="center">Last update 8/11/2012 for V2.6</td>
+	<td align="right">\ref license "[Next:License]"</td>
+	</tr></table>
+*/
+ //------------------------------------------- Page License -------------------------------------------
+/*!
+	\page license License
+	<table width="100%" border="0" frame="void"><tr width="100%">
+	<td align="left">\ref intro "[Previous:Introduction]"</td>
+	<td align="right">\ref firstDoc "[Next:Where can I find some documentations?]"</td>
+	</tr></table>
+	\section stbLicence Licence for SpinToolBox
+		\verbatim
+	This program is free software: you can redistribute it and/or modify  
+	it under the terms of the GNU General Public License as published by  
+	the Free Software Foundation, either version 3 of the License, or     
+	(at your option) any later version.                                   
+				  
+	This program is distributed in the hope that it will be useful,       
+	but WITHOUT ANY WARRANTY; without even the implied warranty of        
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the         
+	GNU General Public License for more details.                          
+				 
+	You should have received a copy of the GNU General Public License     
+	along with this program.  If not, see http://www.gnu.org/licenses/. 
+			
+	Author: Sylvain Martin                                  
+	Website/Contact: martin(dot)sylvain(at)gmail(dot)com                 
+	Date: 2012  	
+		\endverbatim 
+		
+	\section stbthird Licence for third party components
+		Some components of this program are not developed by me but come from open source or proprietary code. This section gives the licence of these parts. Some parties from open code were be modified to be integrated into SpinToolBox, but because of the terms of the GPL (or compatible licenses), it is compulsory to let the authors name. The parts from proprietary code have not been modified for licensing reasons. They are just used for communicate with the devices.
+		
+		The parts from proprietary code are:
+		<ul>
+			<li>ni488.h hearder of gpib-32.obj (include during the compilation of SDKDevice)</li>
+			<li>visa.h and visatype.h hearder of visa32.lib</li>
+			<li>NIDAQmx.h hearder of NIDAQmx.lib (include during the compilation of SDeviceDaqFieldOneAxis)</li>
+		</ul>
+		
+		The parts from open source code are (all include during the compilation of SDK):
+		<ul>
+			<li>QScienceSpinBox.h and QScienceSpinBox.cpp from <a href="http://www.matthiaspospiech.de/blog/2009/01/03/qt-spinbox-widget-with-scientific-notation/">Matthias Pospiech</a> </li>
+			<li>QTechSpinBox.h and QTechSpinBox.cpp of <a href="https://www.gitorious.org/techspinbox">~alquanten </a> </li>
+			<li>qcustomplot.h and qcustomplot.cpp from <a href="http://www.WorksLikeClockwork.com/">WorksLikeClockwork</a> </li>
+			<li>QScintilla from <a href="http://www.riverbankcomputing.co.uk/software/qscintilla/intro">River Bank Computing</a>
+					based on Scintilla <a href="http://www.scintilla.org/">scintilla.org</a></li>
+			<li></li>
+		</ul>
+		
+		\subsection   qcustomplot QCustomPlot 
+			\verbatim
+	QCustomPlot, a simple to use, modern plotting widget for Qt           
+	Copyright (C) 2012 Emanuel Eichhammer                                 
+				  
+	This program is free software: you can redistribute it and/or modify  
+	it under the terms of the GNU General Public License as published by  
+	the Free Software Foundation, either version 3 of the License, or     
+	(at your option) any later version.                                   
+				  
+	This program is distributed in the hope that it will be useful,       
+	but WITHOUT ANY WARRANTY; without even the implied warranty of        
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the         
+	GNU General Public License for more details.                          
+				 
+	You should have received a copy of the GNU General Public License     
+	along with this program.  If not, see http://www.gnu.org/licenses/.   
+
+	Author: Emanuel Eichhammer                                   
+	Website/Contact: http://www.WorksLikeClockwork.com/                   
+	Date: 31.03.12    
+			\endverbatim 	
+                                         
+		\subsection   QScienceSpinBox QScienceSpinBox 
+			\verbatim
+	This program is free software; you can redistribute it and/or
+	modify it under the terms of the GNU General Public License as
+	published by the Free Software Foundation; either version 2 of
+	the License, or (at your option) any later version.
+
+	This program is distributed in the hope that it will be useful, but
+	WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+	General Public License for more details at
+	http://www.gnu.org/copyleft/gpl.html  
+
+	Author: Matthias Pospiech                                  
+	Website/Contact: http://www.matthiaspospiech.de/blog/                 
+	Date: 2010   
+			\endverbatim 
+			
+		\subsection   QTechSpinBox QTechSpinBox 
+			\verbatim	
+	written 2009 by A. Christ
+	released under GNU General Public License
+
+	I appreciate any feedback, including bug reports, feature requests and whether
+	you found this widget useful at all.
+
+	Author: A. Christ                                  
+	Website/Contact: software@quantentunnel.de 
+			(mandatory to include QTechSpinBox in 
+			the subject line to bypass spam filter)              
+	Date: 2009   
+			\endverbatim 			
+	
+	\subsection   QScintilla QScintilla 
+			\verbatim	
+	
+	QScintilla is Copyright (C) 2008 Riverbank Computing Limited
+                <info@riverbankcomputing.com>
+
+	You may use, distribute and copy QScintilla under the terms of GNU
+	General Public License version 3
+	
+	Author: Riverbank Computing Limited                                  
+	Website/Contact: info@riverbankcomputing.com            
+	Date: 2008   
+	
+		\endverbatim 
+
+	\subsection   Scintilla Scintilla 
+		\verbatim	
+	
+	License for Scintilla and SciTE
+
+	Copyright 1998-2003 by Neil Hodgson <neilh@scintilla.org>
+
+	All Rights Reserved 
+
+	Permission to use, copy, modify, and distribute this software and its 
+	documentation for any purpose and without fee is hereby granted, 
+	provided that the above copyright notice appear in all copies and that 
+	both that copyright notice and this permission notice appear in 
+	supporting documentation. 
+
+	NEIL HODGSON DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS 
+	SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY 
+	AND FITNESS, IN NO EVENT SHALL NEIL HODGSON BE LIABLE FOR ANY 
+	SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES 
+	WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, 
+	WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER 
+	TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE 
+	OR PERFORMANCE OF THIS SOFTWARE. 
+	
+	Author: Neil Hodgson                                 
+	Website/Contact: neilh@scintilla.org        
+	Date: 2003 
+	
+		\endverbatim 			
+	<table width="100%" border="0" frame="void"><tr width="100%">
+	<td align="left">\ref intro "[Previous:Introduction]"</td>
+	<td align="center">Last update 8/11/2012 for V2.6</td>
+	<td align="right">\ref firstDoc "[Next:Where can I find some documentations?]"</td>
+	</tr></table>
+*/
