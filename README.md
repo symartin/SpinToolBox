@@ -1,3 +1,9 @@
+# Status: Archived
+This repository has been archived and is no longer maintained.
+
+![status: inactive](https://img.shields.io/badge/status-inactive-red.svg)
+
+
 # SpinToolBox
 This soft was developed during my PhD (2010-2013) for automatize the measurement process in the characterization of the magnetic tunnel junction vortex oscillator.
 
